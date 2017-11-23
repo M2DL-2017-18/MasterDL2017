@@ -66,7 +66,7 @@
       <packagedElement xmi:type="uml:Actor" xmi:id="__GxK0MrgEee9jsGys1t6BQ" name="Habitant"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_RBAi0MrhEee9jsGys1t6BQ" name="Composants">
-      <packagedElement xmi:type="uml:Class" xmi:id="_mDWwsMrgEee9jsGys1t6BQ" name="Context">
+      <packagedElement xmi:type="uml:Class" xmi:id="_mDWwsMrgEee9jsGys1t6BQ" name="Contexte">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_5FF8QMrgEee9jsGys1t6BQ" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" aggregation="composite" association="_5FEHEMrgEee9jsGys1t6BQ">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5FGjUMrgEee9jsGys1t6BQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5FGjUcrgEee9jsGys1t6BQ" value="1"/>
@@ -84,6 +84,10 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_WB8PMNBJEeerb7dwGRYkDA" name="capteurs" type="_rDXRcMrhEee9jsGys1t6BQ" aggregation="composite" association="_WB1hgNBJEeerb7dwGRYkDA">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WB-EYNBJEeerb7dwGRYkDA"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WB-rcNBJEeerb7dwGRYkDA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_lcL9YtBOEeerb7dwGRYkDA" name="actionneurs" type="_fvijoNBOEeerb7dwGRYkDA" aggregation="composite" association="_lcKvQNBOEeerb7dwGRYkDA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lcMkcNBOEeerb7dwGRYkDA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lcMkcdBOEeerb7dwGRYkDA" value="*"/>
         </ownedAttribute>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_JReEQMrhEee9jsGys1t6BQ" name="CapteurFumee">
           <generalization xmi:type="uml:Generalization" xmi:id="_xh_hwMrhEee9jsGys1t6BQ" general="_rDXRcMrhEee9jsGys1t6BQ"/>
@@ -107,13 +111,20 @@
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_5FGjUsrgEee9jsGys1t6BQ" name="context" type="_mDWwsMrgEee9jsGys1t6BQ" association="_5FEHEMrgEee9jsGys1t6BQ"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_rDXRcMrhEee9jsGys1t6BQ" name="Capteurs"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rDXRcMrhEee9jsGys1t6BQ" name="Capteur" isAbstract="true"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_WB1hgNBJEeerb7dwGRYkDA" memberEnd="_WB8PMNBJEeerb7dwGRYkDA _WB_SgNBJEeerb7dwGRYkDA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WB2voNBJEeerb7dwGRYkDA" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WB3WsNBJEeerb7dwGRYkDA" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_WB_SgNBJEeerb7dwGRYkDA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_WB1hgNBJEeerb7dwGRYkDA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_fvijoNBOEeerb7dwGRYkDA" name="Actionneur" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lcKvQNBOEeerb7dwGRYkDA" memberEnd="_lcL9YtBOEeerb7dwGRYkDA _lcMkctBOEeerb7dwGRYkDA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lcL9YNBOEeerb7dwGRYkDA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lcL9YdBOEeerb7dwGRYkDA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lcMkctBOEeerb7dwGRYkDA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_lcKvQNBOEeerb7dwGRYkDA"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -200,4 +211,5 @@
   <Blocks:Block xmi:id="_nGJDYMrgEee9jsGys1t6BQ" base_Class="_nGBHkMrgEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_JRkx8MrhEee9jsGys1t6BQ" base_Class="_JReEQMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_rDd_IMrhEee9jsGys1t6BQ" base_Class="_rDXRcMrhEee9jsGys1t6BQ"/>
+  <Blocks:Block xmi:id="_fvsUoNBOEeerb7dwGRYkDA" base_Class="_fvijoNBOEeerb7dwGRYkDA"/>
 </xmi:XMI>
