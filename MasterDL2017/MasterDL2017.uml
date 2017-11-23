@@ -10,7 +10,10 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_usPywMrYEee9jsGys1t6BQ" name="BesoinsInitiaux">
       <packagedElement xmi:type="uml:Package" xmi:id="_WH6ygMVgEeeCE7XyF9h1YA" name="ExigencesDeSecurite">
         <packagedElement xmi:type="uml:Class" xmi:id="_36368MrXEee9jsGys1t6BQ" name="SH_SEC_010"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_367lUsrXEee9jsGys1t6BQ" name="SH_SEC_060"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_367lUsrXEee9jsGys1t6BQ" name="SH_SEC_060">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_uQd2cNBOEeeOrKx0xYV8jw" name="SH_SEC_060_1"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_yinoINBOEeeOrKx0xYV8jw" name="SH_SEC_060_2"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_366-QcrXEee9jsGys1t6BQ" name="SH_SEC_030"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lUMrXEee9jsGys1t6BQ" name="SH_SEC_040"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lUcrXEee9jsGys1t6BQ" name="SH_SEC_050">
@@ -200,4 +203,6 @@
   <Blocks:Block xmi:id="_nGJDYMrgEee9jsGys1t6BQ" base_Class="_nGBHkMrgEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_JRkx8MrhEee9jsGys1t6BQ" base_Class="_JReEQMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_rDd_IMrhEee9jsGys1t6BQ" base_Class="_rDXRcMrhEee9jsGys1t6BQ"/>
+  <Requirements:Requirement xmi:id="_uRApANBOEeeOrKx0xYV8jw" base_Class="_uQd2cNBOEeeOrKx0xYV8jw"/>
+  <Requirements:Requirement xmi:id="_yi1qkNBOEeeOrKx0xYV8jw" base_Class="_yinoINBOEeeOrKx0xYV8jw"/>
 </xmi:XMI>
