@@ -61,7 +61,10 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_367lXMrXEee9jsGys1t6BQ" name="SH_ECO_020"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lXcrXEee9jsGys1t6BQ" name="SH_ECO_030"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_KqF-cNBPEeew-6i2r68dVQ" name="ExigencesEcologie"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KqF-cNBPEeew-6i2r68dVQ" name="ExigencesEcologie">
+        <packagedElement xmi:type="uml:Class" xmi:id="_nUJIENBPEeew-6i2r68dVQ" name="SH_ECO_020"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2GGggNBPEeew-6i2r68dVQ" name="SH_ECO_030"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_8weo4MrgEee9jsGys1t6BQ" name="Acteurs">
       <packagedElement xmi:type="uml:Actor" xmi:id="__GxK0MrgEee9jsGys1t6BQ" name="Habitant"/>
@@ -191,4 +194,6 @@
   <Blocks:Block xmi:id="_nGJDYMrgEee9jsGys1t6BQ" base_Class="_nGBHkMrgEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_JRkx8MrhEee9jsGys1t6BQ" base_Class="_JReEQMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_rDd_IMrhEee9jsGys1t6BQ" base_Class="_rDXRcMrhEee9jsGys1t6BQ"/>
+  <Requirements:Requirement xmi:id="_nUcDANBPEeew-6i2r68dVQ" base_Class="_nUJIENBPEeew-6i2r68dVQ" id="SH_ECO_020" text="Le domicile doit être économe en énergie et ayant une consommation globale inférieure aux normes constatées localement."/>
+  <Requirements:Requirement xmi:id="_2GPqcNBPEeew-6i2r68dVQ" base_Class="_2GGggNBPEeew-6i2r68dVQ" id="SH_ECO_030" text="Le SHS doit donner la priorité aux énergies renouvelables."/>
 </xmi:XMI>
