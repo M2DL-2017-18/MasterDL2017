@@ -126,6 +126,18 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_lcMkctBOEeerb7dwGRYkDA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_lcKvQNBOEeerb7dwGRYkDA"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_zmifENBVEeeZkOnqcrOFtA" name="Refine" client="_jALw0NBVEeeZkOnqcrOFtA" supplier="_y_DvsNBSEeeZkOnqcrOFtA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_sD1GINBWEeeZkOnqcrOFtA" name="Refine" client="_y_DvsNBSEeeZkOnqcrOFtA" supplier="_367lWsrXEee9jsGys1t6BQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_sc8wwNBWEeeZkOnqcrOFtA" name="Refine" client="_1V7rANBTEeeZkOnqcrOFtA" supplier="_367lWsrXEee9jsGys1t6BQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_s6tDwNBWEeeZkOnqcrOFtA" name="Refine" client="_HCfMUNBUEeeZkOnqcrOFtA" supplier="_367lWsrXEee9jsGys1t6BQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_tUjuMNBWEeeZkOnqcrOFtA" name="Refine" client="_jJM_YNBUEeeZkOnqcrOFtA" supplier="_367lWsrXEee9jsGys1t6BQ"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_AwrvsNBXEeeZkOnqcrOFtA" name="SH_ACO_070">
+      <packagedElement xmi:type="uml:Class" xmi:id="_y_DvsNBSEeeZkOnqcrOFtA" name="SH_ACO_071"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_jALw0NBVEeeZkOnqcrOFtA" name="SH_ACO_0711"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1V7rANBTEeeZkOnqcrOFtA" name="SH_ACO_072"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_HCfMUNBUEeeZkOnqcrOFtA" name="SH_ACO_073"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_jJM_YNBUEeeZkOnqcrOFtA" name="SH_ACO_074"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -212,4 +224,14 @@
   <Blocks:Block xmi:id="_JRkx8MrhEee9jsGys1t6BQ" base_Class="_JReEQMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_rDd_IMrhEee9jsGys1t6BQ" base_Class="_rDXRcMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_fvsUoNBOEeerb7dwGRYkDA" base_Class="_fvijoNBOEeerb7dwGRYkDA"/>
+  <Requirements:Requirement xmi:id="_y_SZMNBSEeeZkOnqcrOFtA" base_Class="_y_DvsNBSEeeZkOnqcrOFtA" id="SH_ACO_071" text="L'utilisateur doit pouvoir facilement s'asseoir sur le lit"/>
+  <Requirements:Requirement xmi:id="_1WCYsNBTEeeZkOnqcrOFtA" base_Class="_1V7rANBTEeeZkOnqcrOFtA" id="SH_ACO_072" text="L'utilisateur doit pouvoir facilement se redresser lorsqu'il est allongé sur son lit"/>
+  <Requirements:Requirement xmi:id="_HCl6ANBUEeeZkOnqcrOFtA" base_Class="_HCfMUNBUEeeZkOnqcrOFtA" id="SH_ACO_073" text="L'utilisateur doit pouvoir choisir le côté de son lit qui lui est le plus favorable"/>
+  <Requirements:Requirement xmi:id="_jJTtENBUEeeZkOnqcrOFtA" base_Class="_jJM_YNBUEeeZkOnqcrOFtA" id="SH_ACO_074" text="L'utilisateur doit pouvoir prendre appui afin de pouvoir se lever du lit plus facilement&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_jASegNBVEeeZkOnqcrOFtA" base_Class="_jALw0NBVEeeZkOnqcrOFtA" id="SH_ACO_0711" text="Le lit doit pouvoir descendre et monter afin de s'adapter à la hauteur&#xD;&#xA;"/>
+  <Requirements:Refine xmi:id="_zmrB8NBVEeeZkOnqcrOFtA" base_DirectedRelationship="_zmifENBVEeeZkOnqcrOFtA" base_Abstraction="_zmifENBVEeeZkOnqcrOFtA"/>
+  <Requirements:Refine xmi:id="_sD6lsNBWEeeZkOnqcrOFtA" base_DirectedRelationship="_sD1GINBWEeeZkOnqcrOFtA" base_Abstraction="_sD1GINBWEeeZkOnqcrOFtA"/>
+  <Requirements:Refine xmi:id="_sdBpQNBWEeeZkOnqcrOFtA" base_DirectedRelationship="_sc8wwNBWEeeZkOnqcrOFtA" base_Abstraction="_sc8wwNBWEeeZkOnqcrOFtA"/>
+  <Requirements:Refine xmi:id="_s6x8QNBWEeeZkOnqcrOFtA" base_DirectedRelationship="_s6tDwNBWEeeZkOnqcrOFtA" base_Abstraction="_s6tDwNBWEeeZkOnqcrOFtA"/>
+  <Requirements:Refine xmi:id="_tUpNwNBWEeeZkOnqcrOFtA" base_DirectedRelationship="_tUjuMNBWEeeZkOnqcrOFtA" base_Abstraction="_tUjuMNBWEeeZkOnqcrOFtA"/>
 </xmi:XMI>
