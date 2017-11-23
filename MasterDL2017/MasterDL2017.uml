@@ -12,7 +12,10 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_36368MrXEee9jsGys1t6BQ" name="SH_SEC_010"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lUsrXEee9jsGys1t6BQ" name="SH_SEC_060"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_366-QcrXEee9jsGys1t6BQ" name="SH_SEC_030"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_367lUMrXEee9jsGys1t6BQ" name="SH_SEC_040"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_367lUMrXEee9jsGys1t6BQ" name="SH_SEC_040">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_xchiwNBOEeeZ-PPtvQD9cA" name="SH_SEC_041"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_8lv58NBOEeeZ-PPtvQD9cA" name="SH_SEC_042"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lUcrXEee9jsGys1t6BQ" name="SH_SEC_050">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_ywxJYMreEeeSVpVqKOhnEw" name="SH_SEC_50_1" classifierBehavior="_ywxJYcreEeeSVpVqKOhnEw">
             <ownedBehavior xmi:type="uml:Interaction" xmi:id="_ywxJYcreEeeSVpVqKOhnEw" name="Interaction1">
@@ -200,4 +203,6 @@
   <Blocks:Block xmi:id="_nGJDYMrgEee9jsGys1t6BQ" base_Class="_nGBHkMrgEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_JRkx8MrhEee9jsGys1t6BQ" base_Class="_JReEQMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_rDd_IMrhEee9jsGys1t6BQ" base_Class="_rDXRcMrhEee9jsGys1t6BQ"/>
+  <Requirements:Requirement xmi:id="_xc-OsNBOEeeZ-PPtvQD9cA" base_Class="_xchiwNBOEeeZ-PPtvQD9cA" id="SH_SEC_041" text="La MI doit pouvoir détecter une intrusion."/>
+  <Requirements:Requirement xmi:id="_8mDb8NBOEeeZ-PPtvQD9cA" base_Class="_8lv58NBOEeeZ-PPtvQD9cA" id="SH_SEC_042" text="La MI doit pouvoir joindre la police."/>
 </xmi:XMI>
