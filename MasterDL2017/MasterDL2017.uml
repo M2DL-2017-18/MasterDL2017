@@ -110,18 +110,18 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_I3yL8NBSEeew-6i2r68dVQ" name="Avoir du chauffage"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_LFPiANBSEeew-6i2r68dVQ" name="Avoir la lumière"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_OYwhMNBSEeew-6i2r68dVQ" name="Avoir"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_htPpoNBSEeew-6i2r68dVQ" name="SH_ECO_031"/>
-    <packagedElement xmi:type="uml:Abstraction" xmi:id="_4GBpgNBSEeew-6i2r68dVQ" name="DeriveReqt1" client="_htPpoNBSEeew-6i2r68dVQ" supplier="_367lXcrXEee9jsGys1t6BQ"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_G3t8MNBTEeew-6i2r68dVQ" name="SH_ECO_032"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_R8kwwNBTEeew-6i2r68dVQ" name="SH_ECO_0321"/>
-    <packagedElement xmi:type="uml:Abstraction" xmi:id="_aun1MNBTEeew-6i2r68dVQ" name="DeriveReqt2" client="_R8kwwNBTEeew-6i2r68dVQ" supplier="_G3t8MNBTEeew-6i2r68dVQ"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_b0BXANBTEeew-6i2r68dVQ" name="SH_ECO_0322"/>
-    <packagedElement xmi:type="uml:Abstraction" xmi:id="_irwq4NBTEeew-6i2r68dVQ" name="DeriveReqt3" client="_b0BXANBTEeew-6i2r68dVQ" supplier="_G3t8MNBTEeew-6i2r68dVQ"/>
-    <packagedElement xmi:type="uml:Abstraction" xmi:id="_ylSIUNBTEeew-6i2r68dVQ" name="DeriveReqt4" client="_G3t8MNBTEeew-6i2r68dVQ" supplier="_367lXcrXEee9jsGys1t6BQ"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_Aa50UNBUEeew-6i2r68dVQ" name="SH_ECO_0311"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_BY5toNBUEeew-6i2r68dVQ" name="SH_ECO_0312"/>
-    <packagedElement xmi:type="uml:Abstraction" xmi:id="_ZWGtoNBUEeew-6i2r68dVQ" name="DeriveReqt5" client="_Aa50UNBUEeew-6i2r68dVQ" supplier="_htPpoNBSEeew-6i2r68dVQ"/>
-    <packagedElement xmi:type="uml:Abstraction" xmi:id="_aaUjsNBUEeew-6i2r68dVQ" name="DeriveReqt6" client="_BY5toNBUEeew-6i2r68dVQ" supplier="_htPpoNBSEeew-6i2r68dVQ"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-Vr3cNBXEeew-6i2r68dVQ" name="SH_ECO_30">
+      <packagedElement xmi:type="uml:Class" xmi:id="_4mmfoNBVEeew-6i2r68dVQ" name="SH_ECO_031"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_htPpoNBSEeew-6i2r68dVQ" name="SH_ECO_032"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_G3t8MNBTEeew-6i2r68dVQ" name="SH_ECO_035"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_R6kzYNBYEeew-6i2r68dVQ" name="Refine1" client="_G3t8MNBTEeew-6i2r68dVQ" supplier="_367lXcrXEee9jsGys1t6BQ"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_S7Q0UNBYEeew-6i2r68dVQ" name="Refine2" client="_htPpoNBSEeew-6i2r68dVQ" supplier="_367lXcrXEee9jsGys1t6BQ"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_UZo20NBYEeew-6i2r68dVQ" name="Refine3" client="_4mmfoNBVEeew-6i2r68dVQ" supplier="_367lXcrXEee9jsGys1t6BQ"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_9Eya0NBYEeew-6i2r68dVQ" name="SH_ECO_033"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_CGL4INBZEeew-6i2r68dVQ" name="SH_ECO_034"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_R3-V4NBZEeew-6i2r68dVQ" name="Refine4" client="_9Eya0NBYEeew-6i2r68dVQ" supplier="_367lXcrXEee9jsGys1t6BQ"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_SZNasNBZEeew-6i2r68dVQ" name="Refine5" client="_CGL4INBZEeew-6i2r68dVQ" supplier="_367lXcrXEee9jsGys1t6BQ"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -207,16 +207,16 @@
   <Blocks:Block xmi:id="_nGJDYMrgEee9jsGys1t6BQ" base_Class="_nGBHkMrgEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_JRkx8MrhEee9jsGys1t6BQ" base_Class="_JReEQMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_rDd_IMrhEee9jsGys1t6BQ" base_Class="_rDXRcMrhEee9jsGys1t6BQ"/>
-  <Requirements:Requirement xmi:id="_htZaoNBSEeew-6i2r68dVQ" base_Class="_htPpoNBSEeew-6i2r68dVQ" id="SH_ECO_031" text="Utiliser un système renouvelable pour chauffer l'eau&#xD;&#xA;"/>
-  <Requirements:DeriveReqt xmi:id="_4GUkcNBSEeew-6i2r68dVQ" base_DirectedRelationship="_4GBpgNBSEeew-6i2r68dVQ" base_Abstraction="_4GBpgNBSEeew-6i2r68dVQ"/>
-  <Requirements:Requirement xmi:id="_G3t8MdBTEeew-6i2r68dVQ" base_Class="_G3t8MNBTEeew-6i2r68dVQ" id="SH_ECO_032" text="Utiliser un système renouvelable pour l'électricité&#xD;&#xA;"/>
-  <Requirements:Requirement xmi:id="_R8uhwNBTEeew-6i2r68dVQ" base_Class="_R8kwwNBTEeew-6i2r68dVQ" id="SH_ECO_0321" text="Utiliser des panneaux photovoltaiques"/>
-  <Requirements:DeriveReqt xmi:id="_auw_INBTEeew-6i2r68dVQ" base_DirectedRelationship="_aun1MNBTEeew-6i2r68dVQ" base_Abstraction="_aun1MNBTEeew-6i2r68dVQ"/>
-  <Requirements:Requirement xmi:id="_b0LIANBTEeew-6i2r68dVQ" base_Class="_b0BXANBTEeew-6i2r68dVQ" id="SH_ECO_0322" text="Utiliser des mini-éoliennes"/>
-  <Requirements:DeriveReqt xmi:id="_isDl0NBTEeew-6i2r68dVQ" base_DirectedRelationship="_irwq4NBTEeew-6i2r68dVQ" base_Abstraction="_irwq4NBTEeew-6i2r68dVQ"/>
-  <Requirements:DeriveReqt xmi:id="_ylb5UNBTEeew-6i2r68dVQ" base_DirectedRelationship="_ylSIUNBTEeew-6i2r68dVQ" base_Abstraction="_ylSIUNBTEeew-6i2r68dVQ"/>
-  <Requirements:Requirement xmi:id="_AbC-QNBUEeew-6i2r68dVQ" base_Class="_Aa50UNBUEeew-6i2r68dVQ" id="SH_ECO_0311" text="Utiliser la géothermie pour chauffer l'eau"/>
-  <Requirements:Requirement xmi:id="_BZDeoNBUEeew-6i2r68dVQ" base_Class="_BY5toNBUEeew-6i2r68dVQ" id="SH_ECO_0312" text="Utiliser solaire thermique"/>
-  <Requirements:DeriveReqt xmi:id="_ZWP3kNBUEeew-6i2r68dVQ" base_DirectedRelationship="_ZWGtoNBUEeew-6i2r68dVQ" base_Abstraction="_ZWGtoNBUEeew-6i2r68dVQ"/>
-  <Requirements:DeriveReqt xmi:id="_aaoFsNBUEeew-6i2r68dVQ" base_DirectedRelationship="_aaUjsNBUEeew-6i2r68dVQ" base_Abstraction="_aaUjsNBUEeew-6i2r68dVQ"/>
+  <Requirements:Requirement xmi:id="_htZaoNBSEeew-6i2r68dVQ" base_Class="_htPpoNBSEeew-6i2r68dVQ" id="SH_ECO_032" text="L'utilisateur doit pouvoir se chauffer grâce à l'environnement.&#xD;&#xA;"/>
+  <Requirements:DeriveReqt xmi:id="_4GUkcNBSEeew-6i2r68dVQ"/>
+  <Requirements:Requirement xmi:id="_G3t8MdBTEeew-6i2r68dVQ" base_Class="_G3t8MNBTEeew-6i2r68dVQ" id="SH_ECO_035" text="L'utilisateur doit pouvoir s'éclairer grâce à l'environnement."/>
+  <Requirements:DeriveReqt xmi:id="_ylb5UNBTEeew-6i2r68dVQ"/>
+  <Requirements:Requirement xmi:id="_4mvpkNBVEeew-6i2r68dVQ" base_Class="_4mmfoNBVEeew-6i2r68dVQ" id="SH_ECO_031" text="L'utilisateur doit pouvoir prendre une douche chaude grâce à l'environnement."/>
+  <Requirements:Refine xmi:id="_R6xAoNBYEeew-6i2r68dVQ" base_DirectedRelationship="_R6kzYNBYEeew-6i2r68dVQ" base_Abstraction="_R6kzYNBYEeew-6i2r68dVQ"/>
+  <Requirements:Refine xmi:id="_S7dBkNBYEeew-6i2r68dVQ" base_DirectedRelationship="_S7Q0UNBYEeew-6i2r68dVQ" base_Abstraction="_S7Q0UNBYEeew-6i2r68dVQ"/>
+  <Requirements:Refine xmi:id="_UZ3gUNBYEeew-6i2r68dVQ" base_DirectedRelationship="_UZo20NBYEeew-6i2r68dVQ" base_Abstraction="_UZo20NBYEeew-6i2r68dVQ"/>
+  <Requirements:Requirement xmi:id="_9E5vkNBYEeew-6i2r68dVQ" base_Class="_9Eya0NBYEeew-6i2r68dVQ" id="SH_ECO_033" text="L'utilisateur doit pouvoir se rafraîchir grâce à l'environnement."/>
+  <Requirements:Requirement xmi:id="_CGQwoNBZEeew-6i2r68dVQ" base_Class="_CGL4INBZEeew-6i2r68dVQ" id="SH_ECO_034" text="L'utilisateur doit pouvoir réchauffer ses petits petons sur le plancher grâce à l'environnement."/>
+  <Requirements:Refine xmi:id="_R4FqoNBZEeew-6i2r68dVQ" base_DirectedRelationship="_R3-V4NBZEeew-6i2r68dVQ" base_Abstraction="_R3-V4NBZEeew-6i2r68dVQ"/>
+  <Requirements:Refine xmi:id="_SZcEMNBZEeew-6i2r68dVQ" base_DirectedRelationship="_SZNasNBZEeew-6i2r68dVQ" base_Abstraction="_SZNasNBZEeew-6i2r68dVQ"/>
 </xmi:XMI>
