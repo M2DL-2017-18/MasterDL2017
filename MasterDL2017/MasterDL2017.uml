@@ -61,6 +61,7 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_367lXMrXEee9jsGys1t6BQ" name="SH_ECO_020"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lXcrXEee9jsGys1t6BQ" name="SH_ECO_030"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KqF-cNBPEeew-6i2r68dVQ" name="ExigencesEcologie"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_8weo4MrgEee9jsGys1t6BQ" name="Acteurs">
       <packagedElement xmi:type="uml:Actor" xmi:id="__GxK0MrgEee9jsGys1t6BQ" name="Habitant"/>
