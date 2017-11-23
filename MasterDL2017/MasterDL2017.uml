@@ -129,6 +129,8 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_BC-BQNBREeeOrKx0xYV8jw" name="SH_SEC_060">
       <packagedElement xmi:type="uml:Class" xmi:id="_J8ZgENBREeeOrKx0xYV8jw" name="SH_SEC_060_01"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_MyxQQNBREeeOrKx0xYV8jw" name="SH_SEC_060_02"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_NbKbENBTEeeOrKx0xYV8jw" name="Refine1" client="_J8ZgENBREeeOrKx0xYV8jw" supplier="_367lUsrXEee9jsGys1t6BQ"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_OujVkNBTEeeOrKx0xYV8jw" name="Refine2" client="_MyxQQNBREeeOrKx0xYV8jw" supplier="_367lUsrXEee9jsGys1t6BQ"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -216,6 +218,8 @@
   <Blocks:Block xmi:id="_JRkx8MrhEee9jsGys1t6BQ" base_Class="_JReEQMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_rDd_IMrhEee9jsGys1t6BQ" base_Class="_rDXRcMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_fvsUoNBOEeerb7dwGRYkDA" base_Class="_fvijoNBOEeerb7dwGRYkDA"/>
-  <Requirements:Requirement xmi:id="_J8owoNBREeeOrKx0xYV8jw" base_Class="_J8ZgENBREeeOrKx0xYV8jw"/>
-  <Requirements:Requirement xmi:id="_My-EkNBREeeOrKx0xYV8jw" base_Class="_MyxQQNBREeeOrKx0xYV8jw"/>
+  <Requirements:Requirement xmi:id="_J8owoNBREeeOrKx0xYV8jw" base_Class="_J8ZgENBREeeOrKx0xYV8jw" id="SH_SEC_060_01" text="La caméra doit pouvoir détecter une chute selon la vitesse et la direciton de l'habitant"/>
+  <Requirements:Requirement xmi:id="_My-EkNBREeeOrKx0xYV8jw" base_Class="_MyxQQNBREeeOrKx0xYV8jw" id="SH_SEC_060_02" text="Les capteurs au sol doivent permettre de déterminer la force de l'impact s'il s'agit d'une chute accidentelle de l'habitant"/>
+  <Requirements:Refine xmi:id="_NbXPYNBTEeeOrKx0xYV8jw" base_DirectedRelationship="_NbKbENBTEeeOrKx0xYV8jw" base_Abstraction="_NbKbENBTEeeOrKx0xYV8jw"/>
+  <Requirements:Refine xmi:id="_Ouu7wNBTEeeOrKx0xYV8jw" base_DirectedRelationship="_OujVkNBTEeeOrKx0xYV8jw" base_Abstraction="_OujVkNBTEeeOrKx0xYV8jw"/>
 </xmi:XMI>
