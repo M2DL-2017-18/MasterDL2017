@@ -61,10 +61,6 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_367lXMrXEee9jsGys1t6BQ" name="SH_ECO_020"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lXcrXEee9jsGys1t6BQ" name="SH_ECO_030"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_KqF-cNBPEeew-6i2r68dVQ" name="ExigencesEcologie">
-        <packagedElement xmi:type="uml:Class" xmi:id="_nUJIENBPEeew-6i2r68dVQ" name="SH_ECO_020"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_2GGggNBPEeew-6i2r68dVQ" name="SH_ECO_030"/>
-      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_8weo4MrgEee9jsGys1t6BQ" name="Acteurs">
       <packagedElement xmi:type="uml:Actor" xmi:id="__GxK0MrgEee9jsGys1t6BQ" name="Habitant"/>
@@ -109,6 +105,23 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_rDXRcMrhEee9jsGys1t6BQ" name="Capteurs"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="___0FsNBREeew-6i2r68dVQ" name="Actor SH_ECO_030"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_C7LDkNBSEeew-6i2r68dVQ" name="Avoir de l'eau chaude"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_I3yL8NBSEeew-6i2r68dVQ" name="Avoir du chauffage"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_LFPiANBSEeew-6i2r68dVQ" name="Avoir la lumière"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OYwhMNBSEeew-6i2r68dVQ" name="Avoir"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_htPpoNBSEeew-6i2r68dVQ" name="SH_ECO_031"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_4GBpgNBSEeew-6i2r68dVQ" name="DeriveReqt1" client="_htPpoNBSEeew-6i2r68dVQ" supplier="_367lXcrXEee9jsGys1t6BQ"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_G3t8MNBTEeew-6i2r68dVQ" name="SH_ECO_032"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_R8kwwNBTEeew-6i2r68dVQ" name="SH_ECO_0321"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_aun1MNBTEeew-6i2r68dVQ" name="DeriveReqt2" client="_R8kwwNBTEeew-6i2r68dVQ" supplier="_G3t8MNBTEeew-6i2r68dVQ"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_b0BXANBTEeew-6i2r68dVQ" name="SH_ECO_0322"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_irwq4NBTEeew-6i2r68dVQ" name="DeriveReqt3" client="_b0BXANBTEeew-6i2r68dVQ" supplier="_G3t8MNBTEeew-6i2r68dVQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_ylSIUNBTEeew-6i2r68dVQ" name="DeriveReqt4" client="_G3t8MNBTEeew-6i2r68dVQ" supplier="_367lXcrXEee9jsGys1t6BQ"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Aa50UNBUEeew-6i2r68dVQ" name="SH_ECO_0311"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BY5toNBUEeew-6i2r68dVQ" name="SH_ECO_0312"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_ZWGtoNBUEeew-6i2r68dVQ" name="DeriveReqt5" client="_Aa50UNBUEeew-6i2r68dVQ" supplier="_htPpoNBSEeew-6i2r68dVQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_aaUjsNBUEeew-6i2r68dVQ" name="DeriveReqt6" client="_BY5toNBUEeew-6i2r68dVQ" supplier="_htPpoNBSEeew-6i2r68dVQ"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -186,7 +199,7 @@
   <Requirements:Requirement xmi:id="_363T7crXEee9jsGys1t6BQ" base_Class="_367lWsrXEee9jsGys1t6BQ" id="SH_ACO_070" text="The Smart Home must have a bed that accommodates to the disability of the inhabitants."/>
   <Requirements:Requirement xmi:id="_363T7srXEee9jsGys1t6BQ" base_Class="_367lW8rXEee9jsGys1t6BQ" id="SH_ECO_010" text="The Smart Home must save energy."/>
   <Requirements:Requirement xmi:id="_363T78rXEee9jsGys1t6BQ" base_Class="_367lXMrXEee9jsGys1t6BQ" id="SH_ECO_020" text="The Smart Home annual consumption should be less than local regulations."/>
-  <Requirements:Requirement xmi:id="_363T8MrXEee9jsGys1t6BQ" base_Class="_367lXcrXEee9jsGys1t6BQ" id="SH_ECO_030" text="The Smart Home must prevent unauthorized physical intrusion."/>
+  <Requirements:Requirement xmi:id="_363T8MrXEee9jsGys1t6BQ" base_Class="_367lXcrXEee9jsGys1t6BQ" id="SH_ECO_030" text="The Smart Home must give priority to renewable energies."/>
   <Requirements:Requirement xmi:id="_yw6TUMreEeeSVpVqKOhnEw" base_Class="_ywxJYMreEeeSVpVqKOhnEw" id="SH_SEC_50_1" text="Le SHS doit être capable de détecter la fumée&#xD;&#xA;"/>
   <ModelElements:ElementGroup xmi:id="_yxEEUMreEeeSVpVqKOhnEw" base_Comment="_ywxJYsreEeeSVpVqKOhnEw"/>
   <Requirements:Requirement xmi:id="_yxEEUcreEeeSVpVqKOhnEw" base_Class="_ywxJd8reEeeSVpVqKOhnEw" id="SH_SEC_50_2" text="Le SHS doit appeler les pompiers en cas de suspicion d'incendie"/>
@@ -194,6 +207,16 @@
   <Blocks:Block xmi:id="_nGJDYMrgEee9jsGys1t6BQ" base_Class="_nGBHkMrgEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_JRkx8MrhEee9jsGys1t6BQ" base_Class="_JReEQMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_rDd_IMrhEee9jsGys1t6BQ" base_Class="_rDXRcMrhEee9jsGys1t6BQ"/>
-  <Requirements:Requirement xmi:id="_nUcDANBPEeew-6i2r68dVQ" base_Class="_nUJIENBPEeew-6i2r68dVQ" id="SH_ECO_020" text="Le domicile doit être économe en énergie et ayant une consommation globale inférieure aux normes constatées localement."/>
-  <Requirements:Requirement xmi:id="_2GPqcNBPEeew-6i2r68dVQ" base_Class="_2GGggNBPEeew-6i2r68dVQ" id="SH_ECO_030" text="Le SHS doit donner la priorité aux énergies renouvelables."/>
+  <Requirements:Requirement xmi:id="_htZaoNBSEeew-6i2r68dVQ" base_Class="_htPpoNBSEeew-6i2r68dVQ" id="SH_ECO_031" text="Utiliser un système renouvelable pour chauffer l'eau&#xD;&#xA;"/>
+  <Requirements:DeriveReqt xmi:id="_4GUkcNBSEeew-6i2r68dVQ" base_DirectedRelationship="_4GBpgNBSEeew-6i2r68dVQ" base_Abstraction="_4GBpgNBSEeew-6i2r68dVQ"/>
+  <Requirements:Requirement xmi:id="_G3t8MdBTEeew-6i2r68dVQ" base_Class="_G3t8MNBTEeew-6i2r68dVQ" id="SH_ECO_032" text="Utiliser un système renouvelable pour l'électricité&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_R8uhwNBTEeew-6i2r68dVQ" base_Class="_R8kwwNBTEeew-6i2r68dVQ" id="SH_ECO_0321" text="Utiliser des panneaux photovoltaiques"/>
+  <Requirements:DeriveReqt xmi:id="_auw_INBTEeew-6i2r68dVQ" base_DirectedRelationship="_aun1MNBTEeew-6i2r68dVQ" base_Abstraction="_aun1MNBTEeew-6i2r68dVQ"/>
+  <Requirements:Requirement xmi:id="_b0LIANBTEeew-6i2r68dVQ" base_Class="_b0BXANBTEeew-6i2r68dVQ" id="SH_ECO_0322" text="Utiliser des mini-éoliennes"/>
+  <Requirements:DeriveReqt xmi:id="_isDl0NBTEeew-6i2r68dVQ" base_DirectedRelationship="_irwq4NBTEeew-6i2r68dVQ" base_Abstraction="_irwq4NBTEeew-6i2r68dVQ"/>
+  <Requirements:DeriveReqt xmi:id="_ylb5UNBTEeew-6i2r68dVQ" base_DirectedRelationship="_ylSIUNBTEeew-6i2r68dVQ" base_Abstraction="_ylSIUNBTEeew-6i2r68dVQ"/>
+  <Requirements:Requirement xmi:id="_AbC-QNBUEeew-6i2r68dVQ" base_Class="_Aa50UNBUEeew-6i2r68dVQ" id="SH_ECO_0311" text="Utiliser la géothermie pour chauffer l'eau"/>
+  <Requirements:Requirement xmi:id="_BZDeoNBUEeew-6i2r68dVQ" base_Class="_BY5toNBUEeew-6i2r68dVQ" id="SH_ECO_0312" text="Utiliser solaire thermique"/>
+  <Requirements:DeriveReqt xmi:id="_ZWP3kNBUEeew-6i2r68dVQ" base_DirectedRelationship="_ZWGtoNBUEeew-6i2r68dVQ" base_Abstraction="_ZWGtoNBUEeew-6i2r68dVQ"/>
+  <Requirements:DeriveReqt xmi:id="_aaoFsNBUEeew-6i2r68dVQ" base_DirectedRelationship="_aaUjsNBUEeew-6i2r68dVQ" base_Abstraction="_aaUjsNBUEeew-6i2r68dVQ"/>
 </xmi:XMI>
