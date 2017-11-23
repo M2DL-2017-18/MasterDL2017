@@ -8,6 +8,7 @@
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_usPywMrYEee9jsGys1t6BQ" name="BesoinsInitiaux">
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_ClUS4NBTEeeCWe_pFsGPzg" name="Refine1" client="_cJv58NBUEeeCWe_pFsGPzg" supplier="_B33XANBTEeeCWe_pFsGPzg"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_WH6ygMVgEeeCE7XyF9h1YA" name="ExigencesDeSecurite">
         <packagedElement xmi:type="uml:Class" xmi:id="_36368MrXEee9jsGys1t6BQ" name="SH_SEC_010"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lUsrXEee9jsGys1t6BQ" name="SH_SEC_060"/>
@@ -16,6 +17,9 @@
           <nestedClassifier xmi:type="uml:Class" xmi:id="_xchiwNBOEeeZ-PPtvQD9cA" name="SH_SEC_041"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_8lv58NBOEeeZ-PPtvQD9cA" name="SH_SEC_042"/>
         </packagedElement>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_HN9nENBVEeeCWe_pFsGPzg" name="DeriveReqt1" client="_B33XANBTEeeCWe_pFsGPzg" supplier="_366-QMrXEee9jsGys1t6BQ"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_01-GoNBVEeeCWe_pFsGPzg" name="DeriveReqt2" client="_a6KE4NBVEeeCWe_pFsGPzg" supplier="_366-QMrXEee9jsGys1t6BQ"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Kb0NsNBWEeeCWe_pFsGPzg" name="DeriveReqt3" client="_2ojekNBVEeeCWe_pFsGPzg" supplier="_366-QMrXEee9jsGys1t6BQ"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lUcrXEee9jsGys1t6BQ" name="SH_SEC_050">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_ywxJYMreEeeSVpVqKOhnEw" name="SH_SEC_50_1" classifierBehavior="_ywxJYcreEeeSVpVqKOhnEw">
             <ownedBehavior xmi:type="uml:Interaction" xmi:id="_ywxJYcreEeeSVpVqKOhnEw" name="Interaction1">
@@ -134,6 +138,12 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_UvLT4NBWEeeico1UKPGsmA" name="ExigencesAdaptation"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_WLyb0NBWEeeico1UKPGsmA" name="ExigencesEconomie"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Q1RQ0NBbEeeCWe_pFsGPzg" name="020">
+      <packagedElement xmi:type="uml:Class" xmi:id="_B33XANBTEeeCWe_pFsGPzg" name="Requirement1"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_cJv58NBUEeeCWe_pFsGPzg" name="Requirement2"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_a6KE4NBVEeeCWe_pFsGPzg" name="Requirement3"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2ojekNBVEeeCWe_pFsGPzg" name="Requirement4"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -196,7 +206,7 @@
     </profileApplication>
   </uml:Model>
   <Requirements:Requirement xmi:id="_363T4MrXEee9jsGys1t6BQ" base_Class="_36368MrXEee9jsGys1t6BQ" id="SH_SEC_010" text="The Smart Home must prevent unauthorized physical intrusion."/>
-  <Requirements:Requirement xmi:id="_363T4crXEee9jsGys1t6BQ" base_Class="_366-QMrXEee9jsGys1t6BQ" id="SH_SEC_020" text="The Smart Home must prevent computer intrusion."/>
+  <Requirements:Requirement xmi:id="_363T4crXEee9jsGys1t6BQ" base_Class="_366-QMrXEee9jsGys1t6BQ" id="SH_SEC_020" text="The Smart Home must protect the information systems used."/>
   <Requirements:Requirement xmi:id="_363T4srXEee9jsGys1t6BQ" base_Class="_366-QcrXEee9jsGys1t6BQ" id="SH_SEC_030" text="The Smart Home must provide an identification-based access control system."/>
   <Requirements:Requirement xmi:id="_363T48rXEee9jsGys1t6BQ" base_Class="_367lUMrXEee9jsGys1t6BQ" id="SH_SEC_040" text="The Smart Home must call the police station in case of burglary or any other unauthorized intrusion."/>
   <Requirements:Requirement xmi:id="_363T5MrXEee9jsGys1t6BQ" base_Class="_367lUcrXEee9jsGys1t6BQ" id="SH_SEC_050" text="The Smart Home must be able to detect smoke and to call the fire station in case of suspicion of fire."/>
@@ -222,4 +232,12 @@
   <Blocks:Block xmi:id="_fvsUoNBOEeerb7dwGRYkDA" base_Class="_fvijoNBOEeerb7dwGRYkDA"/>
   <Requirements:Requirement xmi:id="_xc-OsNBOEeeZ-PPtvQD9cA" base_Class="_xchiwNBOEeeZ-PPtvQD9cA" id="SH_SEC_041" text="La MI doit pouvoir détecter une intrusion."/>
   <Requirements:Requirement xmi:id="_8mDb8NBOEeeZ-PPtvQD9cA" base_Class="_8lv58NBOEeeZ-PPtvQD9cA" id="SH_SEC_042" text="La MI doit pouvoir joindre la police."/>
+  <Requirements:Requirement xmi:id="_B4N8UNBTEeeCWe_pFsGPzg" base_Class="_B33XANBTEeeCWe_pFsGPzg" id="SH_SEC_020_1" text="Secure communications between the differents devices."/>
+  <Requirements:Refine xmi:id="_CleD4NBTEeeCWe_pFsGPzg" base_DirectedRelationship="_ClUS4NBTEeeCWe_pFsGPzg" base_Abstraction="_ClUS4NBTEeeCWe_pFsGPzg"/>
+  <Requirements:Requirement xmi:id="_cJ31wNBUEeeCWe_pFsGPzg" base_Class="_cJv58NBUEeeCWe_pFsGPzg" id="SH_SEC_020_1_1" text="Encrypt all communications between devices"/>
+  <Requirements:DeriveReqt xmi:id="_HOGxANBVEeeCWe_pFsGPzg" base_DirectedRelationship="_HN9nENBVEeeCWe_pFsGPzg" base_Abstraction="_HN9nENBVEeeCWe_pFsGPzg"/>
+  <Requirements:Requirement xmi:id="_a6RZoNBVEeeCWe_pFsGPzg" base_Class="_a6KE4NBVEeeCWe_pFsGPzg" id="SH_SEC_020_2" text="Authentification for all administration tasks"/>
+  <Requirements:DeriveReqt xmi:id="_02H3oNBVEeeCWe_pFsGPzg" base_DirectedRelationship="_01-GoNBVEeeCWe_pFsGPzg" base_Abstraction="_01-GoNBVEeeCWe_pFsGPzg"/>
+  <Requirements:Requirement xmi:id="_2oqMQNBVEeeCWe_pFsGPzg" base_Class="_2ojekNBVEeeCWe_pFsGPzg" id="SH_SEC_020_3" text="Filter and limits accesses from outside of the system"/>
+  <Requirements:DeriveReqt xmi:id="_KcEFUNBWEeeCWe_pFsGPzg" base_DirectedRelationship="_Kb0NsNBWEeeCWe_pFsGPzg" base_Abstraction="_Kb0NsNBWEeeCWe_pFsGPzg"/>
 </xmi:XMI>
