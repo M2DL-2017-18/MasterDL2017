@@ -1,46 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/ModelElements" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
   <uml:Model xmi:id="_GEz7QMVgEeeCE7XyF9h1YA" name="ProjetCommun">
-    <packageImport xmi:type="uml:PackageImport" xmi:id="_GaJ5IMVgEeeCE7XyF9h1YA">
+    <packageImport xmi:id="_GaJ5IMVgEeeCE7XyF9h1YA">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
-    <packageImport xmi:type="uml:PackageImport" xmi:id="_Gai6sMVgEeeCE7XyF9h1YA">
-      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    <packageImport xmi:id="_Gai6sMVgEeeCE7XyF9h1YA">
+      <importedPackage href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_usPywMrYEee9jsGys1t6BQ" name="BesoinsInitiaux">
       <packagedElement xmi:type="uml:Package" xmi:id="_WH6ygMVgEeeCE7XyF9h1YA" name="ExigencesDeSecurite">
         <packagedElement xmi:type="uml:Class" xmi:id="_36368MrXEee9jsGys1t6BQ" name="SH_SEC_010"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_367lUsrXEee9jsGys1t6BQ" name="SH_SEC_060">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_uQd2cNBOEeeOrKx0xYV8jw" name="SH_SEC_060_1"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_yinoINBOEeeOrKx0xYV8jw" name="SH_SEC_060_2"/>
-        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_367lUsrXEee9jsGys1t6BQ" name="SH_SEC_060"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_366-QcrXEee9jsGys1t6BQ" name="SH_SEC_030"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lUMrXEee9jsGys1t6BQ" name="SH_SEC_040"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lUcrXEee9jsGys1t6BQ" name="SH_SEC_050">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_ywxJYMreEeeSVpVqKOhnEw" name="SH_SEC_50_1" classifierBehavior="_ywxJYcreEeeSVpVqKOhnEw">
             <ownedBehavior xmi:type="uml:Interaction" xmi:id="_ywxJYcreEeeSVpVqKOhnEw" name="Interaction1">
-              <ownedComment xmi:type="uml:Comment" xmi:id="_ywxJYsreEeeSVpVqKOhnEw"/>
+              <ownedComment xmi:id="_ywxJYsreEeeSVpVqKOhnEw"/>
             </ownedBehavior>
             <nestedClassifier xmi:type="uml:Actor" xmi:id="_ywxJY8reEeeSVpVqKOhnEw" name="Capteur"/>
             <nestedClassifier xmi:type="uml:UseCase" xmi:id="_ywxJZMreEeeSVpVqKOhnEw" name="Détecte le feu"/>
             <nestedClassifier xmi:type="uml:UseCase" xmi:id="_ywxJZcreEeeSVpVqKOhnEw" name="Envoie un signal" classifierBehavior="_ywxJZsreEeeSVpVqKOhnEw">
               <ownedBehavior xmi:type="uml:Interaction" xmi:id="_ywxJZsreEeeSVpVqKOhnEw" name="Interaction1">
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_ywxJZ8reEeeSVpVqKOhnEw" name="" type="_ywxJY8reEeeSVpVqKOhnEw"/>
-                <lifeline xmi:type="uml:Lifeline" xmi:id="_ywxJaMreEeeSVpVqKOhnEw" name="Système" coveredBy="_ywxJa8reEeeSVpVqKOhnEw"/>
-                <lifeline xmi:type="uml:Lifeline" xmi:id="_ywxJacreEeeSVpVqKOhnEw" name="" represents="_ywxJZ8reEeeSVpVqKOhnEw" coveredBy="_ywxJasreEeeSVpVqKOhnEw"/>
+                <ownedAttribute xmi:id="_ywxJZ8reEeeSVpVqKOhnEw" name="" type="_ywxJY8reEeeSVpVqKOhnEw"/>
+                <lifeline xmi:id="_ywxJaMreEeeSVpVqKOhnEw" name="Système" coveredBy="_ywxJa8reEeeSVpVqKOhnEw"/>
+                <lifeline xmi:id="_ywxJacreEeeSVpVqKOhnEw" name="" represents="_ywxJZ8reEeeSVpVqKOhnEw" coveredBy="_ywxJasreEeeSVpVqKOhnEw"/>
                 <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ywxJasreEeeSVpVqKOhnEw" name="Message1SendEvent" covered="_ywxJacreEeeSVpVqKOhnEw" message="_ywxJbMreEeeSVpVqKOhnEw"/>
                 <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ywxJa8reEeeSVpVqKOhnEw" name="Message1ReceiveEvent" covered="_ywxJaMreEeeSVpVqKOhnEw" message="_ywxJbMreEeeSVpVqKOhnEw"/>
-                <message xmi:type="uml:Message" xmi:id="_ywxJbMreEeeSVpVqKOhnEw" name="Envoie un message" messageSort="asynchCall" receiveEvent="_ywxJa8reEeeSVpVqKOhnEw" sendEvent="_ywxJasreEeeSVpVqKOhnEw"/>
+                <message xmi:id="_ywxJbMreEeeSVpVqKOhnEw" name="Envoie un message" messageSort="asynchCall" receiveEvent="_ywxJa8reEeeSVpVqKOhnEw" sendEvent="_ywxJasreEeeSVpVqKOhnEw"/>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:Interaction" xmi:id="_ywxJbcreEeeSVpVqKOhnEw" name="Interaction2">
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_ywxJbsreEeeSVpVqKOhnEw" name="" type="_ywxJY8reEeeSVpVqKOhnEw"/>
-                <lifeline xmi:type="uml:Lifeline" xmi:id="_ywxJb8reEeeSVpVqKOhnEw" name="" represents="_ywxJbsreEeeSVpVqKOhnEw" coveredBy="_ywxJccreEeeSVpVqKOhnEw"/>
-                <lifeline xmi:type="uml:Lifeline" xmi:id="_ywxJcMreEeeSVpVqKOhnEw" name="Système de notifications" coveredBy="_ywxJcsreEeeSVpVqKOhnEw _ywxJc8reEeeSVpVqKOhnEw _ywxJdMreEeeSVpVqKOhnEw"/>
+                <ownedAttribute xmi:id="_ywxJbsreEeeSVpVqKOhnEw" name="" type="_ywxJY8reEeeSVpVqKOhnEw"/>
+                <lifeline xmi:id="_ywxJb8reEeeSVpVqKOhnEw" name="" represents="_ywxJbsreEeeSVpVqKOhnEw" coveredBy="_ywxJccreEeeSVpVqKOhnEw"/>
+                <lifeline xmi:id="_ywxJcMreEeeSVpVqKOhnEw" name="Système de notifications" coveredBy="_ywxJcsreEeeSVpVqKOhnEw _ywxJc8reEeeSVpVqKOhnEw _ywxJdMreEeeSVpVqKOhnEw"/>
                 <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ywxJccreEeeSVpVqKOhnEw" name="Message1SendEvent" covered="_ywxJb8reEeeSVpVqKOhnEw" message="_ywxJdcreEeeSVpVqKOhnEw"/>
                 <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ywxJcsreEeeSVpVqKOhnEw" name="Message1ReceiveEvent" covered="_ywxJcMreEeeSVpVqKOhnEw" message="_ywxJdcreEeeSVpVqKOhnEw"/>
                 <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_ywxJc8reEeeSVpVqKOhnEw" name="BehaviorExecutionSpecification1Finish" covered="_ywxJcMreEeeSVpVqKOhnEw" execution="_ywxJdMreEeeSVpVqKOhnEw"/>
                 <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_ywxJdMreEeeSVpVqKOhnEw" name="BehaviorExecutionSpecification1" covered="_ywxJcMreEeeSVpVqKOhnEw" finish="_ywxJc8reEeeSVpVqKOhnEw" start="_ywxJcsreEeeSVpVqKOhnEw"/>
-                <message xmi:type="uml:Message" xmi:id="_ywxJdcreEeeSVpVqKOhnEw" name="Envoi une notification" receiveEvent="_ywxJcsreEeeSVpVqKOhnEw" sendEvent="_ywxJccreEeeSVpVqKOhnEw"/>
+                <message xmi:id="_ywxJdcreEeeSVpVqKOhnEw" name="Envoi une notification" receiveEvent="_ywxJcsreEeeSVpVqKOhnEw" sendEvent="_ywxJccreEeeSVpVqKOhnEw"/>
               </ownedBehavior>
             </nestedClassifier>
             <nestedClassifier xmi:type="uml:Actor" xmi:id="_ywxJdsreEeeSVpVqKOhnEw" name="Système"/>
@@ -69,114 +66,125 @@
       <packagedElement xmi:type="uml:Actor" xmi:id="__GxK0MrgEee9jsGys1t6BQ" name="Habitant"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_RBAi0MrhEee9jsGys1t6BQ" name="Composants">
-      <packagedElement xmi:type="uml:Class" xmi:id="_mDWwsMrgEee9jsGys1t6BQ" name="Context">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_5FF8QMrgEee9jsGys1t6BQ" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" aggregation="composite" association="_5FEHEMrgEee9jsGys1t6BQ">
+      <packagedElement xmi:type="uml:Class" xmi:id="_mDWwsMrgEee9jsGys1t6BQ" name="Contexte">
+        <ownedAttribute xmi:id="_5FF8QMrgEee9jsGys1t6BQ" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" aggregation="composite" association="_5FEHEMrgEee9jsGys1t6BQ">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5FGjUMrgEee9jsGys1t6BQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5FGjUcrgEee9jsGys1t6BQ" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_BTVwEsrhEee9jsGys1t6BQ" name="habitant" type="__GxK0MrgEee9jsGys1t6BQ" aggregation="composite" association="_BTVJAMrhEee9jsGys1t6BQ">
+        <ownedAttribute xmi:id="_BTVwEsrhEee9jsGys1t6BQ" name="habitant" type="__GxK0MrgEee9jsGys1t6BQ" aggregation="composite" association="_BTVJAMrhEee9jsGys1t6BQ">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BTVwE8rhEee9jsGys1t6BQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BTVwFMrhEee9jsGys1t6BQ" value="1"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_nGBHkMrgEee9jsGys1t6BQ" name="SHS">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_MWPc0srhEee9jsGys1t6BQ" name="capteurfumee" type="_JReEQMrhEee9jsGys1t6BQ" aggregation="composite" association="_MWO1wMrhEee9jsGys1t6BQ">
+        <ownedAttribute xmi:id="_MWPc0srhEee9jsGys1t6BQ" name="capteurfumee" type="_JReEQMrhEee9jsGys1t6BQ" aggregation="composite" association="_MWO1wMrhEee9jsGys1t6BQ">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MWQD4MrhEee9jsGys1t6BQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MWQD4crhEee9jsGys1t6BQ" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_WB8PMNBJEeerb7dwGRYkDA" name="capteurs" type="_rDXRcMrhEee9jsGys1t6BQ" aggregation="composite" association="_WB1hgNBJEeerb7dwGRYkDA">
+        <ownedAttribute xmi:id="_WB8PMNBJEeerb7dwGRYkDA" name="capteurs" type="_rDXRcMrhEee9jsGys1t6BQ" aggregation="composite" association="_WB1hgNBJEeerb7dwGRYkDA">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WB-EYNBJEeerb7dwGRYkDA"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WB-rcNBJEeerb7dwGRYkDA" value="*"/>
         </ownedAttribute>
+        <ownedAttribute xmi:id="_lcL9YtBOEeerb7dwGRYkDA" name="actionneurs" type="_fvijoNBOEeerb7dwGRYkDA" aggregation="composite" association="_lcKvQNBOEeerb7dwGRYkDA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lcMkcNBOEeerb7dwGRYkDA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lcMkcdBOEeerb7dwGRYkDA" value="*"/>
+        </ownedAttribute>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_JReEQMrhEee9jsGys1t6BQ" name="CapteurFumee">
-          <generalization xmi:type="uml:Generalization" xmi:id="_xh_hwMrhEee9jsGys1t6BQ" general="_rDXRcMrhEee9jsGys1t6BQ"/>
+          <generalization xmi:id="_xh_hwMrhEee9jsGys1t6BQ" general="_rDXRcMrhEee9jsGys1t6BQ"/>
         </nestedClassifier>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_BTVJAMrhEee9jsGys1t6BQ" memberEnd="_BTVwEsrhEee9jsGys1t6BQ _BTWXIMrhEee9jsGys1t6BQ">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BTVwEMrhEee9jsGys1t6BQ" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BTVwEcrhEee9jsGys1t6BQ" key="nature" value="UML_Nature"/>
+        <eAnnotations xmi:id="_BTVwEMrhEee9jsGys1t6BQ" source="org.eclipse.papyrus">
+          <details xmi:id="_BTVwEcrhEee9jsGys1t6BQ" key="nature" value="UML_Nature"/>
         </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_BTWXIMrhEee9jsGys1t6BQ" name="context" type="_mDWwsMrgEee9jsGys1t6BQ" association="_BTVJAMrhEee9jsGys1t6BQ"/>
+        <ownedEnd xmi:id="_BTWXIMrhEee9jsGys1t6BQ" name="context" type="_mDWwsMrgEee9jsGys1t6BQ" association="_BTVJAMrhEee9jsGys1t6BQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_MWO1wMrhEee9jsGys1t6BQ" memberEnd="_MWPc0srhEee9jsGys1t6BQ _MWQD4srhEee9jsGys1t6BQ">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MWPc0MrhEee9jsGys1t6BQ" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MWPc0crhEee9jsGys1t6BQ" key="nature" value="UML_Nature"/>
+        <eAnnotations xmi:id="_MWPc0MrhEee9jsGys1t6BQ" source="org.eclipse.papyrus">
+          <details xmi:id="_MWPc0crhEee9jsGys1t6BQ" key="nature" value="UML_Nature"/>
         </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_MWQD4srhEee9jsGys1t6BQ" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_MWO1wMrhEee9jsGys1t6BQ"/>
+        <ownedEnd xmi:id="_MWQD4srhEee9jsGys1t6BQ" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_MWO1wMrhEee9jsGys1t6BQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_5FEHEMrgEee9jsGys1t6BQ" memberEnd="_5FF8QMrgEee9jsGys1t6BQ _5FGjUsrgEee9jsGys1t6BQ">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5FFVMMrgEee9jsGys1t6BQ" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5FFVMcrgEee9jsGys1t6BQ" key="nature" value="UML_Nature"/>
+        <eAnnotations xmi:id="_5FFVMMrgEee9jsGys1t6BQ" source="org.eclipse.papyrus">
+          <details xmi:id="_5FFVMcrgEee9jsGys1t6BQ" key="nature" value="UML_Nature"/>
         </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_5FGjUsrgEee9jsGys1t6BQ" name="context" type="_mDWwsMrgEee9jsGys1t6BQ" association="_5FEHEMrgEee9jsGys1t6BQ"/>
+        <ownedEnd xmi:id="_5FGjUsrgEee9jsGys1t6BQ" name="context" type="_mDWwsMrgEee9jsGys1t6BQ" association="_5FEHEMrgEee9jsGys1t6BQ"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_rDXRcMrhEee9jsGys1t6BQ" name="Capteurs"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rDXRcMrhEee9jsGys1t6BQ" name="Capteur" isAbstract="true"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_WB1hgNBJEeerb7dwGRYkDA" memberEnd="_WB8PMNBJEeerb7dwGRYkDA _WB_SgNBJEeerb7dwGRYkDA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WB2voNBJEeerb7dwGRYkDA" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WB3WsNBJEeerb7dwGRYkDA" key="nature" value="UML_Nature"/>
+      <eAnnotations xmi:id="_WB2voNBJEeerb7dwGRYkDA" source="org.eclipse.papyrus">
+        <details xmi:id="_WB3WsNBJEeerb7dwGRYkDA" key="nature" value="UML_Nature"/>
       </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_WB_SgNBJEeerb7dwGRYkDA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_WB1hgNBJEeerb7dwGRYkDA"/>
+      <ownedEnd xmi:id="_WB_SgNBJEeerb7dwGRYkDA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_WB1hgNBJEeerb7dwGRYkDA"/>
     </packagedElement>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <packagedElement xmi:type="uml:Class" xmi:id="_fvijoNBOEeerb7dwGRYkDA" name="Actionneur" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lcKvQNBOEeerb7dwGRYkDA" memberEnd="_lcL9YtBOEeerb7dwGRYkDA _lcMkctBOEeerb7dwGRYkDA">
+      <eAnnotations xmi:id="_lcL9YNBOEeerb7dwGRYkDA" source="org.eclipse.papyrus">
+        <details xmi:id="_lcL9YdBOEeerb7dwGRYkDA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_lcMkctBOEeerb7dwGRYkDA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_lcKvQNBOEeerb7dwGRYkDA"/>
+    </packagedElement>
+    <profileApplication xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
+      <eAnnotations xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
       </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+      <appliedProfile href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
     </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GaAvMMVgEeeCE7XyF9h1YA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GaBWQMVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <profileApplication xmi:id="_GaAvMMVgEeeCE7XyF9h1YA">
+      <eAnnotations xmi:id="_GaBWQMVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
       </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+      <appliedProfile href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
     </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GaFAoMVgEeeCE7XyF9h1YA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GaFnsMVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <profileApplication xmi:id="_GaFAoMVgEeeCE7XyF9h1YA">
+      <eAnnotations xmi:id="_GaFnsMVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
       </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+      <appliedProfile href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
     </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GaFnscVgEeeCE7XyF9h1YA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GaFnssVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <profileApplication xmi:id="_GaFnscVgEeeCE7XyF9h1YA">
+      <eAnnotations xmi:id="_GaFnssVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
       </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+      <appliedProfile href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
     </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GaGOwMVgEeeCE7XyF9h1YA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GaGOwcVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <profileApplication xmi:id="_GaGOwMVgEeeCE7XyF9h1YA">
+      <eAnnotations xmi:id="_GaGOwcVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
       </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+      <appliedProfile href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
     </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GaG10MVgEeeCE7XyF9h1YA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GaG10cVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <profileApplication xmi:id="_GaG10MVgEeeCE7XyF9h1YA">
+      <eAnnotations xmi:id="_GaG10cVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
       </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+      <appliedProfile href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
     </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GaG10sVgEeeCE7XyF9h1YA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GaG108VgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <profileApplication xmi:id="_GaG10sVgEeeCE7XyF9h1YA">
+      <eAnnotations xmi:id="_GaG108VgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
       </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+      <appliedProfile href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
     </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GaHc4MVgEeeCE7XyF9h1YA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GaHc4cVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <profileApplication xmi:id="_GaHc4MVgEeeCE7XyF9h1YA">
+      <eAnnotations xmi:id="_GaHc4cVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
       </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+      <appliedProfile href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
     </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GaID8MVgEeeCE7XyF9h1YA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GaID8cVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <profileApplication xmi:id="_GaID8MVgEeeCE7XyF9h1YA">
+      <eAnnotations xmi:id="_GaID8cVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
       </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+      <appliedProfile href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
     </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GaIrAMVgEeeCE7XyF9h1YA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GaIrAcVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <profileApplication xmi:id="_GaIrAMVgEeeCE7XyF9h1YA">
+      <eAnnotations xmi:id="_GaIrAcVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
       </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
   </uml:Model>
   <Requirements:Requirement xmi:id="_363T4MrXEee9jsGys1t6BQ" base_Class="_36368MrXEee9jsGys1t6BQ" id="SH_SEC_010" text="The Smart Home must prevent unauthorized physical intrusion."/>
@@ -203,6 +211,5 @@
   <Blocks:Block xmi:id="_nGJDYMrgEee9jsGys1t6BQ" base_Class="_nGBHkMrgEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_JRkx8MrhEee9jsGys1t6BQ" base_Class="_JReEQMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_rDd_IMrhEee9jsGys1t6BQ" base_Class="_rDXRcMrhEee9jsGys1t6BQ"/>
-  <Requirements:Requirement xmi:id="_uRApANBOEeeOrKx0xYV8jw" base_Class="_uQd2cNBOEeeOrKx0xYV8jw"/>
-  <Requirements:Requirement xmi:id="_yi1qkNBOEeeOrKx0xYV8jw" base_Class="_yinoINBOEeeOrKx0xYV8jw"/>
+  <Blocks:Block xmi:id="_fvsUoNBOEeerb7dwGRYkDA" base_Class="_fvijoNBOEeerb7dwGRYkDA"/>
 </xmi:XMI>
