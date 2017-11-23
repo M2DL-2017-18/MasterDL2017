@@ -13,8 +13,8 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_367lUsrXEee9jsGys1t6BQ" name="SH_SEC_060"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_366-QcrXEee9jsGys1t6BQ" name="SH_SEC_030"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lUMrXEee9jsGys1t6BQ" name="SH_SEC_040">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_xchiwNBOEeeZ-PPtvQD9cA" name="SH_SEC_041"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_8lv58NBOEeeZ-PPtvQD9cA" name="SH_SEC_042"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_xchiwNBOEeeZ-PPtvQD9cA" name="SH_SEC_041"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lUcrXEee9jsGys1t6BQ" name="SH_SEC_050">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_ywxJYMreEeeSVpVqKOhnEw" name="SH_SEC_50_1" classifierBehavior="_ywxJYcreEeeSVpVqKOhnEw">
@@ -49,6 +49,9 @@
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_366-QMrXEee9jsGys1t6BQ" name="SH_SEC_020"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lU8rXEee9jsGys1t6BQ" name="SH_SEC_070"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Teu1INBVEeeOLbtHDDZHLg" name="Derive_042_1" client="_8lv58NBOEeeZ-PPtvQD9cA" supplier="_RC4dwNBVEeeOLbtHDDZHLg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_hppmQNBWEeeOLbtHDDZHLg" name="Refine_041_1" client="_xchiwNBOEeeZ-PPtvQD9cA" supplier="_1NyJsNBVEeeOLbtHDDZHLg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_l1hJwNBWEeeOLbtHDDZHLg" name="Refine_041_2" client="_xchiwNBOEeeZ-PPtvQD9cA" supplier="_Uw4kENBWEeeOLbtHDDZHLg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_3S6toMrYEee9jsGys1t6BQ" name="ExigencesAdaptation">
         <packagedElement xmi:type="uml:Class" xmi:id="_367lVMrXEee9jsGys1t6BQ" name="SH_ACO_010"/>
@@ -67,9 +70,10 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_8weo4MrgEee9jsGys1t6BQ" name="Acteurs">
       <packagedElement xmi:type="uml:Actor" xmi:id="__GxK0MrgEee9jsGys1t6BQ" name="Habitant"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_tMjJENBTEeeOLbtHDDZHLg" name="Intruder"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_RBAi0MrhEee9jsGys1t6BQ" name="Composants">
-      <packagedElement xmi:type="uml:Class" xmi:id="_mDWwsMrgEee9jsGys1t6BQ" name="Contexte">
+      <packagedElement xmi:type="uml:Class" xmi:id="_mDWwsMrgEee9jsGys1t6BQ" name="Context">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_5FF8QMrgEee9jsGys1t6BQ" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" aggregation="composite" association="_5FEHEMrgEee9jsGys1t6BQ">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5FGjUMrgEee9jsGys1t6BQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5FGjUcrgEee9jsGys1t6BQ" value="1"/>
@@ -87,10 +91,6 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_WB8PMNBJEeerb7dwGRYkDA" name="capteurs" type="_rDXRcMrhEee9jsGys1t6BQ" aggregation="composite" association="_WB1hgNBJEeerb7dwGRYkDA">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WB-EYNBJEeerb7dwGRYkDA"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WB-rcNBJEeerb7dwGRYkDA" value="*"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_lcL9YtBOEeerb7dwGRYkDA" name="actionneurs" type="_fvijoNBOEeerb7dwGRYkDA" aggregation="composite" association="_lcKvQNBOEeerb7dwGRYkDA">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lcMkcNBOEeerb7dwGRYkDA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lcMkcdBOEeerb7dwGRYkDA" value="*"/>
         </ownedAttribute>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_JReEQMrhEee9jsGys1t6BQ" name="CapteurFumee">
           <generalization xmi:type="uml:Generalization" xmi:id="_xh_hwMrhEee9jsGys1t6BQ" general="_rDXRcMrhEee9jsGys1t6BQ"/>
@@ -114,7 +114,7 @@
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_5FGjUsrgEee9jsGys1t6BQ" name="context" type="_mDWwsMrgEee9jsGys1t6BQ" association="_5FEHEMrgEee9jsGys1t6BQ"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_rDXRcMrhEee9jsGys1t6BQ" name="Capteur" isAbstract="true"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rDXRcMrhEee9jsGys1t6BQ" name="Capteurs"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_WB1hgNBJEeerb7dwGRYkDA" memberEnd="_WB8PMNBJEeerb7dwGRYkDA _WB_SgNBJEeerb7dwGRYkDA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WB2voNBJEeerb7dwGRYkDA" source="org.eclipse.papyrus">
@@ -122,17 +122,15 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_WB_SgNBJEeerb7dwGRYkDA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_WB1hgNBJEeerb7dwGRYkDA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_fvijoNBOEeerb7dwGRYkDA" name="Actionneur" isAbstract="true"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_lcKvQNBOEeerb7dwGRYkDA" memberEnd="_lcL9YtBOEeerb7dwGRYkDA _lcMkctBOEeerb7dwGRYkDA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lcL9YNBOEeerb7dwGRYkDA" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lcL9YdBOEeerb7dwGRYkDA" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_lcMkctBOEeerb7dwGRYkDA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_lcKvQNBOEeerb7dwGRYkDA"/>
-    </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_NyoYgNBWEeeico1UKPGsmA" name="BesoinsRafines">
       <packagedElement xmi:type="uml:Package" xmi:id="_RqEkINBWEeeico1UKPGsmA" name="ExigencesDeSecurite"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_UvLT4NBWEeeico1UKPGsmA" name="ExigencesAdaptation"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_WLyb0NBWEeeico1UKPGsmA" name="ExigencesEconomie"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JeFPkNBVEeeOLbtHDDZHLg" name="SH_SEC_040">
+      <packagedElement xmi:type="uml:Class" xmi:id="_RC4dwNBVEeeOLbtHDDZHLg" name="SH_SEC_042_1"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1NyJsNBVEeeOLbtHDDZHLg" name="SH_SEC_041_1"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Uw4kENBWEeeOLbtHDDZHLg" name="SH_SEC_041_2"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -219,7 +217,12 @@
   <Blocks:Block xmi:id="_nGJDYMrgEee9jsGys1t6BQ" base_Class="_nGBHkMrgEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_JRkx8MrhEee9jsGys1t6BQ" base_Class="_JReEQMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_rDd_IMrhEee9jsGys1t6BQ" base_Class="_rDXRcMrhEee9jsGys1t6BQ"/>
-  <Blocks:Block xmi:id="_fvsUoNBOEeerb7dwGRYkDA" base_Class="_fvijoNBOEeerb7dwGRYkDA"/>
   <Requirements:Requirement xmi:id="_xc-OsNBOEeeZ-PPtvQD9cA" base_Class="_xchiwNBOEeeZ-PPtvQD9cA" id="SH_SEC_041" text="La MI doit pouvoir détecter une intrusion."/>
   <Requirements:Requirement xmi:id="_8mDb8NBOEeeZ-PPtvQD9cA" base_Class="_8lv58NBOEeeZ-PPtvQD9cA" id="SH_SEC_042" text="La MI doit pouvoir joindre la police."/>
+  <Requirements:Requirement xmi:id="_RDED8NBVEeeOLbtHDDZHLg" base_Class="_RC4dwNBVEeeOLbtHDDZHLg" id="SH_SEC_042_1" text="La MI doit pouvoir passer un appel."/>
+  <Requirements:DeriveReqt xmi:id="_TfQZkNBVEeeOLbtHDDZHLg" base_DirectedRelationship="_Teu1INBVEeeOLbtHDDZHLg" base_Abstraction="_Teu1INBVEeeOLbtHDDZHLg"/>
+  <Requirements:Requirement xmi:id="_1N43YNBVEeeOLbtHDDZHLg" base_Class="_1NyJsNBVEeeOLbtHDDZHLg" id="SH_SEC_041_1" text="La MI doit pouvoir detecter quand on force une porte"/>
+  <Requirements:Requirement xmi:id="_Uw-qsNBWEeeOLbtHDDZHLg" base_Class="_Uw4kENBWEeeOLbtHDDZHLg" id="SH_SEC_041_2" text="La MI doit pouvoir détecter quand on force une fenêtre"/>
+  <Requirements:Refine xmi:id="_hpw7ANBWEeeOLbtHDDZHLg" base_DirectedRelationship="_hppmQNBWEeeOLbtHDDZHLg" base_Abstraction="_hppmQNBWEeeOLbtHDDZHLg"/>
+  <Requirements:Refine xmi:id="_l1nQYNBWEeeOLbtHDDZHLg" base_DirectedRelationship="_l1hJwNBWEeeOLbtHDDZHLg" base_Abstraction="_l1hJwNBWEeeOLbtHDDZHLg"/>
 </xmi:XMI>
