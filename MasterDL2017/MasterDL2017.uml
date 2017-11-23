@@ -126,6 +126,13 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_lcMkctBOEeerb7dwGRYkDA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_lcKvQNBOEeerb7dwGRYkDA"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_NQkfMNBUEeeDs4vUdPzRUQ" name="SH_ACO_050">
+      <packagedElement xmi:type="uml:Class" xmi:id="_KP2DsNBVEeeDs4vUdPzRUQ" name="SH_ACO_050_1">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_0APN8NBUEeeDs4vUdPzRUQ" name="SH_ACO_050_1_1"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_VRDHUNBVEeeDs4vUdPzRUQ" name="SH_ACO_050_1_2"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1JqpQNBWEeeDs4vUdPzRUQ" name="SH_ACO_50_2"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -212,4 +219,8 @@
   <Blocks:Block xmi:id="_JRkx8MrhEee9jsGys1t6BQ" base_Class="_JReEQMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_rDd_IMrhEee9jsGys1t6BQ" base_Class="_rDXRcMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_fvsUoNBOEeerb7dwGRYkDA" base_Class="_fvijoNBOEeerb7dwGRYkDA"/>
+  <Requirements:Requirement xmi:id="_0AlMMNBUEeeDs4vUdPzRUQ" base_Class="_0APN8NBUEeeDs4vUdPzRUQ" id="SH_ACO_050_1_1" text="Le dispositif central doit permettre configurer l'heure de fermeture des volets"/>
+  <Requirements:Requirement xmi:id="_KQCQ8NBVEeeDs4vUdPzRUQ" base_Class="_KP2DsNBVEeeDs4vUdPzRUQ" id="SH_ACO_050_1" text="Le dispositif central doit permettre de configurer le fonctionnement des volets"/>
+  <Requirements:Requirement xmi:id="_VRJ1ANBVEeeDs4vUdPzRUQ" base_Class="_VRDHUNBVEeeDs4vUdPzRUQ" id="SH_ACO_050_1_2" text="Le dispositif central doit permettre configurer l'heure d'ouverture des volets"/>
+  <Requirements:Requirement xmi:id="_1KH8QNBWEeeDs4vUdPzRUQ" base_Class="_1JqpQNBWEeeDs4vUdPzRUQ" id="SH_ACO_50_2" text="Le dispositif central doit permettre de configurer la température"/>
 </xmi:XMI>
