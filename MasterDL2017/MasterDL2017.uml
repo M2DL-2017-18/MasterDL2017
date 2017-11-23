@@ -115,6 +115,12 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_WB_SgNBJEeerb7dwGRYkDA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_WB1hgNBJEeerb7dwGRYkDA"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_yc5L4NBUEeezsuicuuIJMA" name="SH_SEC_030">
+      <packagedElement xmi:type="uml:Class" xmi:id="_1-ki4NBUEeezsuicuuIJMA" name="SH_SEC_032"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_3FpqQNBVEeezsuicuuIJMA" name="Refine1" client="_1-ki4NBUEeezsuicuuIJMA" supplier="_VA4H4NBWEeezsuicuuIJMA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_VA4H4NBWEeezsuicuuIJMA" name="SH_SEC_031"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="__fi38NBWEeezsuicuuIJMA" name="Refine3" client="_VA4H4NBWEeezsuicuuIJMA" supplier="_366-QcrXEee9jsGys1t6BQ"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -200,4 +206,8 @@
   <Blocks:Block xmi:id="_nGJDYMrgEee9jsGys1t6BQ" base_Class="_nGBHkMrgEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_JRkx8MrhEee9jsGys1t6BQ" base_Class="_JReEQMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_rDd_IMrhEee9jsGys1t6BQ" base_Class="_rDXRcMrhEee9jsGys1t6BQ"/>
+  <Requirements:Requirement xmi:id="_1-uT4NBUEeezsuicuuIJMA" base_Class="_1-ki4NBUEeezsuicuuIJMA" id="SH_SEC_032" text="Les gens doivent pouvoir s'identifier"/>
+  <Requirements:Refine xmi:id="_3F9MQNBVEeezsuicuuIJMA" base_DirectedRelationship="_3FpqQNBVEeezsuicuuIJMA" base_Abstraction="_3FpqQNBVEeezsuicuuIJMA"/>
+  <Requirements:Requirement xmi:id="_VBB44NBWEeezsuicuuIJMA" base_Class="_VA4H4NBWEeezsuicuuIJMA" id="SH_SEC_031" text="Le système a besoin de savoir qui a le droit d'entrer"/>
+  <Requirements:Refine xmi:id="__fsB4NBWEeezsuicuuIJMA" base_DirectedRelationship="__fi38NBWEeezsuicuuIJMA" base_Abstraction="__fi38NBWEeezsuicuuIJMA"/>
 </xmi:XMI>
