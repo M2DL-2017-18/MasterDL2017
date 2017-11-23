@@ -1354,4 +1354,12 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xia_kcrhEee9jsGys1t6BQ" id="(0.4,1.0)"/>
     </edges>
   </notation:Diagram>
+  <notation:Diagram xmi:id="_VwD7YNBREeeOrKx0xYV8jw" type="UseCase" name="NewSysML1.4UseCaseDiagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_VwD7YdBREeeOrKx0xYV8jw" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_VwD7YtBREeeOrKx0xYV8jw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_VwD7Y9BREeeOrKx0xYV8jw" diagramKindId="org.eclipse.papyrus.sysml14.diagram.useCase">
+      <owner xmi:type="uml:Class" href="MasterDL2017.uml#_J8ZgENBREeeOrKx0xYV8jw"/>
+    </styles>
+    <element xmi:type="uml:Class" href="MasterDL2017.uml#_J8ZgENBREeeOrKx0xYV8jw"/>
+  </notation:Diagram>
 </xmi:XMI>
