@@ -122,6 +122,11 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_WB_SgNBJEeerb7dwGRYkDA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_WB1hgNBJEeerb7dwGRYkDA"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_NyoYgNBWEeeico1UKPGsmA" name="BesoinsRafines">
+      <packagedElement xmi:type="uml:Package" xmi:id="_RqEkINBWEeeico1UKPGsmA" name="ExigencesDeSecurite"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_UvLT4NBWEeeico1UKPGsmA" name="ExigencesAdaptation"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_WLyb0NBWEeeico1UKPGsmA" name="ExigencesEconomie"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_JeFPkNBVEeeOLbtHDDZHLg" name="SH_SEC_040">
       <packagedElement xmi:type="uml:Class" xmi:id="_RC4dwNBVEeeOLbtHDDZHLg" name="SH_SEC_042_1"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_1NyJsNBVEeeOLbtHDDZHLg" name="SH_SEC_041_1"/>
