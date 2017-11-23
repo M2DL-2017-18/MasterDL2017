@@ -156,6 +156,13 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_1NyJsNBVEeeOLbtHDDZHLg" name="SH_SEC_041_1"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_Uw4kENBWEeeOLbtHDDZHLg" name="SH_SEC_041_2"/>
         </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_27mdwNBSEee8OqvbQkaGnQ" name="SH_SEC_070">
+          <packagedElement xmi:type="uml:Class" xmi:id="_lvLmUNBYEee8OqvbQkaGnQ" name="accesSecours"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_bTo_ENBZEee8OqvbQkaGnQ" name="EntreeSeccours"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_nGOcUNBZEee8OqvbQkaGnQ" name="OuvertureEntreeSpecifique"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_47VKwNBbEee8OqvbQkaGnQ" client="_nGOcUNBZEee8OqvbQkaGnQ" supplier="_lvLmUNBYEee8OqvbQkaGnQ"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_vumQcNCSEeeS74ewiR2bfA" name="" client="_bTo_ENBZEee8OqvbQkaGnQ" supplier="_lvLmUNBYEee8OqvbQkaGnQ"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_UvLT4NBWEeeico1UKPGsmA" name="ExigencesAdaptation">
         <packagedElement xmi:type="uml:Package" xmi:id="_AwrvsNBXEeeZkOnqcrOFtA" name="SH_ACO_070">
@@ -253,6 +260,10 @@
   <Blocks:Block xmi:id="_nGJDYMrgEee9jsGys1t6BQ" base_Class="_nGBHkMrgEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_JRkx8MrhEee9jsGys1t6BQ" base_Class="_JReEQMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_rDd_IMrhEee9jsGys1t6BQ" base_Class="_rDXRcMrhEee9jsGys1t6BQ"/>
+  <Requirements:Requirement xmi:id="_lvLmUdBYEee8OqvbQkaGnQ" base_Class="_lvLmUNBYEee8OqvbQkaGnQ" id="SEC_070_01" text="Les secouristes doivent pouvoir acceder a la maison via une entree specifique"/>
+  <Requirements:Requirement xmi:id="_bTywENBZEee8OqvbQkaGnQ" base_Class="_bTo_ENBZEee8OqvbQkaGnQ" id="SEC_070_01_01" text="La maison doit posseder une entrer de secours"/>
+  <Requirements:Requirement xmi:id="_nGOcUdBZEee8OqvbQkaGnQ" base_Class="_nGOcUNBZEee8OqvbQkaGnQ" id="SEC_070_02" text="Les secouristes doivent pouvoir ouvrir l'entrée spécifique"/>
+  <Requirements:DeriveReqt xmi:id="_47oFsNBbEee8OqvbQkaGnQ" base_DirectedRelationship="_47VKwNBbEee8OqvbQkaGnQ" base_Abstraction="_47VKwNBbEee8OqvbQkaGnQ"/>
   <Requirements:Requirement xmi:id="_y_SZMNBSEeeZkOnqcrOFtA" base_Class="_y_DvsNBSEeeZkOnqcrOFtA" id="SH_ACO_071" text="L'utilisateur doit pouvoir facilement s'asseoir sur le lit"/>
   <Requirements:Requirement xmi:id="_1WCYsNBTEeeZkOnqcrOFtA" base_Class="_1V7rANBTEeeZkOnqcrOFtA" id="SH_ACO_072" text="L'utilisateur doit pouvoir facilement se redresser lorsqu'il est allongé sur son lit"/>
   <Requirements:Requirement xmi:id="_HCl6ANBUEeeZkOnqcrOFtA" base_Class="_HCfMUNBUEeeZkOnqcrOFtA" id="SH_ACO_073" text="L'utilisateur doit pouvoir choisir le côté de son lit qui lui est le plus favorable"/>
@@ -273,4 +284,9 @@
   <Requirements:Refine xmi:id="_l1nQYNBWEeeOLbtHDDZHLg" base_DirectedRelationship="_l1hJwNBWEeeOLbtHDDZHLg" base_Abstraction="_l1hJwNBWEeeOLbtHDDZHLg"/>
   <Blocks:Block xmi:id="_oE0LgNBZEeerb7dwGRYkDA" base_Class="_oEn-QNBZEeerb7dwGRYkDA"/>
   <Blocks:Block xmi:id="_sKEJoNBZEeerb7dwGRYkDA" base_Class="_sJ5KgNBZEeerb7dwGRYkDA"/>
+  <Requirements:Requirement xmi:id="_lvLmUdBYEee8OqvbQkaGnQ" base_Class="_lvLmUNBYEee8OqvbQkaGnQ" id="SEC_070_01" text="Les secouristes doivent pouvoir acceder a la maison via une entree specifique"/>
+  <Requirements:Requirement xmi:id="_bTywENBZEee8OqvbQkaGnQ" base_Class="_bTo_ENBZEee8OqvbQkaGnQ" id="SEC_070_01_01" text="La maison doit posseder une entrer de secours"/>
+  <Requirements:Requirement xmi:id="_nGOcUdBZEee8OqvbQkaGnQ" base_Class="_nGOcUNBZEee8OqvbQkaGnQ" id="SEC_070_02" text="Les secouristes doivent pouvoir ouvrir l'entrée spécifique"/>
+  <Requirements:DeriveReqt xmi:id="_47oFsNBbEee8OqvbQkaGnQ" base_DirectedRelationship="_47VKwNBbEee8OqvbQkaGnQ" base_Abstraction="_47VKwNBbEee8OqvbQkaGnQ"/>
+  <Requirements:DeriveReqt xmi:id="_vu5ycNCSEeeS74ewiR2bfA" base_DirectedRelationship="_vumQcNCSEeeS74ewiR2bfA" base_Abstraction="_vumQcNCSEeeS74ewiR2bfA"/>
 </xmi:XMI>
