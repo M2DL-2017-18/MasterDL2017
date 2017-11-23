@@ -127,7 +127,9 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_lcMkctBOEeerb7dwGRYkDA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_lcKvQNBOEeerb7dwGRYkDA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_BC-BQNBREeeOrKx0xYV8jw" name="SH_SEC_060">
-      <packagedElement xmi:type="uml:Class" xmi:id="_J8ZgENBREeeOrKx0xYV8jw" name="SH_SEC_060_01"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_J8ZgENBREeeOrKx0xYV8jw" name="SH_SEC_060_01">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_WHTdENBZEeeOrKx0xYV8jw" name="SH_SEC_060_01_1"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_MyxQQNBREeeOrKx0xYV8jw" name="SH_SEC_060_02"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_NbKbENBTEeeOrKx0xYV8jw" name="Refine1" client="_J8ZgENBREeeOrKx0xYV8jw" supplier="_367lUsrXEee9jsGys1t6BQ"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_OujVkNBTEeeOrKx0xYV8jw" name="Refine2" client="_MyxQQNBREeeOrKx0xYV8jw" supplier="_367lUsrXEee9jsGys1t6BQ"/>
@@ -226,4 +228,5 @@
   <Requirements:Refine xmi:id="_Ouu7wNBTEeeOrKx0xYV8jw" base_DirectedRelationship="_OujVkNBTEeeOrKx0xYV8jw" base_Abstraction="_OujVkNBTEeeOrKx0xYV8jw"/>
   <Requirements:Requirement xmi:id="_V3zTYNBXEeeOrKx0xYV8jw" base_Class="_VzTN4NBXEeeOrKx0xYV8jw" id="SH_SEC_060_03" text="La ligne téléphonique doit être dispponible, elle ne doit pas être occupée"/>
   <Requirements:Refine xmi:id="_i1J6oNBXEeeOrKx0xYV8jw" base_DirectedRelationship="_i0-7gNBXEeeOrKx0xYV8jw" base_Abstraction="_i0-7gNBXEeeOrKx0xYV8jw"/>
+  <Requirements:Requirement xmi:id="_WHfqUNBZEeeOrKx0xYV8jw" base_Class="_WHTdENBZEeeOrKx0xYV8jw" id="SH_SEC_060_01_1" text="La caméra doit garder l'habitant dans son champ de vision"/>
 </xmi:XMI>
