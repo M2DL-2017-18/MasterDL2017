@@ -126,7 +126,12 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_lcMkctBOEeerb7dwGRYkDA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_lcKvQNBOEeerb7dwGRYkDA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_AwA2wNBWEeeVCutXKQMpkA" name="SH_ACO_060"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_AwA2wNBWEeeVCutXKQMpkA" name="SH_ACO_060">
+      <packagedElement xmi:type="uml:Class" xmi:id="_zG0nwNBWEeeVCutXKQMpkA" name="Application Mobile">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_lteLkNBXEeeVCutXKQMpkA" name="Application Android"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_cUrQMNBXEeeVCutXKQMpkA" name="Application iOS"/>
+      </packagedElement>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -213,4 +218,7 @@
   <Blocks:Block xmi:id="_JRkx8MrhEee9jsGys1t6BQ" base_Class="_JReEQMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_rDd_IMrhEee9jsGys1t6BQ" base_Class="_rDXRcMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_fvsUoNBOEeerb7dwGRYkDA" base_Class="_fvijoNBOEeerb7dwGRYkDA"/>
+  <Requirements:Requirement xmi:id="_zHRTsNBWEeeVCutXKQMpkA" base_Class="_zG0nwNBWEeeVCutXKQMpkA" id="SH_ACO-060-1" text="Le résident doit pouvoir disposer d'une application mobile connectée au SHS et permettant de le contrôler."/>
+  <Requirements:Requirement xmi:id="_cU1BMNBXEeeVCutXKQMpkA" base_Class="_cUrQMNBXEeeVCutXKQMpkA" id="SH_ACO-060-1.1" text="Le résident doit pouvoir disposer d'une application iOS pour controler le SHS"/>
+  <Requirements:Requirement xmi:id="_ltn8kNBXEeeVCutXKQMpkA" base_Class="_lteLkNBXEeeVCutXKQMpkA" id="SH_ACO-060-1.2" text="Le résident doit pouvoir disposer d'une application Android pour controler le SHS"/>
 </xmi:XMI>
