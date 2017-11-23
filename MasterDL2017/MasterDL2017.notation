@@ -325,6 +325,49 @@
       <element xmi:type="uml:Package" href="MasterDL2017.uml#_usPywMrYEee9jsGys1t6BQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w9CwscrYEee9jsGys1t6BQ" x="500" y="40" width="260" height="200"/>
     </children>
+    <children xmi:type="notation:Shape" xmi:id="_20VNkNBREeeKE-665mNgZw" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_20VNktBREeeKE-665mNgZw" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_20VNk9BREeeKE-665mNgZw" type="Package_PackagedElementCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_-mVKQNBREeeKE-665mNgZw" type="Class_Shape_CN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_-mVKQtBREeeKE-665mNgZw" type="Class_NameLabel_CN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_-mVKQ9BREeeKE-665mNgZw" type="Class_FloatingNameLabel_CN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_-mVKRNBREeeKE-665mNgZw" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_-mVKRdBREeeKE-665mNgZw" type="Class_AttributeCompartment_CN">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_-mVKRtBREeeKE-665mNgZw"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_-mVKR9BREeeKE-665mNgZw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_-mVKSNBREeeKE-665mNgZw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-mVKSdBREeeKE-665mNgZw"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_-mVKStBREeeKE-665mNgZw" type="Class_OperationCompartment_CN">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_-mVKS9BREeeKE-665mNgZw"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_-mVKTNBREeeKE-665mNgZw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_-mVKTdBREeeKE-665mNgZw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-mVKTtBREeeKE-665mNgZw"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_-mVKT9BREeeKE-665mNgZw" type="Class_NestedClassifierCompartment_CN">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_-mVKUNBREeeKE-665mNgZw"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_-mVKUdBREeeKE-665mNgZw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_-mVKUtBREeeKE-665mNgZw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-mVKU9BREeeKE-665mNgZw"/>
+          </children>
+          <element xmi:type="uml:Class" href="MasterDL2017.uml#_367lXMrXEee9jsGys1t6BQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-mVKQdBREeeKE-665mNgZw" x="80" y="29"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_-mx2TNBREeeKE-665mNgZw" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_-mx2TdBREeeKE-665mNgZw"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_-mx2T9BREeeKE-665mNgZw" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:Class" href="MasterDL2017.uml#_367lXMrXEee9jsGys1t6BQ"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-mx2TtBREeeKE-665mNgZw" x="200"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_20VNlNBREeeKE-665mNgZw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_20VNldBREeeKE-665mNgZw"/>
+      </children>
+      <element xmi:type="uml:Package" href="MasterDL2017.uml#_AP2zcMrZEee9jsGys1t6BQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_20VNkdBREeeKE-665mNgZw" x="80" y="60"/>
+    </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_uIYh4cVgEeeCE7XyF9h1YA" name="diagram_compatibility_version" stringValue="1.3.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_uIYh4sVgEeeCE7XyF9h1YA"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_uIYh48VgEeeCE7XyF9h1YA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.requirement">
@@ -441,6 +484,23 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3rZ3YsreEeeSVpVqKOhnEw" points="[775, 445, -643984, -643984]$[855, 545, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3r2jUMreEeeSVpVqKOhnEw" id="(0.6,1.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3r2jUcreEeeSVpVqKOhnEw" id="(0.425531914893617,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_-mx2UNBREeeKE-665mNgZw" type="StereotypeCommentLink" source="_-mVKQNBREeeKE-665mNgZw" target="_-mx2TNBREeeKE-665mNgZw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_-mx2UdBREeeKE-665mNgZw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_-mx2VdBREeeKE-665mNgZw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="MasterDL2017.uml#_367lXMrXEee9jsGys1t6BQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-mx2UtBREeeKE-665mNgZw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-mx2U9BREeeKE-665mNgZw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-mx2VNBREeeKE-665mNgZw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_Uhoj8NBSEeeKE-665mNgZw" type="Element_ContainmentEdge" source="_w9CwsMrYEee9jsGys1t6BQ" target="_20VNkNBREeeKE-665mNgZw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_Uhoj8dBSEeeKE-665mNgZw"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Uhoj8tBSEeeKE-665mNgZw" points="[500, 140, -643984, -643984]$[280, 140, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UirFwNBSEeeKE-665mNgZw" id="(0.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UirFwdBSEeeKE-665mNgZw" id="(1.0,0.45454545454545453)"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_qs33UMrREeeNZ8RIGLMMjg" type="PapyrusUMLClassDiagram" name="Tracabilite" measurementUnit="Pixel">
