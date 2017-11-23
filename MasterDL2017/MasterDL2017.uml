@@ -131,6 +131,9 @@
         <nestedClassifier xmi:type="uml:Class" xmi:id="_lteLkNBXEeeVCutXKQMpkA" name="Application Android"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_cUrQMNBXEeeVCutXKQMpkA" name="Application iOS"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_akoZcNBYEeeVCutXKQMpkA" name="IP"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Fvz0wNBaEeeVCutXKQMpkA" name="Bluetooth"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L16QUNBaEeeVCutXKQMpkA" name="Wifi"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -221,4 +224,7 @@
   <Requirements:Requirement xmi:id="_zHRTsNBWEeeVCutXKQMpkA" base_Class="_zG0nwNBWEeeVCutXKQMpkA" id="SH_ACO-060-1" text="Le résident doit pouvoir disposer d'une application mobile connectée au SHS et permettant de le contrôler."/>
   <Requirements:Requirement xmi:id="_cU1BMNBXEeeVCutXKQMpkA" base_Class="_cUrQMNBXEeeVCutXKQMpkA" id="SH_ACO-060-1.1" text="Le résident doit pouvoir disposer d'une application iOS pour controler le SHS"/>
   <Requirements:Requirement xmi:id="_ltn8kNBXEeeVCutXKQMpkA" base_Class="_lteLkNBXEeeVCutXKQMpkA" id="SH_ACO-060-1.2" text="Le résident doit pouvoir disposer d'une application Android pour controler le SHS"/>
+  <Requirements:Requirement xmi:id="_akyKcNBYEeeVCutXKQMpkA" base_Class="_akoZcNBYEeeVCutXKQMpkA" id="SH_ACO-060-2" text="Le Systeme doit avoir une interface de programmation pour les web services&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_Fv9lwNBaEeeVCutXKQMpkA" base_Class="_Fvz0wNBaEeeVCutXKQMpkA" id="SH_ACO-060-3" text="le systéme doit reconnetre les  une connection Bluetooth avec des equipements"/>
+  <Requirements:Requirement xmi:id="_L16QUdBaEeeVCutXKQMpkA" base_Class="_L16QUNBaEeeVCutXKQMpkA" id="SH_ACO-060-4" text="le systéme doit reconnaître  les equipements connectés au Wifi"/>
 </xmi:XMI>
