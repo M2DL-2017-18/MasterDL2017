@@ -92,6 +92,14 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WB-EYNBJEeerb7dwGRYkDA"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WB-rcNBJEeerb7dwGRYkDA" value="*"/>
         </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_uulU0tBZEeerb7dwGRYkDA" name="actionneur" type="_sJ5KgNBZEeerb7dwGRYkDA" aggregation="composite" association="_uuktwNBZEeerb7dwGRYkDA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uul74NBZEeerb7dwGRYkDA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uul74dBZEeerb7dwGRYkDA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_xHmaotBZEeerb7dwGRYkDA" name="knx" type="_oEn-QNBZEeerb7dwGRYkDA" aggregation="composite" association="_xHlzkNBZEeerb7dwGRYkDA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xHnBsNBZEeerb7dwGRYkDA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xHnBsdBZEeerb7dwGRYkDA" value="1"/>
+        </ownedAttribute>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_JReEQMrhEee9jsGys1t6BQ" name="CapteurFumee">
           <generalization xmi:type="uml:Generalization" xmi:id="_xh_hwMrhEee9jsGys1t6BQ" general="_rDXRcMrhEee9jsGys1t6BQ"/>
         </nestedClassifier>
@@ -114,13 +122,25 @@
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_5FGjUsrgEee9jsGys1t6BQ" name="context" type="_mDWwsMrgEee9jsGys1t6BQ" association="_5FEHEMrgEee9jsGys1t6BQ"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_rDXRcMrhEee9jsGys1t6BQ" name="Capteurs"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rDXRcMrhEee9jsGys1t6BQ" name="Capteur" isAbstract="true"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_WB1hgNBJEeerb7dwGRYkDA" memberEnd="_WB8PMNBJEeerb7dwGRYkDA _WB_SgNBJEeerb7dwGRYkDA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WB2voNBJEeerb7dwGRYkDA" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WB3WsNBJEeerb7dwGRYkDA" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_WB_SgNBJEeerb7dwGRYkDA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_WB1hgNBJEeerb7dwGRYkDA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_zmifENBVEeeZkOnqcrOFtA" name="Refine" client="_jALw0NBVEeeZkOnqcrOFtA" supplier="_y_DvsNBSEeeZkOnqcrOFtA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_sD1GINBWEeeZkOnqcrOFtA" name="Refine" client="_y_DvsNBSEeeZkOnqcrOFtA" supplier="_367lWsrXEee9jsGys1t6BQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_sc8wwNBWEeeZkOnqcrOFtA" name="Refine" client="_1V7rANBTEeeZkOnqcrOFtA" supplier="_367lWsrXEee9jsGys1t6BQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_s6tDwNBWEeeZkOnqcrOFtA" name="Refine" client="_HCfMUNBUEeeZkOnqcrOFtA" supplier="_367lWsrXEee9jsGys1t6BQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_tUjuMNBWEeeZkOnqcrOFtA" name="Refine" client="_jJM_YNBUEeeZkOnqcrOFtA" supplier="_367lWsrXEee9jsGys1t6BQ"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_AwrvsNBXEeeZkOnqcrOFtA" name="SH_ACO_070">
+      <packagedElement xmi:type="uml:Class" xmi:id="_y_DvsNBSEeeZkOnqcrOFtA" name="SH_ACO_071"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_jALw0NBVEeeZkOnqcrOFtA" name="SH_ACO_0711"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1V7rANBTEeeZkOnqcrOFtA" name="SH_ACO_072"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_HCfMUNBUEeeZkOnqcrOFtA" name="SH_ACO_073"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_jJM_YNBUEeeZkOnqcrOFtA" name="SH_ACO_074"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_NyoYgNBWEeeico1UKPGsmA" name="BesoinsRafines">
       <packagedElement xmi:type="uml:Package" xmi:id="_RqEkINBWEeeico1UKPGsmA" name="ExigencesDeSecurite"/>
@@ -131,6 +151,20 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_RC4dwNBVEeeOLbtHDDZHLg" name="SH_SEC_042_1"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_1NyJsNBVEeeOLbtHDDZHLg" name="SH_SEC_041_1"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_Uw4kENBWEeeOLbtHDDZHLg" name="SH_SEC_041_2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_oEn-QNBZEeerb7dwGRYkDA" name="KNX"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_sJ5KgNBZEeerb7dwGRYkDA" name="Actionneur" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_uuktwNBZEeerb7dwGRYkDA" visibility="public" memberEnd="_uulU0tBZEeerb7dwGRYkDA _uul74tBZEeerb7dwGRYkDA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uulU0NBZEeerb7dwGRYkDA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uulU0dBZEeerb7dwGRYkDA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_uul74tBZEeerb7dwGRYkDA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_uuktwNBZEeerb7dwGRYkDA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_xHlzkNBZEeerb7dwGRYkDA" memberEnd="_xHmaotBZEeerb7dwGRYkDA _xHnBstBZEeerb7dwGRYkDA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xHmaoNBZEeerb7dwGRYkDA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xHmaodBZEeerb7dwGRYkDA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_xHnBstBZEeerb7dwGRYkDA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_xHlzkNBZEeerb7dwGRYkDA"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -217,6 +251,16 @@
   <Blocks:Block xmi:id="_nGJDYMrgEee9jsGys1t6BQ" base_Class="_nGBHkMrgEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_JRkx8MrhEee9jsGys1t6BQ" base_Class="_JReEQMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_rDd_IMrhEee9jsGys1t6BQ" base_Class="_rDXRcMrhEee9jsGys1t6BQ"/>
+  <Requirements:Requirement xmi:id="_y_SZMNBSEeeZkOnqcrOFtA" base_Class="_y_DvsNBSEeeZkOnqcrOFtA" id="SH_ACO_071" text="L'utilisateur doit pouvoir facilement s'asseoir sur le lit"/>
+  <Requirements:Requirement xmi:id="_1WCYsNBTEeeZkOnqcrOFtA" base_Class="_1V7rANBTEeeZkOnqcrOFtA" id="SH_ACO_072" text="L'utilisateur doit pouvoir facilement se redresser lorsqu'il est allongé sur son lit"/>
+  <Requirements:Requirement xmi:id="_HCl6ANBUEeeZkOnqcrOFtA" base_Class="_HCfMUNBUEeeZkOnqcrOFtA" id="SH_ACO_073" text="L'utilisateur doit pouvoir choisir le côté de son lit qui lui est le plus favorable"/>
+  <Requirements:Requirement xmi:id="_jJTtENBUEeeZkOnqcrOFtA" base_Class="_jJM_YNBUEeeZkOnqcrOFtA" id="SH_ACO_074" text="L'utilisateur doit pouvoir prendre appui afin de pouvoir se lever du lit plus facilement&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_jASegNBVEeeZkOnqcrOFtA" base_Class="_jALw0NBVEeeZkOnqcrOFtA" id="SH_ACO_0711" text="Le lit doit pouvoir descendre et monter afin de s'adapter à la hauteur&#xD;&#xA;"/>
+  <Requirements:Refine xmi:id="_zmrB8NBVEeeZkOnqcrOFtA" base_DirectedRelationship="_zmifENBVEeeZkOnqcrOFtA" base_Abstraction="_zmifENBVEeeZkOnqcrOFtA"/>
+  <Requirements:Refine xmi:id="_sD6lsNBWEeeZkOnqcrOFtA" base_DirectedRelationship="_sD1GINBWEeeZkOnqcrOFtA" base_Abstraction="_sD1GINBWEeeZkOnqcrOFtA"/>
+  <Requirements:Refine xmi:id="_sdBpQNBWEeeZkOnqcrOFtA" base_DirectedRelationship="_sc8wwNBWEeeZkOnqcrOFtA" base_Abstraction="_sc8wwNBWEeeZkOnqcrOFtA"/>
+  <Requirements:Refine xmi:id="_s6x8QNBWEeeZkOnqcrOFtA" base_DirectedRelationship="_s6tDwNBWEeeZkOnqcrOFtA" base_Abstraction="_s6tDwNBWEeeZkOnqcrOFtA"/>
+  <Requirements:Refine xmi:id="_tUpNwNBWEeeZkOnqcrOFtA" base_DirectedRelationship="_tUjuMNBWEeeZkOnqcrOFtA" base_Abstraction="_tUjuMNBWEeeZkOnqcrOFtA"/>
   <Requirements:Requirement xmi:id="_xc-OsNBOEeeZ-PPtvQD9cA" base_Class="_xchiwNBOEeeZ-PPtvQD9cA" id="SH_SEC_041" text="La MI doit pouvoir détecter une intrusion."/>
   <Requirements:Requirement xmi:id="_8mDb8NBOEeeZ-PPtvQD9cA" base_Class="_8lv58NBOEeeZ-PPtvQD9cA" id="SH_SEC_042" text="La MI doit pouvoir joindre la police."/>
   <Requirements:Requirement xmi:id="_RDED8NBVEeeOLbtHDDZHLg" base_Class="_RC4dwNBVEeeOLbtHDDZHLg" id="SH_SEC_042_1" text="La MI doit pouvoir passer un appel."/>
@@ -225,4 +269,6 @@
   <Requirements:Requirement xmi:id="_Uw-qsNBWEeeOLbtHDDZHLg" base_Class="_Uw4kENBWEeeOLbtHDDZHLg" id="SH_SEC_041_2" text="La MI doit pouvoir détecter quand on force une fenêtre"/>
   <Requirements:Refine xmi:id="_hpw7ANBWEeeOLbtHDDZHLg" base_DirectedRelationship="_hppmQNBWEeeOLbtHDDZHLg" base_Abstraction="_hppmQNBWEeeOLbtHDDZHLg"/>
   <Requirements:Refine xmi:id="_l1nQYNBWEeeOLbtHDDZHLg" base_DirectedRelationship="_l1hJwNBWEeeOLbtHDDZHLg" base_Abstraction="_l1hJwNBWEeeOLbtHDDZHLg"/>
+  <Blocks:Block xmi:id="_oE0LgNBZEeerb7dwGRYkDA" base_Class="_oEn-QNBZEeerb7dwGRYkDA"/>
+  <Blocks:Block xmi:id="_sKEJoNBZEeerb7dwGRYkDA" base_Class="_sJ5KgNBZEeerb7dwGRYkDA"/>
 </xmi:XMI>
