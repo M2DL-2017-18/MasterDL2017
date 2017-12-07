@@ -61,6 +61,65 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_367lXMrXEee9jsGys1t6BQ" name="SH_ECO_020"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lXcrXEee9jsGys1t6BQ" name="SH_ECO_030"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_NQkfMNBUEeeDs4vUdPzRUQ" name="SH_ACO_050">
+        <packagedElement xmi:type="uml:Class" xmi:id="_KP2DsNBVEeeDs4vUdPzRUQ" name="SH_ACO_050_1">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_0APN8NBUEeeDs4vUdPzRUQ" name="SH_ACO_050_1_1"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_VRDHUNBVEeeDs4vUdPzRUQ" name="SH_ACO_050_1_2"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_6p6NwNsiEee-jtdTeSbM1g" name="SH_ACO_050_1_3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1JqpQNBWEeeDs4vUdPzRUQ" name="SH_ACO_50_2">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_F3zmYNsfEee-jtdTeSbM1g" name="SH_ACO_50_2_1"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_aBkJ8NsfEee-jtdTeSbM1g" name="SH_ACO_50_2_2"/>
+          <nestedClassifier xmi:type="uml:Actor" xmi:id="_YDRUcNsjEee-jtdTeSbM1g" name="Utilisateur"/>
+          <nestedClassifier xmi:type="uml:UseCase" xmi:id="_akVjANsjEee-jtdTeSbM1g" name="Modifier la luminosité extérieure">
+            <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_9jM5odsjEee-jtdTeSbM1g" name="ExtensionPoint1"/>
+            <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_-NmhgdsjEee-jtdTeSbM1g" name="ExtensionPoint2"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:UseCase" xmi:id="_bqfSwNsjEee-jtdTeSbM1g" name="Modifier la luminosté intérieure" classifierBehavior="_DW1A8NsrEee-jtdTeSbM1g">
+            <ownedBehavior xmi:type="uml:Interaction" xmi:id="_DW1A8NsrEee-jtdTeSbM1g" name="Interaction1"/>
+            <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_-2pegdsjEee-jtdTeSbM1g" name="ExtensionPoint1"/>
+            <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="__m-IMdsjEee-jtdTeSbM1g" name="ExtensionPoint2"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:UseCase" xmi:id="_kFGHkNsjEee-jtdTeSbM1g" name="Baisser la luminosité">
+            <extend xmi:type="uml:Extend" xmi:id="_-NmhgNsjEee-jtdTeSbM1g" extendedCase="_akVjANsjEee-jtdTeSbM1g" extensionLocation="_-NmhgdsjEee-jtdTeSbM1g"/>
+            <extend xmi:type="uml:Extend" xmi:id="_-2pegNsjEee-jtdTeSbM1g" extendedCase="_bqfSwNsjEee-jtdTeSbM1g" extensionLocation="_-2pegdsjEee-jtdTeSbM1g"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:UseCase" xmi:id="_krc88NsjEee-jtdTeSbM1g" name="Augmenter la luminosité">
+            <extend xmi:type="uml:Extend" xmi:id="_9jM5oNsjEee-jtdTeSbM1g" extendedCase="_akVjANsjEee-jtdTeSbM1g" extensionLocation="_9jM5odsjEee-jtdTeSbM1g"/>
+            <extend xmi:type="uml:Extend" xmi:id="__m-IMNsjEee-jtdTeSbM1g" extendedCase="_bqfSwNsjEee-jtdTeSbM1g" extensionLocation="__m-IMdsjEee-jtdTeSbM1g"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Actor" xmi:id="_ySgogNsjEee-jtdTeSbM1g" name="Capteur intérieur"/>
+          <nestedClassifier xmi:type="uml:Actor" xmi:id="_yk2VsNsjEee-jtdTeSbM1g" name="Capteur extérieur"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_hfTxENsjEee-jtdTeSbM1g" memberEnd="_hfwdAtsjEee-jtdTeSbM1g _hfwdA9sjEee-jtdTeSbM1g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hfwdANsjEee-jtdTeSbM1g" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hfwdAdsjEee-jtdTeSbM1g" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_hfwdAtsjEee-jtdTeSbM1g" name="modifier la luminosité extérieure" type="_akVjANsjEee-jtdTeSbM1g" association="_hfTxENsjEee-jtdTeSbM1g"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_hfwdA9sjEee-jtdTeSbM1g" name="utilisateur" type="_YDRUcNsjEee-jtdTeSbM1g" association="_hfTxENsjEee-jtdTeSbM1g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_iZPCsNsjEee-jtdTeSbM1g" memberEnd="_iZPCs9sjEee-jtdTeSbM1g _iZPCtNsjEee-jtdTeSbM1g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iZPCsdsjEee-jtdTeSbM1g" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iZPCstsjEee-jtdTeSbM1g" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_iZPCs9sjEee-jtdTeSbM1g" name="modifier la luminosté intérieure" type="_bqfSwNsjEee-jtdTeSbM1g" association="_iZPCsNsjEee-jtdTeSbM1g"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_iZPCtNsjEee-jtdTeSbM1g" name="utilisateur" type="_YDRUcNsjEee-jtdTeSbM1g" association="_iZPCsNsjEee-jtdTeSbM1g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_5iNJYNsjEee-jtdTeSbM1g" memberEnd="_5iNJY9sjEee-jtdTeSbM1g _5iNJZNsjEee-jtdTeSbM1g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5iNJYdsjEee-jtdTeSbM1g" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5iNJYtsjEee-jtdTeSbM1g" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_5iNJY9sjEee-jtdTeSbM1g" name="capteur extérieur" type="_yk2VsNsjEee-jtdTeSbM1g" association="_5iNJYNsjEee-jtdTeSbM1g"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_5iNJZNsjEee-jtdTeSbM1g" name="modifier la luminosté intérieure" type="_bqfSwNsjEee-jtdTeSbM1g" association="_5iNJYNsjEee-jtdTeSbM1g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_64Ld0NsjEee-jtdTeSbM1g" memberEnd="_64Ld09sjEee-jtdTeSbM1g _64Ld1NsjEee-jtdTeSbM1g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_64Ld0dsjEee-jtdTeSbM1g" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_64Ld0tsjEee-jtdTeSbM1g" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_64Ld09sjEee-jtdTeSbM1g" name="capteur intérieur" type="_ySgogNsjEee-jtdTeSbM1g" association="_64Ld0NsjEee-jtdTeSbM1g"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_64Ld1NsjEee-jtdTeSbM1g" name="modifier la luminosité extérieure" type="_akVjANsjEee-jtdTeSbM1g" association="_64Ld0NsjEee-jtdTeSbM1g"/>
+        </packagedElement>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_8weo4MrgEee9jsGys1t6BQ" name="Acteurs">
       <packagedElement xmi:type="uml:Actor" xmi:id="__GxK0MrgEee9jsGys1t6BQ" name="Habitant"/>
@@ -125,13 +184,6 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lcL9YdBOEeerb7dwGRYkDA" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_lcMkctBOEeerb7dwGRYkDA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_lcKvQNBOEeerb7dwGRYkDA"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_NQkfMNBUEeeDs4vUdPzRUQ" name="SH_ACO_050">
-      <packagedElement xmi:type="uml:Class" xmi:id="_KP2DsNBVEeeDs4vUdPzRUQ" name="SH_ACO_050_1">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_0APN8NBUEeeDs4vUdPzRUQ" name="SH_ACO_050_1_1"/>
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_VRDHUNBVEeeDs4vUdPzRUQ" name="SH_ACO_050_1_2"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_1JqpQNBWEeeDs4vUdPzRUQ" name="SH_ACO_50_2"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -219,8 +271,11 @@
   <Blocks:Block xmi:id="_JRkx8MrhEee9jsGys1t6BQ" base_Class="_JReEQMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_rDd_IMrhEee9jsGys1t6BQ" base_Class="_rDXRcMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_fvsUoNBOEeerb7dwGRYkDA" base_Class="_fvijoNBOEeerb7dwGRYkDA"/>
-  <Requirements:Requirement xmi:id="_0AlMMNBUEeeDs4vUdPzRUQ" base_Class="_0APN8NBUEeeDs4vUdPzRUQ" id="SH_ACO_050_1_1" text="Le dispositif central doit permettre configurer l'heure de fermeture des volets"/>
+  <Requirements:Requirement xmi:id="_0AlMMNBUEeeDs4vUdPzRUQ" base_Class="_0APN8NBUEeeDs4vUdPzRUQ" id="SH_ACO_050_1_1" text="Le dispositif central doit permettre configurer les volets de la chambre&#xD;&#xA;"/>
   <Requirements:Requirement xmi:id="_KQCQ8NBVEeeDs4vUdPzRUQ" base_Class="_KP2DsNBVEeeDs4vUdPzRUQ" id="SH_ACO_050_1" text="Le dispositif central doit permettre de configurer le fonctionnement des volets"/>
-  <Requirements:Requirement xmi:id="_VRJ1ANBVEeeDs4vUdPzRUQ" base_Class="_VRDHUNBVEeeDs4vUdPzRUQ" id="SH_ACO_050_1_2" text="Le dispositif central doit permettre configurer l'heure d'ouverture des volets"/>
-  <Requirements:Requirement xmi:id="_1KH8QNBWEeeDs4vUdPzRUQ" base_Class="_1JqpQNBWEeeDs4vUdPzRUQ" id="SH_ACO_50_2" text="Le dispositif central doit permettre de configurer la température"/>
+  <Requirements:Requirement xmi:id="_VRJ1ANBVEeeDs4vUdPzRUQ" base_Class="_VRDHUNBVEeeDs4vUdPzRUQ" id="SH_ACO_050_1_2" text="Le dispositif central doit permettre configurer les volets du salon&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_1KH8QNBWEeeDs4vUdPzRUQ" base_Class="_1JqpQNBWEeeDs4vUdPzRUQ" id="SH_ACO_50_2" text="Le dispositif central doit permettre de configurer la luminosité "/>
+  <Requirements:Requirement xmi:id="_F4QSUNsfEee-jtdTeSbM1g" base_Class="_F3zmYNsfEee-jtdTeSbM1g" id="SH_ACO_50_2_1" text="Le dispositif central doit permettre de configurer la luminosité extérieure"/>
+  <Requirements:Requirement xmi:id="_aB3E4NsfEee-jtdTeSbM1g" base_Class="_aBkJ8NsfEee-jtdTeSbM1g" id="SH_ACO_50_2_2" text="Le dispositif central doit permettre de configurer la luminosité intérieure"/>
+  <Requirements:Requirement xmi:id="_6p6NwdsiEee-jtdTeSbM1g" base_Class="_6p6NwNsiEee-jtdTeSbM1g" id="SH_ACO_050_1_3" text="Le dispositif central doit permettre configurer les volets de la cuisine&#xD;&#xA;"/>
 </xmi:XMI>
