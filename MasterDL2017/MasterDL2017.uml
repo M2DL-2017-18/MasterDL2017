@@ -121,6 +121,36 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_VA4H4NBWEeezsuicuuIJMA" name="SH_SEC_031"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="__fi38NBWEeezsuicuuIJMA" name="Refine3" client="_VA4H4NBWEeezsuicuuIJMA" supplier="_366-QcrXEee9jsGys1t6BQ"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_U6NZINsgEeeWqspS6Pc6JA" name="Habitant"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XFMC8NsgEeeWqspS6Pc6JA" name="Rentrer dans la maison intelligente"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_i7rIwNsgEeeWqspS6Pc6JA" name="S'identifier">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_x64oINsiEeeWqspS6Pc6JA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_zPit8NsiEeeWqspS6Pc6JA" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_zvDUcNsiEeeWqspS6Pc6JA" name="ExtensionPoint3"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mC1uANsgEeeWqspS6Pc6JA" memberEnd="_mC-38NsgEeeWqspS6Pc6JA _mDAGENsgEeeWqspS6Pc6JA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mC70oNsgEeeWqspS6Pc6JA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mC8bsNsgEeeWqspS6Pc6JA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_mC-38NsgEeeWqspS6Pc6JA" name="rentrer dans la maison intelligente" type="_XFMC8NsgEeeWqspS6Pc6JA" association="_mC1uANsgEeeWqspS6Pc6JA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_mDAGENsgEeeWqspS6Pc6JA" name="habitant" type="_U6NZINsgEeeWqspS6Pc6JA" association="_mC1uANsgEeeWqspS6Pc6JA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ECbRwNsiEeeWqspS6Pc6JA" memberEnd="_ECduAdsiEeeWqspS6Pc6JA _ECeVENsiEeeWqspS6Pc6JA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ECdG8NsiEeeWqspS6Pc6JA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ECduANsiEeeWqspS6Pc6JA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ECduAdsiEeeWqspS6Pc6JA" name="s'identifier" type="_i7rIwNsgEeeWqspS6Pc6JA" association="_ECbRwNsiEeeWqspS6Pc6JA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ECeVENsiEeeWqspS6Pc6JA" name="habitant" type="_U6NZINsgEeeWqspS6Pc6JA" association="_ECbRwNsiEeeWqspS6Pc6JA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_igsyENsiEeeWqspS6Pc6JA" name="code numérique">
+      <extend xmi:type="uml:Extend" xmi:id="_x62y8NsiEeeWqspS6Pc6JA" extendedCase="_i7rIwNsgEeeWqspS6Pc6JA" extensionLocation="_x64oINsiEeeWqspS6Pc6JA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_tLzC0NsiEeeWqspS6Pc6JA" name="contrôle rétinien">
+      <extend xmi:type="uml:Extend" xmi:id="_zPhf0NsiEeeWqspS6Pc6JA" extendedCase="_i7rIwNsgEeeWqspS6Pc6JA" extensionLocation="_zPit8NsiEeeWqspS6Pc6JA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vJvWMNsiEeeWqspS6Pc6JA" name="empreinte digitale">
+      <extend xmi:type="uml:Extend" xmi:id="_zvCtYNsiEeeWqspS6Pc6JA" extendedCase="_i7rIwNsgEeeWqspS6Pc6JA" extensionLocation="_zvDUcNsiEeeWqspS6Pc6JA"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
