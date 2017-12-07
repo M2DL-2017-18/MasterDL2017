@@ -16,42 +16,41 @@
           <nestedClassifier xmi:type="uml:Class" xmi:id="_8lv58NBOEeeZ-PPtvQD9cA" name="SH_SEC_042"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_xchiwNBOEeeZ-PPtvQD9cA" name="SH_SEC_041"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_367lUcrXEee9jsGys1t6BQ" name="SH_SEC_050">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_ywxJYMreEeeSVpVqKOhnEw" name="SH_SEC_50_1" classifierBehavior="_ywxJYcreEeeSVpVqKOhnEw">
-            <ownedBehavior xmi:type="uml:Interaction" xmi:id="_ywxJYcreEeeSVpVqKOhnEw" name="Interaction1">
-              <ownedComment xmi:type="uml:Comment" xmi:id="_ywxJYsreEeeSVpVqKOhnEw"/>
-            </ownedBehavior>
-            <nestedClassifier xmi:type="uml:Actor" xmi:id="_ywxJY8reEeeSVpVqKOhnEw" name="Capteur"/>
-            <nestedClassifier xmi:type="uml:UseCase" xmi:id="_ywxJZMreEeeSVpVqKOhnEw" name="Détecte le feu"/>
-            <nestedClassifier xmi:type="uml:UseCase" xmi:id="_ywxJZcreEeeSVpVqKOhnEw" name="Envoie un signal" classifierBehavior="_ywxJZsreEeeSVpVqKOhnEw">
-              <ownedBehavior xmi:type="uml:Interaction" xmi:id="_ywxJZsreEeeSVpVqKOhnEw" name="Interaction1">
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_ywxJZ8reEeeSVpVqKOhnEw" name="" type="_ywxJY8reEeeSVpVqKOhnEw"/>
-                <lifeline xmi:type="uml:Lifeline" xmi:id="_ywxJaMreEeeSVpVqKOhnEw" name="Système" coveredBy="_ywxJa8reEeeSVpVqKOhnEw"/>
-                <lifeline xmi:type="uml:Lifeline" xmi:id="_ywxJacreEeeSVpVqKOhnEw" name="" represents="_ywxJZ8reEeeSVpVqKOhnEw" coveredBy="_ywxJasreEeeSVpVqKOhnEw"/>
-                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ywxJasreEeeSVpVqKOhnEw" name="Message1SendEvent" covered="_ywxJacreEeeSVpVqKOhnEw" message="_ywxJbMreEeeSVpVqKOhnEw"/>
-                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ywxJa8reEeeSVpVqKOhnEw" name="Message1ReceiveEvent" covered="_ywxJaMreEeeSVpVqKOhnEw" message="_ywxJbMreEeeSVpVqKOhnEw"/>
-                <message xmi:type="uml:Message" xmi:id="_ywxJbMreEeeSVpVqKOhnEw" name="Envoie un message" messageSort="asynchCall" receiveEvent="_ywxJa8reEeeSVpVqKOhnEw" sendEvent="_ywxJasreEeeSVpVqKOhnEw"/>
-              </ownedBehavior>
-              <ownedBehavior xmi:type="uml:Interaction" xmi:id="_ywxJbcreEeeSVpVqKOhnEw" name="Interaction2">
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_ywxJbsreEeeSVpVqKOhnEw" name="" type="_ywxJY8reEeeSVpVqKOhnEw"/>
-                <lifeline xmi:type="uml:Lifeline" xmi:id="_ywxJb8reEeeSVpVqKOhnEw" name="" represents="_ywxJbsreEeeSVpVqKOhnEw" coveredBy="_ywxJccreEeeSVpVqKOhnEw"/>
-                <lifeline xmi:type="uml:Lifeline" xmi:id="_ywxJcMreEeeSVpVqKOhnEw" name="Système de notifications" coveredBy="_ywxJcsreEeeSVpVqKOhnEw _ywxJc8reEeeSVpVqKOhnEw _ywxJdMreEeeSVpVqKOhnEw"/>
-                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ywxJccreEeeSVpVqKOhnEw" name="Message1SendEvent" covered="_ywxJb8reEeeSVpVqKOhnEw" message="_ywxJdcreEeeSVpVqKOhnEw"/>
-                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ywxJcsreEeeSVpVqKOhnEw" name="Message1ReceiveEvent" covered="_ywxJcMreEeeSVpVqKOhnEw" message="_ywxJdcreEeeSVpVqKOhnEw"/>
-                <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_ywxJc8reEeeSVpVqKOhnEw" name="BehaviorExecutionSpecification1Finish" covered="_ywxJcMreEeeSVpVqKOhnEw" execution="_ywxJdMreEeeSVpVqKOhnEw"/>
-                <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_ywxJdMreEeeSVpVqKOhnEw" name="BehaviorExecutionSpecification1" covered="_ywxJcMreEeeSVpVqKOhnEw" finish="_ywxJc8reEeeSVpVqKOhnEw" start="_ywxJcsreEeeSVpVqKOhnEw"/>
-                <message xmi:type="uml:Message" xmi:id="_ywxJdcreEeeSVpVqKOhnEw" name="Envoi une notification" receiveEvent="_ywxJcsreEeeSVpVqKOhnEw" sendEvent="_ywxJccreEeeSVpVqKOhnEw"/>
-              </ownedBehavior>
-            </nestedClassifier>
-            <nestedClassifier xmi:type="uml:Actor" xmi:id="_ywxJdsreEeeSVpVqKOhnEw" name="Système"/>
-          </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_ywxJd8reEeeSVpVqKOhnEw" name="SH_SEC_50_2"/>
-        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_367lUcrXEee9jsGys1t6BQ" name="SH_SEC_050"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_366-QMrXEee9jsGys1t6BQ" name="SH_SEC_020"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lU8rXEee9jsGys1t6BQ" name="SH_SEC_070"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_Teu1INBVEeeOLbtHDDZHLg" name="Derive_042_1" client="_8lv58NBOEeeZ-PPtvQD9cA" supplier="_RC4dwNBVEeeOLbtHDDZHLg"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_hppmQNBWEeeOLbtHDDZHLg" name="Refine_041_1" client="_xchiwNBOEeeZ-PPtvQD9cA" supplier="_1NyJsNBVEeeOLbtHDDZHLg"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_l1hJwNBWEeeOLbtHDDZHLg" name="Refine_041_2" client="_xchiwNBOEeeZ-PPtvQD9cA" supplier="_Uw4kENBWEeeOLbtHDDZHLg"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ywxJYMreEeeSVpVqKOhnEw" name="SH_SEC_50_1" classifierBehavior="_ywxJYcreEeeSVpVqKOhnEw">
+          <ownedBehavior xmi:type="uml:Interaction" xmi:id="_ywxJYcreEeeSVpVqKOhnEw" name="Interaction1">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_ywxJYsreEeeSVpVqKOhnEw"/>
+          </ownedBehavior>
+          <nestedClassifier xmi:type="uml:Actor" xmi:id="_ywxJY8reEeeSVpVqKOhnEw" name="Capteur"/>
+          <nestedClassifier xmi:type="uml:UseCase" xmi:id="_ywxJZMreEeeSVpVqKOhnEw" name="Détecte le feu"/>
+          <nestedClassifier xmi:type="uml:UseCase" xmi:id="_ywxJZcreEeeSVpVqKOhnEw" name="Envoie un signal" classifierBehavior="_ywxJZsreEeeSVpVqKOhnEw">
+            <ownedBehavior xmi:type="uml:Interaction" xmi:id="_ywxJZsreEeeSVpVqKOhnEw" name="Interaction1">
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_ywxJZ8reEeeSVpVqKOhnEw" name="" type="_ywxJY8reEeeSVpVqKOhnEw"/>
+              <lifeline xmi:type="uml:Lifeline" xmi:id="_ywxJaMreEeeSVpVqKOhnEw" name="Système" coveredBy="_ywxJa8reEeeSVpVqKOhnEw"/>
+              <lifeline xmi:type="uml:Lifeline" xmi:id="_ywxJacreEeeSVpVqKOhnEw" name="" represents="_ywxJZ8reEeeSVpVqKOhnEw" coveredBy="_ywxJasreEeeSVpVqKOhnEw"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ywxJasreEeeSVpVqKOhnEw" name="Message1SendEvent" covered="_ywxJacreEeeSVpVqKOhnEw" message="_ywxJbMreEeeSVpVqKOhnEw"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ywxJa8reEeeSVpVqKOhnEw" name="Message1ReceiveEvent" covered="_ywxJaMreEeeSVpVqKOhnEw" message="_ywxJbMreEeeSVpVqKOhnEw"/>
+              <message xmi:type="uml:Message" xmi:id="_ywxJbMreEeeSVpVqKOhnEw" name="Envoie un message" messageSort="asynchCall" receiveEvent="_ywxJa8reEeeSVpVqKOhnEw" sendEvent="_ywxJasreEeeSVpVqKOhnEw"/>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:Interaction" xmi:id="_ywxJbcreEeeSVpVqKOhnEw" name="Interaction2">
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_ywxJbsreEeeSVpVqKOhnEw" name="" type="_ywxJY8reEeeSVpVqKOhnEw"/>
+              <lifeline xmi:type="uml:Lifeline" xmi:id="_ywxJb8reEeeSVpVqKOhnEw" name="" represents="_ywxJbsreEeeSVpVqKOhnEw" coveredBy="_ywxJccreEeeSVpVqKOhnEw"/>
+              <lifeline xmi:type="uml:Lifeline" xmi:id="_ywxJcMreEeeSVpVqKOhnEw" name="Système de notifications" coveredBy="_ywxJcsreEeeSVpVqKOhnEw _ywxJc8reEeeSVpVqKOhnEw _ywxJdMreEeeSVpVqKOhnEw"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ywxJccreEeeSVpVqKOhnEw" name="Message1SendEvent" covered="_ywxJb8reEeeSVpVqKOhnEw" message="_ywxJdcreEeeSVpVqKOhnEw"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ywxJcsreEeeSVpVqKOhnEw" name="Message1ReceiveEvent" covered="_ywxJcMreEeeSVpVqKOhnEw" message="_ywxJdcreEeeSVpVqKOhnEw"/>
+              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_ywxJc8reEeeSVpVqKOhnEw" name="BehaviorExecutionSpecification1Finish" covered="_ywxJcMreEeeSVpVqKOhnEw" execution="_ywxJdMreEeeSVpVqKOhnEw"/>
+              <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_ywxJdMreEeeSVpVqKOhnEw" name="BehaviorExecutionSpecification1" covered="_ywxJcMreEeeSVpVqKOhnEw" finish="_ywxJc8reEeeSVpVqKOhnEw" start="_ywxJcsreEeeSVpVqKOhnEw"/>
+              <message xmi:type="uml:Message" xmi:id="_ywxJdcreEeeSVpVqKOhnEw" name="Envoi une notification" receiveEvent="_ywxJcsreEeeSVpVqKOhnEw" sendEvent="_ywxJccreEeeSVpVqKOhnEw"/>
+            </ownedBehavior>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Actor" xmi:id="_ywxJdsreEeeSVpVqKOhnEw" name="Système"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ywxJd8reEeeSVpVqKOhnEw" name="SH_SEC_50_2"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_3S6toMrYEee9jsGys1t6BQ" name="ExigencesAdaptation">
         <packagedElement xmi:type="uml:Class" xmi:id="_367lVMrXEee9jsGys1t6BQ" name="SH_ACO_010"/>
@@ -162,6 +161,19 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_nGOcUNBZEee8OqvbQkaGnQ" name="OuvertureEntreeSpecifique"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_47VKwNBbEee8OqvbQkaGnQ" client="_nGOcUNBZEee8OqvbQkaGnQ" supplier="_lvLmUNBYEee8OqvbQkaGnQ"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_vumQcNCSEeeS74ewiR2bfA" name="" client="_bTo_ENBZEee8OqvbQkaGnQ" supplier="_lvLmUNBYEee8OqvbQkaGnQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_1ItBQNsdEee69oAzh9AOLA" name="SH_SEC_050">
+          <packagedElement xmi:type="uml:Actor" xmi:id="_ON3H0NseEee69oAzh9AOLA" name="Capteur"/>
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_TCetYNseEee69oAzh9AOLA" name="Envoyer un signal"/>
+          <packagedElement xmi:type="uml:Association" xmi:id="_bj24kNseEee69oAzh9AOLA"/>
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_ihQvkNseEee69oAzh9AOLA" name="Détecter le feu"/>
+          <packagedElement xmi:type="uml:Association" xmi:id="_knPkoNseEee69oAzh9AOLA"/>
+          <packagedElement xmi:type="uml:Interaction" xmi:id="_DN_rgNsfEee69oAzh9AOLA" name="Interaction1"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_TkJlINsgEee69oAzh9AOLA" name="Capteur de fumée">
+            <generalization xmi:type="uml:Generalization" xmi:id="_cp5BoNsgEee69oAzh9AOLA" general="_rDXRcMrhEee9jsGys1t6BQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Actor" xmi:id="_NusYMNshEee69oAzh9AOLA" name="Pompier"/>
+          <packagedElement xmi:type="uml:Association" xmi:id="_PHxrANshEee69oAzh9AOLA"/>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_UvLT4NBWEeeico1UKPGsmA" name="ExigencesAdaptation">
@@ -289,4 +301,5 @@
   <Requirements:Requirement xmi:id="_nGOcUdBZEee8OqvbQkaGnQ" base_Class="_nGOcUNBZEee8OqvbQkaGnQ" id="SEC_070_02" text="Les secouristes doivent pouvoir ouvrir l'entrée spécifique"/>
   <Requirements:DeriveReqt xmi:id="_47oFsNBbEee8OqvbQkaGnQ" base_DirectedRelationship="_47VKwNBbEee8OqvbQkaGnQ" base_Abstraction="_47VKwNBbEee8OqvbQkaGnQ"/>
   <Requirements:DeriveReqt xmi:id="_vu5ycNCSEeeS74ewiR2bfA" base_DirectedRelationship="_vumQcNCSEeeS74ewiR2bfA" base_Abstraction="_vumQcNCSEeeS74ewiR2bfA"/>
+  <Blocks:Block xmi:id="_TkqigNsgEee69oAzh9AOLA" base_Class="_TkJlINsgEee69oAzh9AOLA"/>
 </xmi:XMI>
