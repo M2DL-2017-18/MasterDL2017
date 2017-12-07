@@ -152,7 +152,27 @@
       <extend xmi:type="uml:Extend" xmi:id="_zvCtYNsiEeeWqspS6Pc6JA" extendedCase="_i7rIwNsgEeeWqspS6Pc6JA" extensionLocation="_zvDUcNsiEeeWqspS6Pc6JA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Interaction" xmi:id="_iS5UsNskEee-oqN7IayHGw" name="Interaction1"/>
-    <packagedElement xmi:type="uml:Interaction" xmi:id="_0G33MNslEee-oqN7IayHGw" name="Interaction2"/>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_0G33MNslEee-oqN7IayHGw" name="Interaction2">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FmkrcNsqEeeWqspS6Pc6JA" name="" type="_U6NZINsgEeeWqspS6Pc6JA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_IgEBENsqEeeWqspS6Pc6JA" name="" type="_nGBHkMrgEee9jsGys1t6BQ"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_FmkEYNsqEeeWqspS6Pc6JA" name="" represents="_FmkrcNsqEeeWqspS6Pc6JA" coveredBy="_0K3NENsqEeeWqspS6Pc6JA _Rx6m8NsqEeeWqspS6Pc6JA"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_IgDaANsqEeeWqspS6Pc6JA" name="" represents="_IgEBENsqEeeWqspS6Pc6JA" coveredBy="_0K3NENsqEeeWqspS6Pc6JA _Rx7OANsqEeeWqspS6Pc6JA _dEz3gNsqEeeWqspS6Pc6JA _dE0ekNsqEeeWqspS6Pc6JA _RylVUNsqEeeWqspS6Pc6JA _RyjgINsqEeeWqspS6Pc6JA _dFcJoNsqEeeWqspS6Pc6JA _dFbikNsqEeeWqspS6Pc6JA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Rx7OANsqEeeWqspS6Pc6JA" name="Message1ReceiveEvent" covered="_IgDaANsqEeeWqspS6Pc6JA" message="_Rx5Y0NsqEeeWqspS6Pc6JA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dEz3gNsqEeeWqspS6Pc6JA" name="Message1SendEvent" covered="_IgDaANsqEeeWqspS6Pc6JA" message="_dEypYNsqEeeWqspS6Pc6JA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dE0ekNsqEeeWqspS6Pc6JA" name="Message1ReceiveEvent" covered="_IgDaANsqEeeWqspS6Pc6JA" message="_dEypYNsqEeeWqspS6Pc6JA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_RylVUNsqEeeWqspS6Pc6JA" name="BehaviorExecutionSpecification1Finish" covered="_IgDaANsqEeeWqspS6Pc6JA" execution="_RyjgINsqEeeWqspS6Pc6JA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Rx6m8NsqEeeWqspS6Pc6JA" name="Message1SendEvent" covered="_FmkEYNsqEeeWqspS6Pc6JA" message="_Rx5Y0NsqEeeWqspS6Pc6JA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_dFcJoNsqEeeWqspS6Pc6JA" name="BehaviorExecutionSpecification2Finish" covered="_IgDaANsqEeeWqspS6Pc6JA" execution="_dFbikNsqEeeWqspS6Pc6JA"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_RyjgINsqEeeWqspS6Pc6JA" name="BehaviorExecutionSpecification1" covered="_IgDaANsqEeeWqspS6Pc6JA" finish="_RylVUNsqEeeWqspS6Pc6JA" start="_Rx7OANsqEeeWqspS6Pc6JA"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_dFbikNsqEeeWqspS6Pc6JA" name="BehaviorExecutionSpecification2" covered="_IgDaANsqEeeWqspS6Pc6JA" finish="_dFcJoNsqEeeWqspS6Pc6JA" start="_dE0ekNsqEeeWqspS6Pc6JA"/>
+      <fragment xmi:type="uml:CombinedFragment" xmi:id="_0K0JwNsqEeeWqspS6Pc6JA" name="CombinedFragment1">
+        <operand xmi:type="uml:InteractionOperand" xmi:id="_0K3NENsqEeeWqspS6Pc6JA" name="InteractionOperand1" covered="_FmkEYNsqEeeWqspS6Pc6JA _IgDaANsqEeeWqspS6Pc6JA">
+          <guard xmi:type="uml:InteractionConstraint" xmi:id="_0K30INsqEeeWqspS6Pc6JA" name="guard"/>
+        </operand>
+      </fragment>
+      <message xmi:type="uml:Message" xmi:id="_Rx5Y0NsqEeeWqspS6Pc6JA" name="rentrer dans la maison" receiveEvent="_Rx7OANsqEeeWqspS6Pc6JA" sendEvent="_Rx6m8NsqEeeWqspS6Pc6JA"/>
+      <message xmi:type="uml:Message" xmi:id="_dEypYNsqEeeWqspS6Pc6JA" name="Vérification" receiveEvent="_dE0ekNsqEeeWqspS6Pc6JA" sendEvent="_dEz3gNsqEeeWqspS6Pc6JA"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_1dBVUNsmEee-oqN7IayHGw" name="CapteurEmpreinte">
       <generalization xmi:type="uml:Generalization" xmi:id="_W1FGMNsnEee-oqN7IayHGw" general="_rDXRcMrhEee9jsGys1t6BQ"/>
     </packagedElement>
