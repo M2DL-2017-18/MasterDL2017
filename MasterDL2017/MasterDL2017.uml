@@ -120,6 +120,7 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_8weo4MrgEee9jsGys1t6BQ" name="Acteurs">
       <packagedElement xmi:type="uml:Actor" xmi:id="__GxK0MrgEee9jsGys1t6BQ" name="Habitant"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_tMjJENBTEeeOLbtHDDZHLg" name="Intruder"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_9vDEoNsgEeeUovaTKP7ufQ" name="Police"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_RBAi0MrhEee9jsGys1t6BQ" name="Composants">
       <packagedElement xmi:type="uml:Class" xmi:id="_mDWwsMrgEee9jsGys1t6BQ" name="Context">
@@ -152,7 +153,6 @@
         <nestedClassifier xmi:type="uml:Class" xmi:id="_JReEQMrhEee9jsGys1t6BQ" name="CapteurFumee">
           <generalization xmi:type="uml:Generalization" xmi:id="_xh_hwMrhEee9jsGys1t6BQ" general="_rDXRcMrhEee9jsGys1t6BQ"/>
         </nestedClassifier>
-        <nestedClassifier xmi:type="uml:Actor" xmi:id="_9vDEoNsgEeeUovaTKP7ufQ" name="Police"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_BTVJAMrhEee9jsGys1t6BQ" memberEnd="_BTVwEsrhEee9jsGys1t6BQ _BTWXIMrhEee9jsGys1t6BQ">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BTVwEMrhEee9jsGys1t6BQ" source="org.eclipse.papyrus">
