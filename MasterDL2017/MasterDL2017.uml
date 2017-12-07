@@ -151,6 +151,18 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_vJvWMNsiEeeWqspS6Pc6JA" name="empreinte digitale">
       <extend xmi:type="uml:Extend" xmi:id="_zvCtYNsiEeeWqspS6Pc6JA" extendedCase="_i7rIwNsgEeeWqspS6Pc6JA" extensionLocation="_zvDUcNsiEeeWqspS6Pc6JA"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_iS5UsNskEee-oqN7IayHGw" name="Interaction1"/>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_0G33MNslEee-oqN7IayHGw" name="Interaction2"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1dBVUNsmEee-oqN7IayHGw" name="CapteurEmpreinte">
+      <generalization xmi:type="uml:Generalization" xmi:id="_W1FGMNsnEee-oqN7IayHGw" general="_rDXRcMrhEee9jsGys1t6BQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_P6ddcNsnEee-oqN7IayHGw" name="CapteurRetinien">
+      <generalization xmi:type="uml:Generalization" xmi:id="_X6U3ANsnEee-oqN7IayHGw" general="_rDXRcMrhEee9jsGys1t6BQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QZfi0NsnEee-oqN7IayHGw" name="PaveNumerique">
+      <generalization xmi:type="uml:Generalization" xmi:id="_ZDzAgNsnEee-oqN7IayHGw" general="_rDXRcMrhEee9jsGys1t6BQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7eAx8NsnEee-oqN7IayHGw" name="Block1"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -240,4 +252,8 @@
   <Requirements:Refine xmi:id="_3F9MQNBVEeezsuicuuIJMA" base_DirectedRelationship="_3FpqQNBVEeezsuicuuIJMA" base_Abstraction="_3FpqQNBVEeezsuicuuIJMA"/>
   <Requirements:Requirement xmi:id="_VBB44NBWEeezsuicuuIJMA" base_Class="_VA4H4NBWEeezsuicuuIJMA" id="SH_SEC_031" text="Le système a besoin de savoir qui a le droit d'entrer"/>
   <Requirements:Refine xmi:id="__fsB4NBWEeezsuicuuIJMA" base_DirectedRelationship="__fi38NBWEeezsuicuuIJMA" base_Abstraction="__fi38NBWEeezsuicuuIJMA"/>
+  <Blocks:Block xmi:id="_1dP-0NsmEee-oqN7IayHGw" base_Class="_1dBVUNsmEee-oqN7IayHGw"/>
+  <Blocks:Block xmi:id="_P6sG8NsnEee-oqN7IayHGw" base_Class="_P6ddcNsnEee-oqN7IayHGw"/>
+  <Blocks:Block xmi:id="_QZuMUNsnEee-oqN7IayHGw" base_Class="_QZfi0NsnEee-oqN7IayHGw"/>
+  <Blocks:Block xmi:id="_7ePbcNsnEee-oqN7IayHGw" base_Class="_7eAx8NsnEee-oqN7IayHGw"/>
 </xmi:XMI>
