@@ -131,9 +131,42 @@
         <nestedClassifier xmi:type="uml:Class" xmi:id="_lteLkNBXEeeVCutXKQMpkA" name="Application Android"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_cUrQMNBXEeeVCutXKQMpkA" name="Application iOS"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_akoZcNBYEeeVCutXKQMpkA" name="IP"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_Fvz0wNBaEeeVCutXKQMpkA" name="Bluetooth"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_L16QUNBaEeeVCutXKQMpkA" name="Wifi"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_DBNpMNseEeeuDZ_vwrX9yg" name="Requirement1">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_L16QUNBaEeeVCutXKQMpkA" name="Wifi"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_Fvz0wNBaEeeVCutXKQMpkA" name="Bluetooth"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_akoZcNBYEeeVCutXKQMpkA" name="IP"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_P2iq8NsgEeeuDZ_vwrX9yg" name="Interagir avec SHS avec son SmartPhone "/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_Uik8QNsgEeeuDZ_vwrX9yg" name="Ajouter un objet connecté dans la maison"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_b0Dl0NsgEeeuDZ_vwrX9yg" name="Connecté l'objet au systéme par wifi ">
+        <generalization xmi:type="uml:Generalization" xmi:id="_D2u0kNshEeeuDZ_vwrX9yg" general="_Uik8QNsgEeeuDZ_vwrX9yg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_xBdXsNsgEeeuDZ_vwrX9yg" name="Connecté l'objet au systéme par Buluetooth">
+        <generalization xmi:type="uml:Generalization" xmi:id="_FFYZANshEeeuDZ_vwrX9yg" general="_Uik8QNsgEeeuDZ_vwrX9yg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_zhKUUNsgEeeuDZ_vwrX9yg" name="Connecté l'objet au systéme par API">
+        <generalization xmi:type="uml:Generalization" xmi:id="_DHlPkNshEeeuDZ_vwrX9yg" general="_Uik8QNsgEeeuDZ_vwrX9yg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_Gb4R4NshEeeuDZ_vwrX9yg" name="Utiliser l'application Android">
+        <generalization xmi:type="uml:Generalization" xmi:id="_P07E4NshEeeuDZ_vwrX9yg" general="_P2iq8NsgEeeuDZ_vwrX9yg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_G1V6wNshEeeuDZ_vwrX9yg" name="Utiliser l'application IOS">
+        <generalization xmi:type="uml:Generalization" xmi:id="_QZULYNshEeeuDZ_vwrX9yg" general="_P2iq8NsgEeeuDZ_vwrX9yg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_R4amoNshEeeuDZ_vwrX9yg" memberEnd="_R4thkdshEeeuDZ_vwrX9yg _R4thktshEeeuDZ_vwrX9yg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R4kXoNshEeeuDZ_vwrX9yg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R4thkNshEeeuDZ_vwrX9yg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_R4thkdshEeeuDZ_vwrX9yg" name="interagir avec shs avec son smartphone " type="_P2iq8NsgEeeuDZ_vwrX9yg" association="_R4amoNshEeeuDZ_vwrX9yg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_R4thktshEeeuDZ_vwrX9yg" name="habitant" type="__GxK0MrgEee9jsGys1t6BQ" association="_R4amoNshEeeuDZ_vwrX9yg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_SiUfQNshEeeuDZ_vwrX9yg" memberEnd="_SiUfQ9shEeeuDZ_vwrX9yg _SiUfRNshEeeuDZ_vwrX9yg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SiUfQdshEeeuDZ_vwrX9yg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SiUfQtshEeeuDZ_vwrX9yg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_SiUfQ9shEeeuDZ_vwrX9yg" name="ajouter un objest connecté dans la maison" type="_Uik8QNsgEeeuDZ_vwrX9yg" association="_SiUfQNshEeeuDZ_vwrX9yg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_SiUfRNshEeeuDZ_vwrX9yg" name="habitant" type="__GxK0MrgEee9jsGys1t6BQ" association="_SiUfQNshEeeuDZ_vwrX9yg"/>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -224,7 +257,8 @@
   <Requirements:Requirement xmi:id="_zHRTsNBWEeeVCutXKQMpkA" base_Class="_zG0nwNBWEeeVCutXKQMpkA" id="SH_ACO-060-1" text="Le résident doit pouvoir disposer d'une application mobile connectée au SHS et permettant de le contrôler."/>
   <Requirements:Requirement xmi:id="_cU1BMNBXEeeVCutXKQMpkA" base_Class="_cUrQMNBXEeeVCutXKQMpkA" id="SH_ACO-060-1.1" text="Le résident doit pouvoir disposer d'une application iOS pour controler le SHS"/>
   <Requirements:Requirement xmi:id="_ltn8kNBXEeeVCutXKQMpkA" base_Class="_lteLkNBXEeeVCutXKQMpkA" id="SH_ACO-060-1.2" text="Le résident doit pouvoir disposer d'une application Android pour controler le SHS"/>
-  <Requirements:Requirement xmi:id="_akyKcNBYEeeVCutXKQMpkA" base_Class="_akoZcNBYEeeVCutXKQMpkA" id="SH_ACO-060-2" text="Le Systeme doit avoir une interface de programmation pour les web services&#xD;&#xA;"/>
-  <Requirements:Requirement xmi:id="_Fv9lwNBaEeeVCutXKQMpkA" base_Class="_Fvz0wNBaEeeVCutXKQMpkA" id="SH_ACO-060-3" text="le systéme doit reconnetre les  une connection Bluetooth avec des equipements"/>
+  <Requirements:Requirement xmi:id="_akyKcNBYEeeVCutXKQMpkA" base_Class="_akoZcNBYEeeVCutXKQMpkA" id="SH_ACO-060-5" text="Le Systeme doit avoir une interface de programmation pour les web services&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_Fv9lwNBaEeeVCutXKQMpkA" base_Class="_Fvz0wNBaEeeVCutXKQMpkA" id="SH_ACO-060-3" text="le systéme doit reconnetre les  une connection Bluetooth avec des equipements."/>
   <Requirements:Requirement xmi:id="_L16QUdBaEeeVCutXKQMpkA" base_Class="_L16QUNBaEeeVCutXKQMpkA" id="SH_ACO-060-4" text="le systéme doit reconnaître  les equipements connectés au Wifi"/>
+  <Requirements:Requirement xmi:id="_DBU98NseEeeuDZ_vwrX9yg" base_Class="_DBNpMNseEeeuDZ_vwrX9yg" id="SH_ACO-060-2" text="Le SHS  doit permettre d'intégrer de nouveaux objets connectés à travers les principaux standarts de communication."/>
 </xmi:XMI>
