@@ -162,6 +162,16 @@
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_47VKwNBbEee8OqvbQkaGnQ"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_vumQcNCSEeeS74ewiR2bfA" name=""/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_BC-BQNBREeeOrKx0xYV8jw" name="SH_SEC_060">
+        <packagedElement xmi:type="uml:Class" xmi:id="_J8ZgENBREeeOrKx0xYV8jw" name="SH_SEC_060_01">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_WHTdENBZEeeOrKx0xYV8jw" name="SH_SEC_060_01_1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MyxQQNBREeeOrKx0xYV8jw" name="SH_SEC_060_02"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_NbKbENBTEeeOrKx0xYV8jw" name="Refine1"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_OujVkNBTEeeOrKx0xYV8jw" name="Refine2"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_VzTN4NBXEeeOrKx0xYV8jw" name="SH_SEC_060_03"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_i0-7gNBXEeeOrKx0xYV8jw" name="Refine3"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_UvLT4NBWEeeico1UKPGsmA" name="ExigencesAdaptation">
       <packagedElement xmi:type="uml:Package" xmi:id="_AwrvsNBXEeeZkOnqcrOFtA" name="SH_ACO_070">
@@ -173,16 +183,6 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_WLyb0NBWEeeico1UKPGsmA" name="ExigencesEconomie"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_BC-BQNBREeeOrKx0xYV8jw" name="SH_SEC_060">
-    <packagedElement xmi:type="uml:Class" xmi:id="_J8ZgENBREeeOrKx0xYV8jw" name="SH_SEC_060_01">
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_WHTdENBZEeeOrKx0xYV8jw" name="SH_SEC_060_01_1"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_MyxQQNBREeeOrKx0xYV8jw" name="SH_SEC_060_02"/>
-    <packagedElement xmi:type="uml:Abstraction" xmi:id="_NbKbENBTEeeOrKx0xYV8jw" name="Refine1"/>
-    <packagedElement xmi:type="uml:Abstraction" xmi:id="_OujVkNBTEeeOrKx0xYV8jw" name="Refine2"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_VzTN4NBXEeeOrKx0xYV8jw" name="SH_SEC_060_03"/>
-    <packagedElement xmi:type="uml:Abstraction" xmi:id="_i0-7gNBXEeeOrKx0xYV8jw" name="Refine3"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
