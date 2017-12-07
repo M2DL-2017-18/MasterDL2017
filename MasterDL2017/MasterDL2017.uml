@@ -27,12 +27,12 @@
               <lifeline xmi:type="uml:Lifeline" xmi:id="_SwP7oNsjEeeUovaTKP7ufQ" name="Police" coveredBy="_Veq-0dslEeeUovaTKP7ufQ _LKGNItskEeeUovaTKP7ufQ _5EHCsdskEeeUovaTKP7ufQ _MdVhMtslEeeUovaTKP7ufQ _O21IIdslEeeUovaTKP7ufQ _Md7-INslEeeUovaTKP7ufQ _LK1M8NskEeeUovaTKP7ufQ"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LKGNItskEeeUovaTKP7ufQ" name="Message1ReceiveEvent" covered="_SwP7oNsjEeeUovaTKP7ufQ" message="_LKGNINskEeeUovaTKP7ufQ"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LKGNIdskEeeUovaTKP7ufQ" name="Message1SendEvent" covered="_RsDTsNsjEeeUovaTKP7ufQ" message="_LKGNINskEeeUovaTKP7ufQ"/>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5EHCsdskEeeUovaTKP7ufQ" name="Message1SendEvent" covered="_SwP7oNsjEeeUovaTKP7ufQ" message="_5EHCsNskEeeUovaTKP7ufQ"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5EHCstskEeeUovaTKP7ufQ" name="Message1ReceiveEvent" covered="_RsDTsNsjEeeUovaTKP7ufQ" message="_5EHCsNskEeeUovaTKP7ufQ"/>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MdVhMtslEeeUovaTKP7ufQ" name="Message1ReceiveEvent" covered="_SwP7oNsjEeeUovaTKP7ufQ" message="_MdVhMNslEeeUovaTKP7ufQ"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5EHCsdskEeeUovaTKP7ufQ" name="Message1SendEvent" covered="_SwP7oNsjEeeUovaTKP7ufQ" message="_5EHCsNskEeeUovaTKP7ufQ"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MdVhMdslEeeUovaTKP7ufQ" name="Message1SendEvent" covered="_RsDTsNsjEeeUovaTKP7ufQ" message="_MdVhMNslEeeUovaTKP7ufQ"/>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O21IIdslEeeUovaTKP7ufQ" name="Message1SendEvent" covered="_SwP7oNsjEeeUovaTKP7ufQ" message="_O21IINslEeeUovaTKP7ufQ"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MdVhMtslEeeUovaTKP7ufQ" name="Message1ReceiveEvent" covered="_SwP7oNsjEeeUovaTKP7ufQ" message="_MdVhMNslEeeUovaTKP7ufQ"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O21IItslEeeUovaTKP7ufQ" name="Message1ReceiveEvent" covered="_RsDTsNsjEeeUovaTKP7ufQ" message="_O21IINslEeeUovaTKP7ufQ"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O21IIdslEeeUovaTKP7ufQ" name="Message1SendEvent" covered="_SwP7oNsjEeeUovaTKP7ufQ" message="_O21IINslEeeUovaTKP7ufQ"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Ey1wINskEeeUovaTKP7ufQ"/>
               <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_H2V9YNskEeeUovaTKP7ufQ" name="ActionExecutionSpecification1" covered="_RsDTsNsjEeeUovaTKP7ufQ" finish="_5EHCstskEeeUovaTKP7ufQ" start="_LKGNIdskEeeUovaTKP7ufQ"/>
               <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_LK1M8NskEeeUovaTKP7ufQ" name="BehaviorExecutionSpecification1" covered="_SwP7oNsjEeeUovaTKP7ufQ" finish="_5EHCsdskEeeUovaTKP7ufQ" start="_LKGNItskEeeUovaTKP7ufQ"/>
@@ -52,6 +52,20 @@
           </nestedClassifier>
           <nestedClassifier xmi:type="uml:UseCase" xmi:id="_drdhcNsiEeeUovaTKP7ufQ" name="Intrusion par la porte">
             <generalization xmi:type="uml:Generalization" xmi:id="_0gjGANsmEeeUovaTKP7ufQ" general="_5t4VQNsgEeeUovaTKP7ufQ"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Association" xmi:id="_eZQRANshEeeUovaTKP7ufQ" name="reçoit un appel" memberEnd="_eZaCAtshEeeUovaTKP7ufQ _eZaCA9shEeeUovaTKP7ufQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eZaCANshEeeUovaTKP7ufQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZaCAdshEeeUovaTKP7ufQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_eZaCAtshEeeUovaTKP7ufQ" name="passe un appel" type="_367lUMrXEee9jsGys1t6BQ" association="_eZQRANshEeeUovaTKP7ufQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_eZaCA9shEeeUovaTKP7ufQ" name="police" type="_nGBHkMrgEee9jsGys1t6BQ" association="_eZQRANshEeeUovaTKP7ufQ"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Association" xmi:id="_j_TTgNshEeeUovaTKP7ufQ" name="s'introduit dans la MI" memberEnd="_j_TTg9shEeeUovaTKP7ufQ _j_TThNshEeeUovaTKP7ufQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_j_TTgdshEeeUovaTKP7ufQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_j_TTgtshEeeUovaTKP7ufQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_j_TTg9shEeeUovaTKP7ufQ" name="intrusion" type="_5t4VQNsgEeeUovaTKP7ufQ" association="_j_TTgNshEeeUovaTKP7ufQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_j_TThNshEeeUovaTKP7ufQ" name="intruder" type="_367lUMrXEee9jsGys1t6BQ" association="_j_TTgNshEeeUovaTKP7ufQ"/>
           </nestedClassifier>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lUcrXEee9jsGys1t6BQ" name="SH_SEC_050">
@@ -87,20 +101,6 @@
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_366-QMrXEee9jsGys1t6BQ" name="SH_SEC_020"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lU8rXEee9jsGys1t6BQ" name="SH_SEC_070"/>
-        <packagedElement xmi:type="uml:Association" xmi:id="_eZQRANshEeeUovaTKP7ufQ" name="reçoit un appel" memberEnd="_eZaCAtshEeeUovaTKP7ufQ _eZaCA9shEeeUovaTKP7ufQ">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eZaCANshEeeUovaTKP7ufQ" source="org.eclipse.papyrus">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZaCAdshEeeUovaTKP7ufQ" key="nature" value="UML_Nature"/>
-          </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_eZaCAtshEeeUovaTKP7ufQ" name="passe un appel" type="_367lUMrXEee9jsGys1t6BQ" association="_eZQRANshEeeUovaTKP7ufQ"/>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_eZaCA9shEeeUovaTKP7ufQ" name="police" type="_nGBHkMrgEee9jsGys1t6BQ" association="_eZQRANshEeeUovaTKP7ufQ"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Association" xmi:id="_j_TTgNshEeeUovaTKP7ufQ" name="s'introduit dans la MI" memberEnd="_j_TTg9shEeeUovaTKP7ufQ _j_TThNshEeeUovaTKP7ufQ">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_j_TTgdshEeeUovaTKP7ufQ" source="org.eclipse.papyrus">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_j_TTgtshEeeUovaTKP7ufQ" key="nature" value="UML_Nature"/>
-          </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_j_TTg9shEeeUovaTKP7ufQ" name="intrusion" type="_5t4VQNsgEeeUovaTKP7ufQ" association="_j_TTgNshEeeUovaTKP7ufQ"/>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_j_TThNshEeeUovaTKP7ufQ" name="intruder" type="_367lUMrXEee9jsGys1t6BQ" association="_j_TTgNshEeeUovaTKP7ufQ"/>
-        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_3S6toMrYEee9jsGys1t6BQ" name="ExigencesAdaptation">
         <packagedElement xmi:type="uml:Class" xmi:id="_367lVMrXEee9jsGys1t6BQ" name="SH_ACO_010"/>
