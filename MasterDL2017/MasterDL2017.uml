@@ -15,6 +15,8 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_367lUMrXEee9jsGys1t6BQ" name="SH_SEC_040">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_8lv58NBOEeeZ-PPtvQD9cA" name="SH_SEC_042"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_xchiwNBOEeeZ-PPtvQD9cA" name="SH_SEC_041"/>
+          <nestedClassifier xmi:type="uml:UseCase" xmi:id="_5t4VQNsgEeeUovaTKP7ufQ" name="Intrusion"/>
+          <nestedClassifier xmi:type="uml:UseCase" xmi:id="__2hugNsgEeeUovaTKP7ufQ" name="Appel de la police"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lUcrXEee9jsGys1t6BQ" name="SH_SEC_050">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_ywxJYMreEeeSVpVqKOhnEw" name="SH_SEC_50_1" classifierBehavior="_ywxJYcreEeeSVpVqKOhnEw">
@@ -49,9 +51,34 @@
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_366-QMrXEee9jsGys1t6BQ" name="SH_SEC_020"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lU8rXEee9jsGys1t6BQ" name="SH_SEC_070"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Teu1INBVEeeOLbtHDDZHLg" name="Derive_042_1" client="_8lv58NBOEeeZ-PPtvQD9cA" supplier="_RC4dwNBVEeeOLbtHDDZHLg"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_hppmQNBWEeeOLbtHDDZHLg" name="Refine_041_1" client="_xchiwNBOEeeZ-PPtvQD9cA" supplier="_1NyJsNBVEeeOLbtHDDZHLg"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_l1hJwNBWEeeOLbtHDDZHLg" name="Refine_041_2" client="_xchiwNBOEeeZ-PPtvQD9cA" supplier="_Uw4kENBWEeeOLbtHDDZHLg"/>
+        <packagedElement xmi:type="uml:Association" xmi:id="_eZQRANshEeeUovaTKP7ufQ" name="reçoit un appel" memberEnd="_eZaCAtshEeeUovaTKP7ufQ _eZaCA9shEeeUovaTKP7ufQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eZaCANshEeeUovaTKP7ufQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eZaCAdshEeeUovaTKP7ufQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_eZaCAtshEeeUovaTKP7ufQ" name="passe un appel" type="_367lUMrXEee9jsGys1t6BQ" association="_eZQRANshEeeUovaTKP7ufQ"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_eZaCA9shEeeUovaTKP7ufQ" name="police" type="_9vDEoNsgEeeUovaTKP7ufQ" association="_eZQRANshEeeUovaTKP7ufQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_ifEP0NshEeeUovaTKP7ufQ" name="passe un appel" memberEnd="_ifEP09shEeeUovaTKP7ufQ _ifEP1NshEeeUovaTKP7ufQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ifEP0dshEeeUovaTKP7ufQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ifEP0tshEeeUovaTKP7ufQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_ifEP09shEeeUovaTKP7ufQ" name="appel de la police" type="__2hugNsgEeeUovaTKP7ufQ" association="_ifEP0NshEeeUovaTKP7ufQ"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_ifEP1NshEeeUovaTKP7ufQ" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_ifEP0NshEeeUovaTKP7ufQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_j_TTgNshEeeUovaTKP7ufQ" name="s'introduit dans la MI" memberEnd="_j_TTg9shEeeUovaTKP7ufQ _j_TThNshEeeUovaTKP7ufQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_j_TTgdshEeeUovaTKP7ufQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_j_TTgtshEeeUovaTKP7ufQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_j_TTg9shEeeUovaTKP7ufQ" name="intrusion" type="_5t4VQNsgEeeUovaTKP7ufQ" association="_j_TTgNshEeeUovaTKP7ufQ"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_j_TThNshEeeUovaTKP7ufQ" name="intruder" type="_367lUMrXEee9jsGys1t6BQ" association="_j_TTgNshEeeUovaTKP7ufQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_lYes8NshEeeUovaTKP7ufQ" name="détecte l'intrusion" memberEnd="_lYfUAtshEeeUovaTKP7ufQ _lYf7ENshEeeUovaTKP7ufQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lYfUANshEeeUovaTKP7ufQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lYfUAdshEeeUovaTKP7ufQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_lYfUAtshEeeUovaTKP7ufQ" name="intrusion" type="_5t4VQNsgEeeUovaTKP7ufQ" association="_lYes8NshEeeUovaTKP7ufQ"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_lYf7ENshEeeUovaTKP7ufQ" name="shs" type="_367lUMrXEee9jsGys1t6BQ" association="_lYes8NshEeeUovaTKP7ufQ"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_3S6toMrYEee9jsGys1t6BQ" name="ExigencesAdaptation">
         <packagedElement xmi:type="uml:Class" xmi:id="_367lVMrXEee9jsGys1t6BQ" name="SH_ACO_010"/>
@@ -71,6 +98,7 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_8weo4MrgEee9jsGys1t6BQ" name="Acteurs">
       <packagedElement xmi:type="uml:Actor" xmi:id="__GxK0MrgEee9jsGys1t6BQ" name="Habitant"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_tMjJENBTEeeOLbtHDDZHLg" name="Intruder"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_9vDEoNsgEeeUovaTKP7ufQ" name="Police"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_RBAi0MrhEee9jsGys1t6BQ" name="Composants">
       <packagedElement xmi:type="uml:Class" xmi:id="_mDWwsMrgEee9jsGys1t6BQ" name="Context">
@@ -155,6 +183,9 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_RC4dwNBVEeeOLbtHDDZHLg" name="SH_SEC_042_1"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_1NyJsNBVEeeOLbtHDDZHLg" name="SH_SEC_041_1"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_Uw4kENBWEeeOLbtHDDZHLg" name="SH_SEC_041_2"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_Teu1INBVEeeOLbtHDDZHLg" name="Derive_042_1" client="_8lv58NBOEeeZ-PPtvQD9cA" supplier="_RC4dwNBVEeeOLbtHDDZHLg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_hppmQNBWEeeOLbtHDDZHLg" name="Refine_041_1" client="_xchiwNBOEeeZ-PPtvQD9cA" supplier="_1NyJsNBVEeeOLbtHDDZHLg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_l1hJwNBWEeeOLbtHDDZHLg" name="Refine_041_2" client="_xchiwNBOEeeZ-PPtvQD9cA" supplier="_Uw4kENBWEeeOLbtHDDZHLg"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_27mdwNBSEee8OqvbQkaGnQ" name="SH_SEC_070">
           <packagedElement xmi:type="uml:Class" xmi:id="_lvLmUNBYEee8OqvbQkaGnQ" name="accesSecours"/>
