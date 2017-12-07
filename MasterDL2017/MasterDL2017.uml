@@ -132,6 +132,42 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_nGOcUNBZEee8OqvbQkaGnQ" name="OuvertureEntreeSpecifique"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_OMjXkNBaEee8OqvbQkaGnQ" name="acccesSecours" client="_bTo_ENBZEee8OqvbQkaGnQ" supplier="_lvLmUNBYEee8OqvbQkaGnQ"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_47VKwNBbEee8OqvbQkaGnQ" name="DeriveReqt1" client="_nGOcUNBZEee8OqvbQkaGnQ" supplier="_lvLmUNBYEee8OqvbQkaGnQ"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_DZVRcNsiEeeWqrucDxPgRQ" name="Ouvrir Accès Spécifique"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_W3iWkNsiEeeWqrucDxPgRQ" name="Secours"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_gFJ8sNsiEeeWqrucDxPgRQ" name="Ouvrir Accès Maison"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_qBtFYNsiEeeWqrucDxPgRQ" memberEnd="_qBwvwNsiEeeWqrucDxPgRQ _qBxW0NsiEeeWqrucDxPgRQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qBvhoNsiEeeWqrucDxPgRQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qBwIsNsiEeeWqrucDxPgRQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_qBwvwNsiEeeWqrucDxPgRQ" name="secours" type="_DZVRcNsiEeeWqrucDxPgRQ" association="_qBtFYNsiEeeWqrucDxPgRQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_qBxW0NsiEeeWqrucDxPgRQ" name="secours" type="_W3iWkNsiEeeWqrucDxPgRQ" association="_qBtFYNsiEeeWqrucDxPgRQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_MlVRgNsjEeeWqrucDxPgRQ" name="&lt;&lt;extends>>" client="_27mdwNBSEee8OqvbQkaGnQ" supplier="_gFJ8sNsiEeeWqrucDxPgRQ"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_aejrINsjEeeWqrucDxPgRQ" name="SHS"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_c6VxENsjEeeWqrucDxPgRQ" name="Déverrouiller Porte"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_irXUgNsjEeeWqrucDxPgRQ" memberEnd="_irZJsdsjEeeWqrucDxPgRQ _irZwwNsjEeeWqrucDxPgRQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_irYioNsjEeeWqrucDxPgRQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_irZJsNsjEeeWqrucDxPgRQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_irZJsdsjEeeWqrucDxPgRQ" name="déverrouiller porte" type="_c6VxENsjEeeWqrucDxPgRQ" association="_irXUgNsjEeeWqrucDxPgRQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_irZwwNsjEeeWqrucDxPgRQ" name="shs" type="_aejrINsjEeeWqrucDxPgRQ" association="_irXUgNsjEeeWqrucDxPgRQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Y__l8NskEeeWqrucDxPgRQ" name="SHS"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_1C7aUNsmEeeWqrucDxPgRQ" name="Porte"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_9nmKENsmEeeWqrucDxPgRQ" name="BlockMazaba"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_LaomsNsoEeeWqrucDxPgRQ" name="Porte"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dQpUENsqEeeWqrucDxPgRQ" name="SHS">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_vxxF4tsqEeeWqrucDxPgRQ" name="porte" type="_LaomsNsoEeeWqrucDxPgRQ" aggregation="composite" association="_vxwe0NsqEeeWqrucDxPgRQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vxxs8NsqEeeWqrucDxPgRQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vxxs8dsqEeeWqrucDxPgRQ" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_vxwe0NsqEeeWqrucDxPgRQ" visibility="public" memberEnd="_vxxF4tsqEeeWqrucDxPgRQ _vxxs8tsqEeeWqrucDxPgRQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vxxF4NsqEeeWqrucDxPgRQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vxxF4dsqEeeWqrucDxPgRQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_vxxs8tsqEeeWqrucDxPgRQ" name="shs" type="_dQpUENsqEeeWqrucDxPgRQ" association="_vxwe0NsqEeeWqrucDxPgRQ"/>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -193,6 +229,12 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8l58MNspEeeWqrucDxPgRQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8l8YcNspEeeWqrucDxPgRQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
   </uml:Model>
   <Requirements:Requirement xmi:id="_363T4MrXEee9jsGys1t6BQ" base_Class="_36368MrXEee9jsGys1t6BQ" id="SH_SEC_010" text="The Smart Home must prevent unauthorized physical intrusion."/>
   <Requirements:Requirement xmi:id="_363T4crXEee9jsGys1t6BQ" base_Class="_366-QMrXEee9jsGys1t6BQ" id="SH_SEC_020" text="The Smart Home must prevent computer intrusion."/>
@@ -224,4 +266,8 @@
   <Requirements:Requirement xmi:id="_nGOcUdBZEee8OqvbQkaGnQ" base_Class="_nGOcUNBZEee8OqvbQkaGnQ" id="SEC_070_02" text="Les secouristes doivent pouvoir ouvrir l'entrée spécifique"/>
   <Requirements:Satisfy xmi:id="_OM4HsNBaEee8OqvbQkaGnQ" base_DirectedRelationship="_OMjXkNBaEee8OqvbQkaGnQ" base_Abstraction="_OMjXkNBaEee8OqvbQkaGnQ"/>
   <Requirements:DeriveReqt xmi:id="_47oFsNBbEee8OqvbQkaGnQ" base_DirectedRelationship="_47VKwNBbEee8OqvbQkaGnQ" base_Abstraction="_47VKwNBbEee8OqvbQkaGnQ"/>
+  <Blocks:Block xmi:id="_ZAUWENskEeeWqrucDxPgRQ" base_Class="_Y__l8NskEeeWqrucDxPgRQ"/>
+  <Blocks:Block xmi:id="_9nzlcNsmEeeWqrucDxPgRQ" base_Class="_9nmKENsmEeeWqrucDxPgRQ"/>
+  <Blocks:Block xmi:id="_La0z8NsoEeeWqrucDxPgRQ" base_Class="_LaomsNsoEeeWqrucDxPgRQ"/>
+  <Blocks:Block xmi:id="_dQ06QNsqEeeWqrucDxPgRQ" base_Class="_dQpUENsqEeeWqrucDxPgRQ"/>
 </xmi:XMI>
