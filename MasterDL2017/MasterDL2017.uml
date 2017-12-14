@@ -42,28 +42,29 @@
               <ownedAttribute xmi:type="uml:Property" xmi:id="_Ri7g8ODWEeeL04F_JtHtdA" name="" type="_oEn-QNBZEeerb7dwGRYkDA"/>
               <ownedAttribute xmi:type="uml:Property" xmi:id="_SvlhUODWEeeL04F_JtHtdA" name="" type="_nGBHkMrgEee9jsGys1t6BQ"/>
               <ownedAttribute xmi:type="uml:Property" xmi:id="_TZRXgeDWEeeL04F_JtHtdA" name="" type="_BPNa0ODWEeeL04F_JtHtdA"/>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_Zm5lIeDbEeeL04F_JtHtdA" name="" type="_r_BBYODaEeeL04F_JtHtdA"/>
               <lifeline xmi:type="uml:Lifeline" xmi:id="_N6zjsODWEeeL04F_JtHtdA" name="" represents="_N60KwODWEeeL04F_JtHtdA" coveredBy="_XtTYgODWEeeL04F_JtHtdA"/>
               <lifeline xmi:type="uml:Lifeline" xmi:id="_Pz8PkODWEeeL04F_JtHtdA" name="" represents="_Pz82oODWEeeL04F_JtHtdA" coveredBy="_XtT_kODWEeeL04F_JtHtdA _bEIKYODWEeeL04F_JtHtdA _XtwEcODWEeeL04F_JtHtdA"/>
-              <lifeline xmi:type="uml:Lifeline" xmi:id="_Ri654ODWEeeL04F_JtHtdA" name="" represents="_Ri7g8ODWEeeL04F_JtHtdA" coveredBy="_bEIKYeDWEeeL04F_JtHtdA _bveNcODWEeeL04F_JtHtdA _bFKFIODWEeeL04F_JtHtdA"/>
-              <lifeline xmi:type="uml:Lifeline" xmi:id="_Svk6QODWEeeL04F_JtHtdA" name="" represents="_SvlhUODWEeeL04F_JtHtdA" coveredBy="_bve0gODWEeeL04F_JtHtdA _cQKfsODWEeeL04F_JtHtdA _bwN0UODWEeeL04F_JtHtdA"/>
-              <lifeline xmi:type="uml:Lifeline" xmi:id="_TZRXgODWEeeL04F_JtHtdA" name="" represents="_TZRXgeDWEeeL04F_JtHtdA" coveredBy="_cQKfseDWEeeL04F_JtHtdA _cQ3DQODWEeeL04F_JtHtdA _cQ2cMODWEeeL04F_JtHtdA"/>
+              <lifeline xmi:type="uml:Lifeline" xmi:id="_Ri654ODWEeeL04F_JtHtdA" name="" represents="_Ri7g8ODWEeeL04F_JtHtdA" coveredBy="_bEIKYeDWEeeL04F_JtHtdA _eTSbwODbEeeL04F_JtHtdA _dPgqkODbEeeL04F_JtHtdA"/>
+              <lifeline xmi:type="uml:Lifeline" xmi:id="_TZRXgODWEeeL04F_JtHtdA" name="" represents="_TZRXgeDWEeeL04F_JtHtdA" coveredBy="_ezEIAeDbEeeL04F_JtHtdA _ezovwODbEeeL04F_JtHtdA _ezoIsODbEeeL04F_JtHtdA"/>
+              <lifeline xmi:type="uml:Lifeline" xmi:id="_Zm5lIODbEeeL04F_JtHtdA" name="" represents="_Zm5lIeDbEeeL04F_JtHtdA" coveredBy="_eTSbweDbEeeL04F_JtHtdA _ezEIAODbEeeL04F_JtHtdA _eTvuwODbEeeL04F_JtHtdA"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XtTYgODWEeeL04F_JtHtdA" name="Message1SendEvent" covered="_N6zjsODWEeeL04F_JtHtdA" message="_XtPuIODWEeeL04F_JtHtdA"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XtT_kODWEeeL04F_JtHtdA" name="Message1ReceiveEvent" covered="_Pz8PkODWEeeL04F_JtHtdA" message="_XtPuIODWEeeL04F_JtHtdA"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bEIKYODWEeeL04F_JtHtdA" name="Message1SendEvent" covered="_Pz8PkODWEeeL04F_JtHtdA" message="_bEHjUODWEeeL04F_JtHtdA"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bEIKYeDWEeeL04F_JtHtdA" name="Message1ReceiveEvent" covered="_Ri654ODWEeeL04F_JtHtdA" message="_bEHjUODWEeeL04F_JtHtdA"/>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bveNcODWEeeL04F_JtHtdA" name="Message2SendEvent" covered="_Ri654ODWEeeL04F_JtHtdA" message="_bvdmYODWEeeL04F_JtHtdA"/>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bve0gODWEeeL04F_JtHtdA" name="Message2ReceiveEvent" covered="_Svk6QODWEeeL04F_JtHtdA" message="_bvdmYODWEeeL04F_JtHtdA"/>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_cQKfsODWEeeL04F_JtHtdA" name="Message3SendEvent" covered="_Svk6QODWEeeL04F_JtHtdA" message="_cQJ4oODWEeeL04F_JtHtdA"/>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_cQKfseDWEeeL04F_JtHtdA" name="Message3ReceiveEvent" covered="_TZRXgODWEeeL04F_JtHtdA" message="_cQJ4oODWEeeL04F_JtHtdA"/>
-              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_cQ3DQODWEeeL04F_JtHtdA" name="BehaviorExecutionSpecification4Finish" covered="_TZRXgODWEeeL04F_JtHtdA" execution="_cQ2cMODWEeeL04F_JtHtdA"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_eTSbwODbEeeL04F_JtHtdA" name="Message1SendEvent" covered="_Ri654ODWEeeL04F_JtHtdA" message="_eTR0sODbEeeL04F_JtHtdA"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_eTSbweDbEeeL04F_JtHtdA" name="Message1ReceiveEvent" covered="_Zm5lIODbEeeL04F_JtHtdA" message="_eTR0sODbEeeL04F_JtHtdA"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ezEIAODbEeeL04F_JtHtdA" name="Message2SendEvent" covered="_Zm5lIODbEeeL04F_JtHtdA" message="_ezDg8ODbEeeL04F_JtHtdA"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ezEIAeDbEeeL04F_JtHtdA" name="Message2ReceiveEvent" covered="_TZRXgODWEeeL04F_JtHtdA" message="_ezDg8ODbEeeL04F_JtHtdA"/>
+              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_ezovwODbEeeL04F_JtHtdA" name="BehaviorExecutionSpecification3Finish" covered="_TZRXgODWEeeL04F_JtHtdA" execution="_ezoIsODbEeeL04F_JtHtdA"/>
               <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XtwEcODWEeeL04F_JtHtdA" name="BehaviorExecutionSpecification1" covered="_Pz8PkODWEeeL04F_JtHtdA" finish="_bEIKYODWEeeL04F_JtHtdA" start="_XtT_kODWEeeL04F_JtHtdA"/>
-              <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_bFKFIODWEeeL04F_JtHtdA" name="BehaviorExecutionSpecification2" covered="_Ri654ODWEeeL04F_JtHtdA" finish="_bveNcODWEeeL04F_JtHtdA" start="_bEIKYeDWEeeL04F_JtHtdA"/>
-              <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_bwN0UODWEeeL04F_JtHtdA" name="BehaviorExecutionSpecification3" covered="_Svk6QODWEeeL04F_JtHtdA" finish="_cQKfsODWEeeL04F_JtHtdA" start="_bve0gODWEeeL04F_JtHtdA"/>
-              <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_cQ2cMODWEeeL04F_JtHtdA" name="BehaviorExecutionSpecification4" covered="_TZRXgODWEeeL04F_JtHtdA" finish="_cQ3DQODWEeeL04F_JtHtdA" start="_cQKfseDWEeeL04F_JtHtdA"/>
+              <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_dPgqkODbEeeL04F_JtHtdA" name="ActionExecutionSpecification1" covered="_Ri654ODWEeeL04F_JtHtdA" finish="_eTSbwODbEeeL04F_JtHtdA" start="_bEIKYeDWEeeL04F_JtHtdA"/>
+              <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_eTvuwODbEeeL04F_JtHtdA" name="BehaviorExecutionSpecification2" covered="_Zm5lIODbEeeL04F_JtHtdA" finish="_ezEIAODbEeeL04F_JtHtdA" start="_eTSbweDbEeeL04F_JtHtdA"/>
+              <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_ezoIsODbEeeL04F_JtHtdA" name="BehaviorExecutionSpecification3" covered="_TZRXgODWEeeL04F_JtHtdA" finish="_ezovwODbEeeL04F_JtHtdA" start="_ezEIAeDbEeeL04F_JtHtdA"/>
               <message xmi:type="uml:Message" xmi:id="_XtPuIODWEeeL04F_JtHtdA" name="déclancherCapteur" receiveEvent="_XtT_kODWEeeL04F_JtHtdA" sendEvent="_XtTYgODWEeeL04F_JtHtdA" signature="_hMMU0ODWEeeL04F_JtHtdA"/>
               <message xmi:type="uml:Message" xmi:id="_bEHjUODWEeeL04F_JtHtdA" name="alerterSystèmeViaKnx" receiveEvent="_bEIKYeDWEeeL04F_JtHtdA" sendEvent="_bEIKYODWEeeL04F_JtHtdA" signature="_lspBMODWEeeL04F_JtHtdA"/>
-              <message xmi:type="uml:Message" xmi:id="_bvdmYODWEeeL04F_JtHtdA" name="alerterSystème" receiveEvent="_bve0gODWEeeL04F_JtHtdA" sendEvent="_bveNcODWEeeL04F_JtHtdA" signature="_oYHwAODWEeeL04F_JtHtdA"/>
-              <message xmi:type="uml:Message" xmi:id="_cQJ4oODWEeeL04F_JtHtdA" name="lancerAppelPolice" receiveEvent="_cQKfseDWEeeL04F_JtHtdA" sendEvent="_cQKfsODWEeeL04F_JtHtdA" signature="_shn8AODWEeeL04F_JtHtdA"/>
+              <message xmi:type="uml:Message" xmi:id="_eTR0sODbEeeL04F_JtHtdA" name="alerterSystème" receiveEvent="_eTSbweDbEeeL04F_JtHtdA" sendEvent="_eTSbwODbEeeL04F_JtHtdA" signature="_h2GbMODbEeeL04F_JtHtdA"/>
+              <message xmi:type="uml:Message" xmi:id="_ezDg8ODbEeeL04F_JtHtdA" name="lancerAppelPolice" receiveEvent="_ezEIAeDbEeeL04F_JtHtdA" sendEvent="_ezEIAODbEeeL04F_JtHtdA" signature="_mJuzkODbEeeL04F_JtHtdA"/>
             </ownedBehavior>
           </nestedClassifier>
           <nestedClassifier xmi:type="uml:UseCase" xmi:id="__2hugNsgEeeUovaTKP7ufQ" name="Appel de la police" classifierBehavior="_CYRnoNsjEeeUovaTKP7ufQ">
@@ -306,6 +307,8 @@
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uiMv0eDaEeeL04F_JtHtdA" value="1"/>
             </ownedAttribute>
           </packagedElement>
+          <packagedElement xmi:type="uml:Signal" xmi:id="_h2GbMODbEeeL04F_JtHtdA" name="alerterSystème"/>
+          <packagedElement xmi:type="uml:Signal" xmi:id="_mJuzkODbEeeL04F_JtHtdA" name="lancerAppelPolice"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_27mdwNBSEee8OqvbQkaGnQ" name="SH_SEC_070">
           <packagedElement xmi:type="uml:Class" xmi:id="_lvLmUNBYEee8OqvbQkaGnQ" name="accesSecours"/>
