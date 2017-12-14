@@ -89,7 +89,7 @@
               <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_LL35UNslEeeUovaTKP7ufQ" name="ActionExecutionSpecification2" covered="_RsDTsNsjEeeUovaTKP7ufQ" finish="_O21IItslEeeUovaTKP7ufQ" start="_MdVhMdslEeeUovaTKP7ufQ"/>
               <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Md7-INslEeeUovaTKP7ufQ" name="BehaviorExecutionSpecification2" covered="_SwP7oNsjEeeUovaTKP7ufQ" finish="_O21IIdslEeeUovaTKP7ufQ" start="_MdVhMtslEeeUovaTKP7ufQ"/>
               <fragment xmi:type="uml:CombinedFragment" xmi:id="_Veq-0NslEeeUovaTKP7ufQ" name="Tant que répondeur" interactionOperator="loop">
-                <operand xmi:type="uml:InteractionOperand" xmi:id="_Veq-0dslEeeUovaTKP7ufQ" name="InteractionOperand1" covered="_RsDTsNsjEeeUovaTKP7ufQ _SwP7oNsjEeeUovaTKP7ufQ"/>
+                <operand xmi:type="uml:InteractionOperand" xmi:id="_Veq-0dslEeeUovaTKP7ufQ" name="InteractionOperand1" covered="_SwP7oNsjEeeUovaTKP7ufQ _RsDTsNsjEeeUovaTKP7ufQ"/>
               </fragment>
               <message xmi:type="uml:Message" xmi:id="_LKGNINskEeeUovaTKP7ufQ" name="Appel" receiveEvent="_LKGNItskEeeUovaTKP7ufQ" sendEvent="_LKGNIdskEeeUovaTKP7ufQ"/>
               <message xmi:type="uml:Message" xmi:id="_5EHCsNskEeeUovaTKP7ufQ" name="isRepondeur" messageSort="reply" receiveEvent="_5EHCstskEeeUovaTKP7ufQ" sendEvent="_5EHCsdskEeeUovaTKP7ufQ"/>
@@ -200,13 +200,11 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xHnBsNBZEeerb7dwGRYkDA"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xHnBsdBZEeerb7dwGRYkDA" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_ETaLouDWEeeL04F_JtHtdA" name="téléphone" type="_BPNa0ODWEeeL04F_JtHtdA" association="_ETZkkODWEeeL04F_JtHtdA">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ETaLo-DWEeeL04F_JtHtdA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ETaysODWEeeL04F_JtHtdA" value="1"/>
-        </ownedAttribute>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_JReEQMrhEee9jsGys1t6BQ" name="CapteurFumee">
           <generalization xmi:type="uml:Generalization" xmi:id="_xh_hwMrhEee9jsGys1t6BQ" general="_rDXRcMrhEee9jsGys1t6BQ"/>
         </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_rDXRcMrhEee9jsGys1t6BQ" name="Capteur" isAbstract="true"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_sJ5KgNBZEeerb7dwGRYkDA" name="Actionneur" isAbstract="true"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_BTVJAMrhEee9jsGys1t6BQ" memberEnd="_BTVwEsrhEee9jsGys1t6BQ _BTWXIMrhEee9jsGys1t6BQ">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BTVwEMrhEee9jsGys1t6BQ" source="org.eclipse.papyrus">
@@ -226,14 +224,6 @@
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_5FGjUsrgEee9jsGys1t6BQ" name="context" type="_mDWwsMrgEee9jsGys1t6BQ" association="_5FEHEMrgEee9jsGys1t6BQ"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_rDXRcMrhEee9jsGys1t6BQ" name="Capteur" isAbstract="true"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_oEn-QNBZEeerb7dwGRYkDA" name="KNX">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_D7LR0uDWEeeL04F_JtHtdA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_D7KqwODWEeeL04F_JtHtdA">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_D7LR0-DWEeeL04F_JtHtdA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_D7LR1ODWEeeL04F_JtHtdA" value="1"/>
-        </ownedAttribute>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_sJ5KgNBZEeerb7dwGRYkDA" name="Actionneur" isAbstract="true"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_uuktwNBZEeerb7dwGRYkDA" visibility="public" memberEnd="_uulU0tBZEeerb7dwGRYkDA _uul74tBZEeerb7dwGRYkDA">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uulU0NBZEeerb7dwGRYkDA" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uulU0dBZEeerb7dwGRYkDA" key="nature" value="UML_Nature"/>
@@ -288,22 +278,34 @@
             </eAnnotations>
             <ownedEnd xmi:type="uml:Property" xmi:id="_DX3JYuDWEeeL04F_JtHtdA" name="capteurintrusion" type="_8BR9YODVEeeL04F_JtHtdA" association="_DX0GEODWEeeL04F_JtHtdA"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Association" xmi:id="_D7KqwODWEeeL04F_JtHtdA" memberEnd="_D7LR0uDWEeeL04F_JtHtdA _D7LR1eDWEeeL04F_JtHtdA">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D7LR0ODWEeeL04F_JtHtdA" source="org.eclipse.papyrus">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_D7LR0eDWEeeL04F_JtHtdA" key="nature" value="UML_Nature"/>
-            </eAnnotations>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_D7LR1eDWEeeL04F_JtHtdA" name="knx" type="_oEn-QNBZEeerb7dwGRYkDA" association="_D7KqwODWEeeL04F_JtHtdA"/>
-          </packagedElement>
-          <packagedElement xmi:type="uml:Association" xmi:id="_ETZkkODWEeeL04F_JtHtdA" memberEnd="_ETaLouDWEeeL04F_JtHtdA _ETayseDWEeeL04F_JtHtdA">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ETaLoODWEeeL04F_JtHtdA" source="org.eclipse.papyrus">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ETaLoeDWEeeL04F_JtHtdA" key="nature" value="UML_Nature"/>
-            </eAnnotations>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_ETayseDWEeeL04F_JtHtdA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_ETZkkODWEeeL04F_JtHtdA"/>
-          </packagedElement>
           <packagedElement xmi:type="uml:Signal" xmi:id="_hMMU0ODWEeeL04F_JtHtdA" name="déclancherCapteur"/>
           <packagedElement xmi:type="uml:Signal" xmi:id="_lspBMODWEeeL04F_JtHtdA" name="alerterSystèmeViaKnx"/>
           <packagedElement xmi:type="uml:Signal" xmi:id="_oYHwAODWEeeL04F_JtHtdA" name="alerterSystème"/>
           <packagedElement xmi:type="uml:Signal" xmi:id="_shn8AODWEeeL04F_JtHtdA" name="lancerAppelPolice"/>
+          <packagedElement xmi:type="uml:Association" xmi:id="_uiLhsODaEeeL04F_JtHtdA" memberEnd="_uiMIwuDaEeeL04F_JtHtdA _uiMv0uDaEeeL04F_JtHtdA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uiMIwODaEeeL04F_JtHtdA" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uiMIweDaEeeL04F_JtHtdA" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_uiMv0uDaEeeL04F_JtHtdA" name="knx" type="_oEn-QNBZEeerb7dwGRYkDA" association="_uiLhsODaEeeL04F_JtHtdA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_vdnPMODaEeeL04F_JtHtdA" memberEnd="_vdnPM-DaEeeL04F_JtHtdA _vdn2QeDaEeeL04F_JtHtdA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vdnPMeDaEeeL04F_JtHtdA" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vdnPMuDaEeeL04F_JtHtdA" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_vdn2QeDaEeeL04F_JtHtdA" name="tableaudecontrole" type="_r_BBYODaEeeL04F_JtHtdA" association="_vdnPMODaEeeL04F_JtHtdA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_r_BBYODaEeeL04F_JtHtdA" name="TableauDeControle">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_vdnPM-DaEeeL04F_JtHtdA" name="téléphone" type="_BPNa0ODWEeeL04F_JtHtdA" association="_vdnPMODaEeeL04F_JtHtdA">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vdnPNODaEeeL04F_JtHtdA"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vdn2QODaEeeL04F_JtHtdA" value="1"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_oEn-QNBZEeerb7dwGRYkDA" name="KNX">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_uiMIwuDaEeeL04F_JtHtdA" name="tableaudecontrole" type="_r_BBYODaEeeL04F_JtHtdA" association="_uiLhsODaEeeL04F_JtHtdA">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uiMv0ODaEeeL04F_JtHtdA"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uiMv0eDaEeeL04F_JtHtdA" value="1"/>
+            </ownedAttribute>
+          </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_27mdwNBSEee8OqvbQkaGnQ" name="SH_SEC_070">
           <packagedElement xmi:type="uml:Class" xmi:id="_lvLmUNBYEee8OqvbQkaGnQ" name="accesSecours"/>
@@ -441,4 +443,5 @@
   <Blocks:Block xmi:id="_Om05ENssEeecodXE67tyCw" base_Class="_OmuLYNssEeecodXE67tyCw"/>
   <Blocks:Block xmi:id="_8BhN8ODVEeeL04F_JtHtdA" base_Class="_8BR9YODVEeeL04F_JtHtdA"/>
   <Blocks:Block xmi:id="_BPUvkODWEeeL04F_JtHtdA" base_Class="_BPNa0ODWEeeL04F_JtHtdA"/>
+  <Blocks:Block xmi:id="_r_figODaEeeL04F_JtHtdA" base_Class="_r_BBYODaEeeL04F_JtHtdA"/>
 </xmi:XMI>
