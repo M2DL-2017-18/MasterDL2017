@@ -90,7 +90,7 @@
               <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_LL35UNslEeeUovaTKP7ufQ" name="ActionExecutionSpecification2" covered="_RsDTsNsjEeeUovaTKP7ufQ" finish="_O21IItslEeeUovaTKP7ufQ" start="_MdVhMdslEeeUovaTKP7ufQ"/>
               <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Md7-INslEeeUovaTKP7ufQ" name="BehaviorExecutionSpecification2" covered="_SwP7oNsjEeeUovaTKP7ufQ" finish="_O21IIdslEeeUovaTKP7ufQ" start="_MdVhMtslEeeUovaTKP7ufQ"/>
               <fragment xmi:type="uml:CombinedFragment" xmi:id="_Veq-0NslEeeUovaTKP7ufQ" name="Tant que répondeur" interactionOperator="loop">
-                <operand xmi:type="uml:InteractionOperand" xmi:id="_Veq-0dslEeeUovaTKP7ufQ" name="InteractionOperand1" covered="_SwP7oNsjEeeUovaTKP7ufQ _RsDTsNsjEeeUovaTKP7ufQ"/>
+                <operand xmi:type="uml:InteractionOperand" xmi:id="_Veq-0dslEeeUovaTKP7ufQ" name="InteractionOperand1" covered="_RsDTsNsjEeeUovaTKP7ufQ _SwP7oNsjEeeUovaTKP7ufQ"/>
               </fragment>
               <message xmi:type="uml:Message" xmi:id="_LKGNINskEeeUovaTKP7ufQ" name="Appel" receiveEvent="_LKGNItskEeeUovaTKP7ufQ" sendEvent="_LKGNIdskEeeUovaTKP7ufQ"/>
               <message xmi:type="uml:Message" xmi:id="_5EHCsNskEeeUovaTKP7ufQ" name="isRepondeur" messageSort="reply" receiveEvent="_5EHCstskEeeUovaTKP7ufQ" sendEvent="_5EHCsdskEeeUovaTKP7ufQ"/>

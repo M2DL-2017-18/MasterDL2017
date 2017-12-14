@@ -3088,4 +3088,42 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ezdwoeDbEeeL04F_JtHtdA" id="(0.5,0.6715063520871143)"/>
     </edges>
   </notation:Diagram>
+  <notation:Diagram xmi:id="_QGq6IODdEeeL04F_JtHtdA" type="CompositeStructure" name="IBD_SH_SEC_040" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_QGq6IeDdEeeL04F_JtHtdA" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_QGq6IuDdEeeL04F_JtHtdA" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_QGq6I-DdEeeL04F_JtHtdA" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QGq6JODdEeeL04F_JtHtdA" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_QGq6JeDdEeeL04F_JtHtdA" type="Class_StructureCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_QGq6JuDdEeeL04F_JtHtdA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QGq6J-DdEeeL04F_JtHtdA"/>
+      </children>
+      <element xmi:type="uml:Class" href="MasterDL2017.uml#_nGBHkMrgEee9jsGys1t6BQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QGq6OuDdEeeL04F_JtHtdA" x="40" y="40" width="500" height="250"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_QGq6O-DdEeeL04F_JtHtdA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_QGq6PODdEeeL04F_JtHtdA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_QGq6PeDdEeeL04F_JtHtdA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="MasterDL2017.uml#_nGBHkMrgEee9jsGys1t6BQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QGq6RODdEeeL04F_JtHtdA" x="240" y="40"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_QGq6ReDdEeeL04F_JtHtdA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_QGq6RuDdEeeL04F_JtHtdA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_QGq6R-DdEeeL04F_JtHtdA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.internalblock">
+      <owner xmi:type="uml:Package" href="MasterDL2017.uml#_JeFPkNBVEeeOLbtHDDZHLg"/>
+    </styles>
+    <element xmi:type="uml:Class" href="MasterDL2017.uml#_nGBHkMrgEee9jsGys1t6BQ"/>
+    <edges xmi:type="notation:Connector" xmi:id="_QGq6SODdEeeL04F_JtHtdA" type="StereotypeCommentLink" source="_QGq6IeDdEeeL04F_JtHtdA" target="_QGq6O-DdEeeL04F_JtHtdA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_QGq6SeDdEeeL04F_JtHtdA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_QGq6SuDdEeeL04F_JtHtdA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="MasterDL2017.uml#_nGBHkMrgEee9jsGys1t6BQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QGq6S-DdEeeL04F_JtHtdA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QGq6TODdEeeL04F_JtHtdA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QGq6TeDdEeeL04F_JtHtdA"/>
+    </edges>
+  </notation:Diagram>
 </xmi:XMI>
