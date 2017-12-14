@@ -18,7 +18,7 @@
           <nestedClassifier xmi:type="uml:UseCase" xmi:id="_5t4VQNsgEeeUovaTKP7ufQ" name="Intrusion" classifierBehavior="_R3em8NsrEeecodXE67tyCw">
             <ownedBehavior xmi:type="uml:Interaction" xmi:id="_R3em8NsrEeecodXE67tyCw" name="Interaction1">
               <ownedAttribute xmi:type="uml:Property" xmi:id="_a9ukUdssEeecodXE67tyCw" name="" type="_tMjJENBTEeeOLbtHDDZHLg"/>
-              <ownedAttribute xmi:type="uml:Property" xmi:id="_gVONcdssEeecodXE67tyCw" name="" type="_OmuLYNssEeecodXE67tyCw"/>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_gVONcdssEeecodXE67tyCw" name=""/>
               <ownedAttribute xmi:type="uml:Property" xmi:id="_ho1xcdssEeecodXE67tyCw" name="" type="_tMjJENBTEeeOLbtHDDZHLg"/>
               <ownedAttribute xmi:type="uml:Property" xmi:id="_kLIIANssEeecodXE67tyCw" name="" type="_nGBHkMrgEee9jsGys1t6BQ"/>
               <lifeline xmi:type="uml:Lifeline" xmi:id="_gVONcNssEeecodXE67tyCw" name="" represents="_gVONcdssEeecodXE67tyCw" coveredBy="_udH8QNssEeecodXE67tyCw _o9C-4NssEeecodXE67tyCw _o9kjUNssEeecodXE67tyCw"/>
@@ -33,8 +33,8 @@
               <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_n5P_kNssEeecodXE67tyCw" name="ActionExecutionSpecification1" covered="_ho1xcNssEeecodXE67tyCw" finish="_n5Sb0NssEeecodXE67tyCw" start="_o9CX0NssEeecodXE67tyCw"/>
               <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_o9kjUNssEeecodXE67tyCw" name="BehaviorExecutionSpecification1" covered="_gVONcNssEeecodXE67tyCw" finish="_udH8QNssEeecodXE67tyCw" start="_o9C-4NssEeecodXE67tyCw"/>
               <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_ueJP8NssEeecodXE67tyCw" name="BehaviorExecutionSpecification2" covered="_kLHg8NssEeecodXE67tyCw" finish="_ueJ3ANssEeecodXE67tyCw" start="_udIjUNssEeecodXE67tyCw"/>
-              <message xmi:type="uml:Message" xmi:id="_o9BwwNssEeecodXE67tyCw" name="activerCapteur" receiveEvent="_o9C-4NssEeecodXE67tyCw" sendEvent="_o9CX0NssEeecodXE67tyCw" signature="_6AZLINssEeecodXE67tyCw"/>
-              <message xmi:type="uml:Message" xmi:id="_udHVMNssEeecodXE67tyCw" name="prévenirSystème" receiveEvent="_udIjUNssEeecodXE67tyCw" sendEvent="_udH8QNssEeecodXE67tyCw" signature="_97dSgNssEeecodXE67tyCw"/>
+              <message xmi:type="uml:Message" xmi:id="_o9BwwNssEeecodXE67tyCw" name="activerCapteur" receiveEvent="_o9C-4NssEeecodXE67tyCw" sendEvent="_o9CX0NssEeecodXE67tyCw"/>
+              <message xmi:type="uml:Message" xmi:id="_udHVMNssEeecodXE67tyCw" name="prévenirSystème" receiveEvent="_udIjUNssEeecodXE67tyCw" sendEvent="_udH8QNssEeecodXE67tyCw"/>
             </ownedBehavior>
             <ownedBehavior xmi:type="uml:Interaction" xmi:id="_IGc_cODWEeeL04F_JtHtdA" name="Interaction2">
               <ownedAttribute xmi:type="uml:Property" xmi:id="_N60KwODWEeeL04F_JtHtdA" name="" type="_tMjJENBTEeeOLbtHDDZHLg"/>
@@ -54,8 +54,8 @@
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bEIKYeDWEeeL04F_JtHtdA" name="Message1ReceiveEvent" covered="_Ri654ODWEeeL04F_JtHtdA" message="_bEHjUODWEeeL04F_JtHtdA"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_eTSbwODbEeeL04F_JtHtdA" name="Message1SendEvent" covered="_Ri654ODWEeeL04F_JtHtdA" message="_eTR0sODbEeeL04F_JtHtdA"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_eTSbweDbEeeL04F_JtHtdA" name="Message1ReceiveEvent" covered="_Zm5lIODbEeeL04F_JtHtdA" message="_eTR0sODbEeeL04F_JtHtdA"/>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ezEIAODbEeeL04F_JtHtdA" name="Message2SendEvent" covered="_Zm5lIODbEeeL04F_JtHtdA" message="_ezDg8ODbEeeL04F_JtHtdA"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ezEIAeDbEeeL04F_JtHtdA" name="Message2ReceiveEvent" covered="_TZRXgODWEeeL04F_JtHtdA" message="_ezDg8ODbEeeL04F_JtHtdA"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ezEIAODbEeeL04F_JtHtdA" name="Message2SendEvent" covered="_Zm5lIODbEeeL04F_JtHtdA" message="_ezDg8ODbEeeL04F_JtHtdA"/>
               <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_ezovwODbEeeL04F_JtHtdA" name="BehaviorExecutionSpecification3Finish" covered="_TZRXgODWEeeL04F_JtHtdA" execution="_ezoIsODbEeeL04F_JtHtdA"/>
               <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XtwEcODWEeeL04F_JtHtdA" name="BehaviorExecutionSpecification1" covered="_Pz8PkODWEeeL04F_JtHtdA" finish="_bEIKYODWEeeL04F_JtHtdA" start="_XtT_kODWEeeL04F_JtHtdA"/>
               <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_dPgqkODbEeeL04F_JtHtdA" name="ActionExecutionSpecification1" covered="_Ri654ODWEeeL04F_JtHtdA" finish="_eTSbwODbEeeL04F_JtHtdA" start="_bEIKYeDWEeeL04F_JtHtdA"/>
@@ -243,6 +243,12 @@
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_WB_SgNBJEeerb7dwGRYkDA" name="shs" type="_nGBHkMrgEee9jsGys1t6BQ" association="_WB1hgNBJEeerb7dwGRYkDA"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oEn-QNBZEeerb7dwGRYkDA" name="KNX">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_uiMIwuDaEeeL04F_JtHtdA" name="tableaudecontrole" type="_r_BBYODaEeeL04F_JtHtdA" association="_uiLhsODaEeeL04F_JtHtdA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uiMv0ODaEeeL04F_JtHtdA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uiMv0eDaEeeL04F_JtHtdA" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_zmifENBVEeeZkOnqcrOFtA" name="Refine" client="_jALw0NBVEeeZkOnqcrOFtA" supplier="_y_DvsNBSEeeZkOnqcrOFtA"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_sD1GINBWEeeZkOnqcrOFtA" name="Refine" client="_y_DvsNBSEeeZkOnqcrOFtA" supplier="_367lWsrXEee9jsGys1t6BQ"/>
@@ -258,11 +264,6 @@
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_Teu1INBVEeeOLbtHDDZHLg" name="Derive_042_1" client="_8lv58NBOEeeZ-PPtvQD9cA" supplier="_RC4dwNBVEeeOLbtHDDZHLg"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_hppmQNBWEeeOLbtHDDZHLg" name="Refine_041_1" client="_xchiwNBOEeeZ-PPtvQD9cA" supplier="_1NyJsNBVEeeOLbtHDDZHLg"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_l1hJwNBWEeeOLbtHDDZHLg" name="Refine_041_2" client="_xchiwNBOEeeZ-PPtvQD9cA" supplier="_Uw4kENBWEeeOLbtHDDZHLg"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_OmuLYNssEeecodXE67tyCw" name="CapteurIntrusion">
-            <generalization xmi:type="uml:Generalization" xmi:id="_QhVd8NssEeecodXE67tyCw" general="_rDXRcMrhEee9jsGys1t6BQ"/>
-          </packagedElement>
-          <packagedElement xmi:type="uml:Signal" xmi:id="_6AZLINssEeecodXE67tyCw" name="activationCapteur"/>
-          <packagedElement xmi:type="uml:Signal" xmi:id="_97dSgNssEeecodXE67tyCw" name="prévenirSystème"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_8BR9YODVEeeL04F_JtHtdA" name="CapteurIntrusion">
             <generalization xmi:type="uml:Generalization" xmi:id="_APHPwODWEeeL04F_JtHtdA" general="_rDXRcMrhEee9jsGys1t6BQ"/>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_DX17QODWEeeL04F_JtHtdA" name="knx" type="_oEn-QNBZEeerb7dwGRYkDA" association="_DX0GEODWEeeL04F_JtHtdA">
@@ -279,10 +280,8 @@
             </eAnnotations>
             <ownedEnd xmi:type="uml:Property" xmi:id="_DX3JYuDWEeeL04F_JtHtdA" name="capteurintrusion" type="_8BR9YODVEeeL04F_JtHtdA" association="_DX0GEODWEeeL04F_JtHtdA"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Signal" xmi:id="_hMMU0ODWEeeL04F_JtHtdA" name="déclancherCapteur"/>
+          <packagedElement xmi:type="uml:Signal" xmi:id="_hMMU0ODWEeeL04F_JtHtdA" name="déclencherCapteur"/>
           <packagedElement xmi:type="uml:Signal" xmi:id="_lspBMODWEeeL04F_JtHtdA" name="alerterSystèmeViaKnx"/>
-          <packagedElement xmi:type="uml:Signal" xmi:id="_oYHwAODWEeeL04F_JtHtdA" name="alerterSystème"/>
-          <packagedElement xmi:type="uml:Signal" xmi:id="_shn8AODWEeeL04F_JtHtdA" name="lancerAppelPolice"/>
           <packagedElement xmi:type="uml:Association" xmi:id="_uiLhsODaEeeL04F_JtHtdA" memberEnd="_uiMIwuDaEeeL04F_JtHtdA _uiMv0uDaEeeL04F_JtHtdA">
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uiMIwODaEeeL04F_JtHtdA" source="org.eclipse.papyrus">
               <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uiMIweDaEeeL04F_JtHtdA" key="nature" value="UML_Nature"/>
@@ -299,12 +298,6 @@
             <ownedAttribute xmi:type="uml:Property" xmi:id="_vdnPM-DaEeeL04F_JtHtdA" name="téléphone" type="_BPNa0ODWEeeL04F_JtHtdA" association="_vdnPMODaEeeL04F_JtHtdA">
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vdnPNODaEeeL04F_JtHtdA"/>
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vdn2QODaEeeL04F_JtHtdA" value="1"/>
-            </ownedAttribute>
-          </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_oEn-QNBZEeerb7dwGRYkDA" name="KNX">
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_uiMIwuDaEeeL04F_JtHtdA" name="tableaudecontrole" type="_r_BBYODaEeeL04F_JtHtdA" association="_uiLhsODaEeeL04F_JtHtdA">
-              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uiMv0ODaEeeL04F_JtHtdA"/>
-              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uiMv0eDaEeeL04F_JtHtdA" value="1"/>
             </ownedAttribute>
           </packagedElement>
           <packagedElement xmi:type="uml:Signal" xmi:id="_h2GbMODbEeeL04F_JtHtdA" name="alerterSystème"/>
@@ -443,7 +436,6 @@
   <Requirements:Requirement xmi:id="_nGOcUdBZEee8OqvbQkaGnQ" base_Class="_nGOcUNBZEee8OqvbQkaGnQ" id="SEC_070_02" text="Les secouristes doivent pouvoir ouvrir l'entrée spécifique"/>
   <Requirements:DeriveReqt xmi:id="_47oFsNBbEee8OqvbQkaGnQ" base_DirectedRelationship="_47VKwNBbEee8OqvbQkaGnQ" base_Abstraction="_47VKwNBbEee8OqvbQkaGnQ"/>
   <Requirements:DeriveReqt xmi:id="_vu5ycNCSEeeS74ewiR2bfA" base_DirectedRelationship="_vumQcNCSEeeS74ewiR2bfA" base_Abstraction="_vumQcNCSEeeS74ewiR2bfA"/>
-  <Blocks:Block xmi:id="_Om05ENssEeecodXE67tyCw" base_Class="_OmuLYNssEeecodXE67tyCw"/>
   <Blocks:Block xmi:id="_8BhN8ODVEeeL04F_JtHtdA" base_Class="_8BR9YODVEeeL04F_JtHtdA"/>
   <Blocks:Block xmi:id="_BPUvkODWEeeL04F_JtHtdA" base_Class="_BPNa0ODWEeeL04F_JtHtdA"/>
   <Blocks:Block xmi:id="_r_figODaEeeL04F_JtHtdA" base_Class="_r_BBYODaEeeL04F_JtHtdA"/>
